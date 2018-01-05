@@ -23,6 +23,6 @@ Global
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		outputpath = bin/Debug
-		version = 0.5
+		version = 0.01
 	EndGlobalSection
 EndGlobal
