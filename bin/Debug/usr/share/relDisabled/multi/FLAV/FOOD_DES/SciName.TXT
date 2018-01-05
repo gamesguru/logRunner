@@ -1,0 +1,506 @@
+
+Apium graveolens
+Origanum majorana
+Petroselinum crispum
+Crocus sativus
+Ocimum basilicum
+Anethum graveolens
+Thymus vulgaris
+Capparis spinosa
+Rosmarinus officinalis
+Mentha x piperita L. nothosubsp. piperita
+
+
+
+Malpighia emarginata
+Malus domestica
+Malus domestica
+
+
+Prunus armeniaca
+
+Persea americana
+Musa acuminata Colla
+Rubus spp.
+Vaccinium spp.
+
+Prunus cerasus
+
+Prunus avium
+Vaccinium macrocarpon
+
+
+Ribes nigrum
+Annona reticulata
+Phoenix dactylifera
+Sambucus spp.
+Ficus carica
+Ribes spp.
+Citrus paradisi
+Citrus paradisi
+
+
+
+
+Ziziphus jujuba
+Actinidia deliciosa
+Fortunella spp.
+Citrus limon
+
+
+Citrus latifolia
+
+Mangifera indica
+Cucumis melo
+Cucumis melo
+Morus nigra
+Prunus persica var. nucipersica
+Olea europaea
+
+Citrus sinensis
+Citrus sinensis
+
+
+
+Citrus reticulata
+
+
+Carica papaya
+Prunus persica
+Pyrus communis
+Ananas comosus
+
+Eugenia uniflora
+Prunus spp.
+Punica granatum
+Opuntia spp.
+
+Citrus maxima
+Cydonia oblonga
+Vitis vinifera
+Vitis vinifera
+Rubus spp.
+Rheum rhabarbarum
+Annona muricata
+Fragaria X ananassa
+
+Citrullus lanatus
+
+
+Ananas comosus
+
+Actinidia chinensis
+
+
+
+
+
+Medicago sativa
+
+
+Cynara scolymus
+Asparagus officinalis
+
+
+Phaseolus lunatus
+Vigna radiata
+Phaseolus vulgaris
+
+
+
+
+Beta vulgaris
+Vicia faba
+
+Brassica oleracea var. italica
+
+
+Brassica ruvo
+
+Brassica oleracea (Gemmifera Group)
+
+Brassica oleracea (Capitata Group)
+
+Brassica oleracea (Capitata Group)
+
+Brassica oleracea (Capitata Group)
+
+Brassica rapa (Chinensis Group)
+
+Brassica rapa (Pekinensis Group)
+Daucus carota
+
+
+Brassica oleracea (Botrytis Group)
+
+
+
+Apium graveolens
+Apium graveolens
+Beta vulgaris subsp. vulagaris
+Cichorium intybus
+Allium schoenoprasum
+Brassica oleracea var. viridis
+Coriandrum sativum
+
+Vigna unguiculata Subsp. Unguiculata
+
+Lepidium sativum
+
+Cucumis sativus
+Solanum melongena
+Cichorium endivia
+Allium sativum
+Luffa aegyptiaca
+Moringa oleifera
+Brassica oleracea (Acephala Group)
+Brassica oleracea (Gongylodes Group)
+Allium ampeloprasum
+Lactuca sativa var. capitata
+Lactuca sativa var. logifolia
+Lactuca sativa var. capitata
+Lactuca sativa var. crispa
+Nelumbo nucifera
+Lactuca sativa var. crispa
+Agaricus bisporus
+
+Brassica juncea
+Tetragonia tetragonioides
+Abelmoschus esculentus
+Allium cepa
+
+Allium cepa or Allium fistulosum
+Allium cepa
+Allium fistulosum
+Allium cepa
+Petroselinum crispum
+Pastinaca sativa
+Pisum sativum
+Pisum sativum
+
+
+
+Capsicum annuum
+Solanum tuberosum
+Solanum tuberosum
+Solanum tuberosum
+
+
+
+Cucurbita spp.
+Portulaca oleracea
+Raphanus sativus
+Raphanus sativus (Longipinratus Group)
+Brassica napus var. napobrassica
+
+Glycine max
+Spinacia oleracea
+
+
+
+Ipomoea batatas
+
+Ipomoea batatas
+
+Colocasia esculenta
+
+Colocasia esculenta
+
+Lycopersicon esculentum
+
+
+
+Brassica rapa (Rapifera Group)
+Basella alba
+Nasturtium officinale
+
+Rumex spp.
+Capsicum frutescens
+Raphanus sativus
+Lycopersicon esculentum
+Phaseolus vulgaris
+
+
+
+
+Capsicum annuum
+Cichorium intybus
+Foeniculum vulgare
+Eruca sativa
+Daucus carota
+Capsicum anuum
+Capsicum anuum
+Prunus dulcis
+Bertholletia excelsa
+
+
+
+Corylus spp.
+Macadamia integrifolia, M. tetraphylla
+Carya illinoinensis
+Pinus edulis
+Pistacia vera
+Juglans regia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Phaseolus vulgaris
+
+Phaseolus vulgaris
+
+Phaseolus vulgaris
+Phaseolus vulgaris
+
+Ceratonia siliqua
+Cicer arietinum
+Lens culinaris
+
+
+
+
+
+
+
+
+Hordeum vulgare L.
+Fagopyrum esculentum Moench
+
+
+
+
+
+
+
+
+
+
+
+Prunus domestica
+Prunus persica var. nucipersica
+
+
+
+
+
+Vaccinium spp.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Vitis vinifera
+Vitis vinifera
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Citrus paradisi
+
+
+
+
+
+
+
+
+
+
+
+Cnidoscolus aconitifolius
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Phoaseolus vulgaris, cv. Zolfino
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Actinidia chinensis
+
+
+
+
+S. cumini
+Juniperus communis
+Juniperus communis
+Amelanchier canadensis
+Curcuma longa
+
+
+Davodsonia pruriens
+
+
+
+
+
+
+
+
+Musa nana
+Viburnum opulus L.
+
+
+Diplotaxis tenuifolia
+Myrciaria jaboticaba
+Aristotelia chilensis
+Dioscorea alata var Vurai
+Dioscorea alata var Vurai
+Podocarpus elatus
+Syzygium malaccense
+Rubus moluccanus var. austropacificus
+Athyrium esculentum
+Phaseolus cocconeus
+Zingiber zerumbet
+
+
+
+
+Vitis vinifera
+Prunus persica var. nucipersica
+Vaccinium spp.
+Ribes aureum
+Laurus nobilis
+
+Vigna unguiculata Subsp. Sinensis
+Beta vulgaris subsp. Vulagaris
+Beta vulgaris subsp. Vulagaris
+
+
+
+Glycine max

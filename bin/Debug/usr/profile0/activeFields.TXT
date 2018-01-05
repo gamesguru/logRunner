@@ -1,0 +1,138 @@
+########################################################
+#############    Nutrient Configurator    ##############
+########################################################
+#Here you can configure/unconfigure trackable nutrients
+#Remove lines with '#', separate units with '|'
+#A full list of nutrients can be found in the help docs
+########################################################
+############
+## BASICS ##
+############
+Cals|2200
+#CalsFat
+FatTot|130 g
+FatSat|30 g
+#FatTrans
+#FatMono
+#FatPoly
+Cholest|200 mg
+Na|1500 mg #Sodium
+K|4500 mg #Potassium
+Carbs|150 g
+Fiber|30 g
+#FiberSol #Soluble
+Sugar|70 g
+#SugarAlc
+Protein|100 g
+Ca|800 mg #Calcium
+Fe|10 mg #Iron
+##############
+## VITAMINS ##
+##############
+VitA|900 μg
+#VitC
+VitD|6 μg
+VitE|20 mg #30 IU
+#VitK
+#B1
+#B2
+#B3
+#B5
+B6|1200 μg
+#B7
+#B9
+B12|1mg
+##############
+## MINERALS ##
+##############
+Mg|400 mg
+Zn|12 mg
+Se|400 μg #Selenium
+#B #Boron
+#I|150 μg #Iodine
+#P #Phosporus
+#F #Fluoride
+#Cu #Copper
+#Cr|120 μg #Chromium
+#Mo|80 μg #Molybdenum
+Mn|5 mg #Manganese
+############
+## Aminos ##
+############
+Alanine|1 g
+Arginine|1 g
+AsparticAcid|1 g
+#Cysteine|300 mg
+GlutamicAcid|2 g
+Glycine|800 mg
+Histidine|800 mg
+Isoleucine|1400 mg
+Leucine|2700 mg
+#Lysine|2100 mg
+Methionine|800 mg
+Phenylalanine|1200 mg
+Proline|600 mg
+Serine|1600 mg
+Threonine|1 g
+Tryptophan|300 mg
+Tyrosine|1400 mg
+Valine|1800 mg
+##########
+## MISC ##
+##########
+#Choline
+EpaDha|600 mg
+Lycopene|15 mg
+LutZea|12 mg
+#Carnitine
+#Lipoic acid
+Inositol|4 g
+##################
+## USER-DEFINED ##
+##################
+#GI_Rating
+GL_Load|100
+IF_Rating|500
+ORAC|4000
+Oxalates|200 mg
+#############################
+## EXTENDED FLAVONOID USDA ##
+#############################
+Cyanidin|180 mg
+#Petunidin
+#Delphinidin 
+#Malvidin
+#Pelargonidin
+#Peonidin
+(+)-Catechin|80 mg
+(-)-Epigallocatechin|120 mg
+(-)-Epicatechin|120 mg
+(-)-Epicatechin_3-gallate|180 mg
+(-)-Epigallocatechin_3-gallate|280 mg
+#Theaflavin
+#Thearubigins
+#Eriodictyol
+Hesperetin|120mg
+Naringenin|100mg
+Apigenin|40 mg
+Luteolin|40 mg
+Isorhamnetin|40 mg
+Kaempferol|60 mg
+Myricetin|80 mg
+Quercetin|90 mg
+#Theaflavin-3,3'-digallate
+#Theaflavin-3'-gallate
+#Theaflavin-3-gallate
+#(+)-Gallocatechin
+Daidzein|60 mg
+Genistein|80 mg
+#Glycitein
+Total_isoflavones|180 mg
+#Biochanin_A
+#Formononetin
+#Coumestrol|80 mg
+#Proanthocyanidin_dimers|40 mg
+Proanthocyanidin_trimers|40 mg
+Proanthocyanidin_4-6mers|60 mg
+Proanthocyanidin_7-10mers|60 mg
+#Proanthocyanidin_polymers_(>10mers)|80 mg

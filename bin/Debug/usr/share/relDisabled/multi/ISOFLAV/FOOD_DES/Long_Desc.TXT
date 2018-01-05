@@ -1,0 +1,560 @@
+Cream, sour, cultured
+Milk, whole, 3.25% milkfat
+Milk, reduced fat, fluid, 2% milkfat, with added vitamin A
+Yogurt, plain, whole milk, 8 grams protein per 8 ounce
+Egg, whole, raw, fresh
+Spices, fenugreek seed
+Mustard, prepared, yellow
+Infant formula, ABBOTT NUTRITION, SIMILAC, ISOMIL, with iron, ready-to-feed
+Infant formula, ABBOTT NUTRITION, SIMILAC, ISOMIL, with iron, powder, not reconstituted
+Infant formula, PBM PRODUCTS, ULTRA BRIGHT BEGINNINGS, Soy, ready-to-feed, (formerly WYETH-AYERST)
+Infant formula, PBM PRODUCTS, ULTRA BRIGHT BEGINNINGS, soy, liquid concentrate, (formerly WYETH-AYERST)
+Infant formula, PBM PRODUCTS, ULTRA BRIGHT BEGINNINGS, Soy, powder, (formerly WYETH-AYERST)
+Infant formula, ENFAMIL NEXT STEP, powder,  soy formula, not reconstituted
+Oil, soybean, salad or cooking
+Chicken patty, frozen, uncooked
+Chicken breast tenders, uncooked
+Soup, cream of chicken, canned, condensed
+Soup, chicken noodle, canned, condensed
+Soup, cream of mushroom, canned, condensed
+Soup, turkey noodle, canned, condensed
+Soup, vegetable beef, canned, condensed
+Soup, beef broth or bouillon, powder, dry
+Gravy, brown, dry
+Gravy, chicken, canned, ready-to-serve
+Gravy, mushroom, canned
+Gravy, mushroom, dry, powder
+Gravy, turkey, canned, ready-to-serve
+Sauce, hoisin, ready-to-serve
+Soup, chicken broth, canned, less/reduced sodium
+Soup, Chicken Broth, canned, ready-to-serve
+Soup, chicken noodle, canned, prepared with equal volume water
+Soup, vegetarian vegetable, canned, prepared with equal volume water
+Sauce, worcestershire
+Soup, ramen noodle, beef flavor, dry
+Soup, ramen noodle, chicken flavor, dry
+Frankfurter, beef
+Frankfurter, beef and pork
+Ham, sliced, regular (approximately 11% fat)
+Sausage, smoked link sausage, pork and beef
+Sausage, Vienna, canned, chicken, beef, pork
+Frankfurter, beef, pork, and turkey, fat free
+Beef sausage, fresh, cooked
+Cereals ready-to-eat, KELLOGG, KELLOGG'S ALL-BRAN Original
+Cereals ready-to-eat, GENERAL MILLS, CHEERIOS
+Cereals ready-to-eat, KELLOGG, KELLOGG'S Corn Flakes
+Cereals ready-to-eat, KELLOGG, KELLOGG'S RAISIN BRAN
+Cereals ready-to-eat, KELLOGG, KELLOGG'S RICE KRISPIES
+Cereals ready-to-eat, KELLOGG, KELLOGG'S SPECIAL K
+Cereals, corn grits, white, regular and quick, enriched, dry
+Cereals, CREAM OF WHEAT, regular, dry
+Cereals, QUAKER, oatmeal, instant, low sodium, prepared with water
+Cereals ready-to-eat, KELLOGG'S, SMART START Soy Protein
+Cereals ready-to-eat, KASHI Good Friends by Kellogg
+Cereals ready-to-eat, KASHI GOLEAN by Kellogg
+Apples, raw, with skin
+Apples, raw, without skin
+Apples, raw, without skin, cooked, boiled
+Apple juice, canned or bottled, unsweetened, without added ascorbic acid
+Apricots, raw
+Apricots, canned, juice pack, with skin, solids and liquids
+Apricots, dried, sulfured, uncooked
+Avocados, raw, all commercial varieties
+Bananas, raw
+Blackberries, raw
+Blueberries, raw
+Cherries, sweet, raw
+Cranberries, raw
+Currants, european black, raw
+Dates, deglet noor
+Figs, raw
+Figs, dried, uncooked
+Fruit cocktail, (peach and pineapple and pear and grape and cherry), canned, light syrup, solids and liquids
+Gooseberries, raw
+Grapefruit, raw, pink and red, all areas
+Grapefruit, raw, white, all areas
+Grapefruit, sections, canned, juice pack, solids and liquids
+Grapefruit juice, white, canned, unsweetened
+Kiwi fruit, (chinese gooseberries), fresh, raw
+Lemon juice, raw
+Mangos, raw
+Melons, cantaloupe, raw
+Melons, honeydew, raw
+Nectarines, raw
+Olives, ripe, canned (jumbo-super colossal)
+Oranges, raw, all commercial varieties
+Oranges, raw, navels
+Orange juice, chilled, includes from concentrate
+Tangerines, (mandarin oranges), raw
+Tangerines, (mandarin oranges), canned, juice pack
+Papayas, raw
+Passion-fruit, (granadilla), purple, raw
+Peaches, raw
+Peaches, canned, light syrup pack, solids and liquids
+Pears, raw
+Pears, canned, light syrup pack, solids and liquids
+Pineapple, raw, all varieties
+Pineapple, canned, juice pack, solids and liquids
+Plantains, raw
+Plantains, cooked
+Plums, raw
+Pomegranates, raw
+Plums, dried (prunes), uncooked
+Plums, dried (prunes), stewed, without added sugar
+Raisins, seedless
+Raspberries, raw
+Raspberries, canned, red, heavy syrup pack, solids and liquids
+Rhubarb, raw
+Strawberries, raw
+Watermelon, raw
+Clementines, raw
+Alfalfa seeds, sprouted, raw
+Asparagus, raw
+Asparagus, cooked, boiled, drained
+Lima beans, immature seeds, frozen, fordhook, cooked, boiled, drained, without salt
+Mung beans, mature seeds, sprouted, raw
+Beans, snap, green, raw
+Beans, snap, green, cooked, boiled, drained, without salt
+Beans, snap, green, frozen, all styles, unprepared
+Beans, snap, green, frozen, cooked, boiled, drained without salt
+Beets, raw
+Beets, cooked, boiled, drained
+Broadbeans, immature seeds, raw
+Broccoli, raw
+Broccoli, cooked, boiled, drained, without salt
+Brussels sprouts, raw
+Brussels sprouts, cooked, boiled, drained, without salt
+Cabbage, raw
+Cabbage, cooked, boiled, drained, without salt
+Cabbage, red, raw
+Cabbage, red, cooked, boiled, drained, without salt
+Cabbage, savoy, raw
+Cabbage, savoy, cooked, boiled, drained, without salt
+Cabbage, chinese (pak-choi), raw
+Carrots, raw
+Carrots, cooked, boiled, drained, without salt
+Carrots, canned, regular pack, solids and liquids
+Cauliflower, raw
+Cauliflower, cooked, boiled, drained, without salt
+Celeriac, raw
+Celeriac, cooked, boiled, drained, without salt
+Celery, raw
+Celery, cooked, boiled, drained, without salt
+Chicory greens, raw
+Collards, raw
+Collards, cooked, boiled, drained, without salt
+Corn, sweet, yellow, raw
+Corn, sweet, yellow, cooked, boiled, drained, without salt
+Cress, garden, raw
+Cucumber, with peel, raw
+Cucumber, peeled, raw
+Eggplant, raw
+Eggplant, cooked, boiled, drained, without salt
+Garlic, raw
+Kale, raw
+Leeks, (bulb and lower leaf-portion), raw
+Leeks, (bulb and lower leaf-portion), cooked, boiled, drained, without salt
+Lettuce, cos or romaine, raw
+Lettuce, iceberg (includes crisphead types), raw
+Mushrooms, white, raw
+Mushrooms, cooked, boiled, drained, without salt
+Okra, raw
+Onions, raw
+Onions, cooked, boiled, drained, without salt
+Onions, young green, tops only
+Parsnips, raw
+Parsnips, cooked, boiled, drained, without salt
+Peas, edible-podded, raw
+Peas, green, raw
+Peas, green, cooked, boiled, drained, without salt
+Peas, green, canned, regular pack, solids and liquids
+Peas, green, frozen, unprepared
+Peas, green, frozen, cooked, boiled, drained, without salt
+Peppers, sweet, green, raw
+Potato, flesh and skin, raw
+Potatoes, red, flesh and skin, raw
+Potatoes, red, flesh and skin, baked
+Potatoes, french fried, crinkle or regular cut, salt added in processing, frozen, oven-heated
+Potatoes, boiled, cooked in skin, flesh, without salt
+Potatoes, boiled, cooked without skin, flesh, without salt
+Pumpkin, raw
+Pumpkin, cooked, boiled, drained, without salt
+Radishes, raw
+Rutabagas, raw
+Rutabagas, cooked, boiled, drained, without salt
+Soybeans, green, raw (includes edamame)
+Soybeans, green, cooked, boiled, drained, without salt (includes edamame)
+Soybeans, mature seeds, sprouted, raw
+Soybeans, mature seeds, sprouted, cooked, steamed
+Spinach, raw
+Spinach, cooked, boiled, drained, without salt
+Squash, summer, crookneck and straightneck, cooked, boiled, drained, without salt
+Squash, summer, zucchini, includes skin, raw
+Squash, summer, zucchini, includes skin, cooked, boiled, drained, without salt
+Squash, winter, butternut, cooked, baked, without salt
+Sweet potato, raw, unprepared
+Sweet potato, cooked, boiled, without skin
+Tomatoes, red, ripe, raw, year round average
+Turnips, raw
+Turnips, cooked, boiled, drained, without salt
+Vegetable juice cocktail, canned
+Watercress, raw
+Seaweed, spirulina, dried
+Peppers, hot chili, green, raw
+Arrowroot, raw
+Catsup
+Fennel, bulb, raw
+Nopales, raw
+Seeds, sesame seeds, whole, dried
+Seeds, sunflower seed kernels, dried
+Seeds, sunflower seed kernels, oil roasted, without salt
+Nuts, almonds
+Nuts, brazilnuts, dried, unblanched
+Nuts, cashew nuts, raw
+Nuts, chestnuts, european, raw, unpeeled
+Nuts, chestnuts, european, boiled and steamed
+Nuts, coconut meat, raw
+Nuts, coconut meat, dried (desiccated), not sweetened
+Nuts, hazelnuts or filberts
+Nuts, pecans
+Nuts, pistachio nuts, raw
+Nuts, walnuts, english
+Seeds, flaxseed
+Alcoholic beverage, beer, regular, all
+Alcoholic beverage, beer, light
+Alcoholic beverage, wine, table, white
+Coffee, brewed from grounds, prepared with tap water, decaffeinated
+Coffee, brewed from grounds, prepared with tap water
+Cranberry juice cocktail, bottled
+Tea, brewed, prepared with tap water
+Alcoholic Beverage, wine, table, red, Merlot
+Crustaceans, crab, alaska king, imitation, made from surimi
+Fish, tuna, light, canned in water, without salt, drained solids
+Fish, tuna, white, canned in oil, without salt, drained solids
+Beans, adzuki, mature seeds, raw
+Beans, baked, canned, plain or vegetarian
+Beans, baked, canned, with pork
+Beans, black, mature seeds, raw
+Beans, black turtle soup, mature seeds, canned
+Beans, cranberry (roman), mature seeds, raw
+Beans, great northern, mature seeds, raw
+Beans, kidney, all types, mature seeds, raw
+Beans, kidney, all types, mature seeds, cooked, boiled, without salt
+Beans, kidney, red, mature seeds, raw
+Beans, kidney, red, mature seeds, cooked, boiled, without salt
+Beans, kidney, red, mature seeds, canned
+Beans, navy, mature seeds, raw
+Beans, pink, mature seeds, raw
+Beans, pinto, mature seeds, raw
+Beans, small white, mature seeds, raw
+Beans, yellow, mature seeds, raw
+Beans, white, mature seeds, raw
+Beans, white, mature seeds, cooked, boiled, without salt
+Broadbeans (fava beans), mature seeds, raw
+Broadbeans (fava beans), mature seeds, cooked, boiled, without salt
+Broadbeans (fava beans), mature seeds, canned
+Chickpeas (garbanzo beans, bengal gram), mature seeds, raw
+Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt
+Chickpeas (garbanzo beans, bengal gram), mature seeds, canned
+Cowpeas, common (blackeyes, crowder, southern), mature seeds, raw
+Lentils, green, mature seeds, raw
+Lentils, green, mature seeds, cooked, boiled, without salt
+Lima beans, large, mature seeds, raw
+Lima beans, large, mature seeds, cooked, boiled, without salt
+Lima beans, thin seeded (baby), mature seeds, raw
+Lupins, mature seeds, raw
+Mung beans, mature seeds, raw
+Mung beans, mature seeds, cooked, boiled, without salt
+Mungo beans, mature seeds, raw
+Peas, split, green, mature seeds, raw
+Peas, split, green, mature seeds, cooked, boiled, without salt
+Peanuts, all types, raw
+Peanuts, all types, oil-roasted, with salt
+Peanuts, all types, dry-roasted, with salt
+Peanut butter, smooth style, with salt
+Pigeon peas (red gram), mature seeds, raw
+Bacon, meatless
+Sausage, meatless
+Soybeans, mature seeds, raw (all sources)
+Soybeans, mature seeds, cooked, boiled, without salt
+Soybeans, mature seeds, dry roasted (includes soy nuts)
+Miso
+Natto
+Tempeh
+Soy flour, full-fat, raw
+Soy flour, full-fat, roasted
+Soy flour, defatted
+Soy meal, defatted, raw
+Soymilk, original and vanilla, unfortified
+Soy protein concentrate, produced by alcohol extraction
+Soy protein isolate
+Soy sauce made from soy and wheat (shoyu)
+Soy sauce made from hydrolyzed vegetable protein
+Tofu, firm, prepared with calcium sulfate and magnesium chloride (nigari)
+Tofu, soft, prepared with calcium sulfate and magnesium chloride (nigari)
+Tofu, dried-frozen (koyadofu)
+Tofu, fried
+Tofu, okara
+Tofu, salted and fermented (fuyu)
+Soymilk, original and vanilla, with added caclium, vitamins A and D
+Veggie burgers or soyburgers, unprepared
+Peanut butter, smooth, reduced fat
+Hummus, commercial
+Tofu, extra firm, prepared with nigari
+Tofu, MORI-NU, silken, firm
+Soymilk, fluid, chocolate, with added caclium, vitamins A and D
+Chicken nuggets, meatless, canned, prepared (WORTHINGTON FriChik)
+Tempeh, cooked
+Soymilk (All flavors), lowfat, with added calcium, vitamins A and D
+Soymilk (all flavors), nonfat, with added calcium, vitamins A and D
+Tofu, raw, regular, prepared with calcium sulfate
+Chicken nuggets, meatless, canned, unprepared (WORTHINGTON FriChik)
+Sausage links, meatless, unprepared (MORNINGSTAR FARMS Veggie Sausage Links)
+Chicken patties, meatless (MORNINGSTAR FARMS Chik Patties Original)
+Bread, french or vienna (includes sourdough)
+Bread, Multi-Grain (includes whole-grain)
+Bread, oat bran
+Bread, rye
+Bread, wheat
+Bread, wheat germ
+Bread, white, commercially prepared (includes soft bread crumbs)
+Bread, whole-wheat, commercially prepared
+Bread crumbs, dry, grated, plain
+Bread stuffing, bread, dry mix
+Cake, chocolate, prepared from recipe without frosting
+Cake, snack cakes, creme-filled, chocolate with frosting
+Cake, snack cakes, creme-filled, sponge
+Cake, sponge, commercially prepared
+Cookies, animal crackers (includes arrowroot, tea biscuits)
+Cookies, chocolate chip, commercially prepared, reg, higher fat, enriched
+Crackers, crispbread, rye
+Crackers, matzo, plain
+Doughnuts, cake-type, plain (includes unsugared, old-fashioned)
+Doughnuts, cake-type, plain, chocolate-coated or frosted
+Doughnuts, cake-type, plain, sugared or glazed
+Doughnuts, yeast-leavened, glazed, enriched (includes honey buns)
+Pancakes, plain, dry mix, complete, prepared
+Pie, apple, commercially prepared, enriched flour
+Pie, pumpkin, commercially prepared
+Rolls, dinner, plain, commercially prepared (includes brown-and-serve)
+Sweet rolls, cinnamon, commercially prepared with raisins
+Tortillas, ready-to-bake or -fry, flour
+Bread crumbs, dry, grated, seasoned
+Snacks, granola bars, hard, plain
+Snacks, granola bars, hard, almond
+Snacks, CHEX mix
+Snacks, potato chips, barbecue-flavor
+Snacks, tortilla chips, plain, white corn
+Egg custards, dry mix, prepared with 2% milk
+Puddings, tapioca, ready-to-eat
+Pie fillings, canned, cherry
+Snacks, potato chips, plain, salted
+Barley, pearled, raw
+Corn flour, whole-grain, yellow
+Cornmeal, whole-grain, yellow
+Couscous, cooked
+Rice, brown, long-grain, raw
+Rice, brown, long-grain, cooked
+Oats
+Rice, white, long-grain, regular, raw, enriched
+Rice, white, long-grain, regular, cooked
+Rice, white, long-grain, parboiled, enriched, cooked
+Semolina, enriched
+Wheat bran, crude
+Wheat flour, whole-grain
+Wheat flour, white, all-purpose, enriched, bleached
+Wild rice, raw
+Pasta, fresh-refrigerated, spinach, as purchased
+Macaroni, cooked, enriched
+Noodles, egg, dry, enriched
+Noodles, egg, cooked, enriched
+Spaghetti, dry, enriched
+Spaghetti, cooked, enriched, without added salt
+Spaghetti, whole-wheat, dry
+Spaghetti, whole-wheat, cooked
+McDONALD'S, Warm Cinnamon Roll
+Franks, meatless, canned, prepared (LOMA LINDA Big Franks)
+Sausage patties, meatless (MORNINGSTAR FARMS Veggie Sausage Patties)
+Franks, meatless, canned, unprepared (LOMA LINDA Big Franks)
+CHEF BOYARDEE Spaghetti and Meatballs in tomato Sauce, canned entree
+HORMEL Vegetarian Chili with Beans, canned entree
+Pizza, pepperoni topping, regular crust, frozen, cooked
+Chili con carne with beans, canned entree
+Lasagna, Cheese, frozen, prepared
+Chili, no beans, canned entree
+CAMPBELL Soup Company, SPAGHETTIOS, SpaghettiOs A to Z's
+USDA Commodity, beef patties with VPP, frozen, cooked
+USDA Commodity, beef patties with VPP, frozen, raw
+Beef, ground, 85% lean meat / 15% fat, raw
+Snacks, FRITOLAY, SUNCHIPS, Multigrain Snack, original flavor
+Formulated bar, POWER BAR, chocolate
+Mayonnaise, made with tofu
+Cereals ready-to-eat, WEETABIX WHOLE WHEAT CEREAL
+Oil, canola and soybean
+Frankfurter, meatless (purchased in Germany)
+Bacon bits, meatless
+Tofu yogurt
+Ensure plus, liquid nutrition
+Apples, Golden Delicious, raw, without skin
+Apples, Golden Delicious, raw, with skin
+Apples, Granny Smith, raw, with skin
+9-grain bread
+Miso soup mix, dry
+Alfalfa seeds, sprouted, raw,  mixed with clover seeds, sprouted, raw
+Broadbeans, fried
+Clover sprouts, raw
+Bread, country rye, Finland
+Soymilk, iced
+Instant beverage, soy, powder,  not reconstituted
+Kala chana, mature seeds, raw
+Lapacho tea (Tecoma heptaphylla)
+Lingonberries (cowberries), raw
+Beans, red, mature seeds, raw
+Pears without skin, raw
+Soybeans, mature seeds, raw (Brazil)
+Soybean, curd, fermented
+Soybeans, flakes, defatted
+Soybeans, flakes, full-fat
+Soy paste
+Soybeans, mature seeds, raw (Taiwan)
+Soy cheese, cheddar
+Soy cheese, unspecified
+Soy drink
+Currants, red, raw
+Soy fiber
+Grapes, white or green, raw
+Grapes, black
+Soy noodles, flat
+Rhubarb stalks, cooked
+Soymilk skin or film (Foo jook or yuba), raw
+Soy cheese, mozzarella
+Soy cheese, parmesan
+Soy protein concentrate, aqueous washed
+Soy-based liquid formula for adults, ABBOTT NUTRITION, ENRICH
+Soy-based liquid formula for adults, ABBOTT NUTRITION, GLUCERNA
+Soy-based liquid formula for adults, ABBOTT NUTRITION, JEVITY ISOTONIC
+Tea, green, brewed
+Soybean chips
+Currants, dried
+Soy flour (textured)
+Tempeh burger
+Tofu, AZUMAYA, extra firm, cooked (steamed)
+Tofu, AZUMAYA, firm, cooked
+Tofu, soft, VITASOY-silken
+Soybeans, mature seeds, raw (Japan)
+Soybeans, mature seeds, raw (Korea)
+Soymilk skin or film (Foo jook or yuba), cooked
+Tofu, pressed (Tau kwa), raw
+Soybeans, green, mature seeds, raw
+Soybean butter, full fat, Worthington Foods, Inc.
+Tea, jasmine, Twinings
+Tea, green, Japan
+Soy hot dog, frozen, unprepared
+Cloudberries, raw
+Plums, Greengage, raw
+Olive oil, extra-virgin
+Peas, yellow, mature seeds, raw
+Bread, sweet (King's Hawaiian)
+Broccoli, green sprouting (calabrese), raw
+Broccoli, green sprouting (calabrese), cooked
+Soy cheese, swiss
+Soy cheese, American
+Licorice, black, soft candy
+Chips, potato, sweet onion
+Bread, taro rolls
+Cereals ready-to-eat, KELLOGG, KELLOGG'S BRAN FLAKES (Purchased in the United Kingdom)
+Cereals ready-to-eat, KELLOGG, KELLOGG'S COCO POPS (Purchased in the United Kingdom)
+Cereals ready-to-eat, KELLOGG, KELLOGG'S CRUNCHY NUT CORN FLAKES (Purchased in the United Kingdom)
+Cereals ready-to-eat, KELLOGG, KELLOGG'S FROSTIES  (Purchased in the United Kingdom)
+Cereals ready-to-eat, KELLOGG, KELLOGG'S FRUIT AND FIBER  (Purchased in the United Kingdom)
+Cereals ready-to-eat, KELLOGG, KELLOGG'S RICICLES  (Purchased in the United Kingdom)
+Cereals ready-to-eat, KELLOGG, KELLOGG'S START  (Purchased in the United Kingdom)
+Cereals ready-to-eat, KELLOGG, KELLOGG'S SULTANA BRAN  (Purchased in the United Kingdom)
+Ensure, liquid nutrition
+Beans, common, raw (Phaseolus vulgaris)
+Soybeans, mature seeds, raw (China)
+Potatoes, new, raw
+Potaotes, new, cooked
+Ravioli, canned with beef in tomato sauce
+Beans, scarlet runner, mature seeds, raw
+Beans, scarlet runner, mature seeds, cooked
+Miso soup
+Tofu, silken
+Sweet sauce, fermented (Kecap manis, purchased in Indoensia)
+Sufu
+Oncom
+Oncom, fried
+Tempeh, fried
+Soup, New England Clam Chowder
+Soup, pea, reheated
+Black bean, sauce
+Pudding, made with soymilk
+Melons, galia, raw
+Frankfurter, beef, fat free
+Frankfurter, pork and chicken, lite
+English muffins, with added soy flour or soy protein
+Doughnuts, with added soy lfour or soy protein
+Soy yogurt
+Soy lecithin
+Beans, adzuki, mature seeds, canned
+Lychees, canned, syrup
+Squash, summer, zucchini, without skin, cooked
+Bread, white, commercially prepared, with added soy flour or soy protein
+Bread, whole grain, commercially prepared, with added soy flour or soy protein
+Bread, whole meal, commercially prepared, with added soy flour or soy protein
+Bread, flax, commercially prepared
+Bread, sesame, commercially prepared
+Soybeans, mature seeds, canned
+Cranberries, boiled
+Cereals ready-to-eat, Ready Brek (Purchased in the United Kingdom)
+Bread, brown (Purchsed in the United Kingdom)
+Bread, granary (Purchsed in the United Kingdom)
+Mango, canned, syrup pack
+Stawberries, canned in syrup
+Bar, TIGER'S MILK PROTEIN RICH
+Tofu, firm, cooked
+Museli
+Cereals ready-to-eat, NESTLES SHREDDIES (Purchased in the United Kingdom)
+Non-dairy creamer, with added soy flour or soy protein
+Bread, soy and linseed (purchased in Australia)
+Soy cheese, Monterey Jack, fat-free
+Lasagna, vegetable, commercially prepared (Purchased in the United Kingdom)
+Formulated bar, Cliff Bar Crunchy Peanut Butter Flavor
+Formulated bar, Cliff Luna Nuts Over Chocolate Flavor
+Tofu, firm, braised
+Tofu, smoked
+Sago
+Sauce mix, Betty Crocker, Hamburger Helper
+Sauce mix, Scalloped potatoes
+Sauce mix, Betty Crocker, Tuna Helper
+Sauce mx, Rice-A-Roni, beef flavor
+Sauce mx, Rice-A-Roni, chicken flavor
+Peanut butter spread, reducd fat
+Broccoli sprouts, raw
+Crispbread, multigrain (purchased In the Untied Kingdom)
+Crispbread, wheat (purxchased in the United Kingdom)
+Flour, wheat, various types (Purchased in the United Kigdom)
+Fast Food, Pizza chain, meat topping
+JACK IN THE BOX, Beef Monster Taco
+SUBWAY, Chicken teriyaki strips sandwich
+Subway, meatball sandwich
+Soymilk, made from soy isolate (purchased in Australia)
+Soy Protein Drink
+Cereals ready-to-eat, QUAKER, Sugar Puffs (Purchased in the United Kingdom)
+Cereals, Scots Porridge oats, raw (purchased in the United Kingdom)
+Desserts, frozen, Tofutti Nondairy Original Premium
+Desserts, frozen, Glace Soymilk
+Formulated bar, Balance Yogurt Honey Peanut Flavor
+Pasta, Lasagne, raw
+Pasta, Lasagne, boiled
+Soymilk curd, dried
+Pizza, with added soy flour or soy protein
+Clover, red
+Soymilk, original and vanilla, fortified or unfortified
+Sausage links, meatless, prepared (MORNINGSTAR FARMS Veggie Sausage Links)
+Soybeans, mature seeds, raw (Australia)
+Soybeans, mature seeds, raw (Europe)
+Soybeans, mature seeds, raw (United States)
+Egg, white, raw, fresh
+Lentils, red/pink, raw
+Egg, yolk, raw, fresh

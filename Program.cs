@@ -21,38 +21,43 @@ namespace logRunner
         {
             public string field;
             public string rda;
-            public string intake;
+            public string consumed;
         }
-
-
-
+       
+        
+        static Dictionary<string, string[]> usdaPairs;
+        static string usdaroot;
         static List<_nutrient> nutrients = new List<_nutrient>();
         static List<string> dates = new List<string>();
         static string[] activeFieldsLines;
-        static List<string> activeFields = new List<string>();
+        static string[] usdaNutKeyLines;
         static string outputLogFile;
-        
+
         public static void Main(string[] args)
         {
-            printp("10 mg", "15 mg");
-            Console.ReadKey();
-            Console.WriteLine("...logger starting...");
+            //printp("10 mg", "15 mg");
+            //.ReadKey();
+            println("...fetching global keys...", ConsoleColor.DarkCyan);
+
             if (args.Length == 0)
                 args = File.ReadAllLines($"{root}{sl}args.TXT");
-                        
+
             //parses the arguments
             profile.index = Convert.ToInt32(args[0]);
             outputLogFile = args[1];
-			root = $"{root}{sl}usr{sl}profile{profile.index}{sl}";
-            
-            string[] profData = File.ReadAllLines($"{root}profile.TXT");            
+            usdaroot = $"{root}{sl}usr{sl}share{sl}DBs{sl}USDAstock{sl}";
+            usdaNutKeyLines = File.ReadAllLines($"{usdaroot}_nutKeyPairs.TXT");
+            root = $"{root}{sl}usr{sl}profile{profile.index}{sl}";
+
+            string[] profData = File.ReadAllLines($"{root}profile.TXT");
             activeFieldsLines = File.ReadAllLines($"{root}activeFields.TXT");
             profile.name = profData[0];
             println(profile.name, ConsoleColor.Green);
-            
+
             //grabs the active nutrients
-            foreach (string s in activeFieldsLines){
-                string leading = s.Split('#')[0];            //deal with mid-line comments!!
+            foreach (string s in activeFieldsLines)
+            {
+                string leading = s.Split('#')[0].Trim();
                 if (leading != "") // && frmMain.activeFields.Contains(leading))
                 {
                     _nutrient n = new _nutrient();
@@ -61,7 +66,25 @@ namespace logRunner
                     nutrients.Add(n);
                 }
             }
-            
+
+            println("...reading in USDAstock...", ConsoleColor.DarkCyan);
+            //compares against usda fields
+            List<string> fields = new List<string>();
+            for (int i = 0; i < nutrients.Count; i++)
+                foreach (string s in usdaNutKeyLines)
+                    if (s.Split('|')[1] == nutrients[i].field)                    
+                        fields.Add(nutrients[i].field);
+
+            //reads in data from main database
+            usdaPairs = new Dictionary<string, string[]>();
+            foreach (string s in fields)
+                foreach (string st in usdaNutKeyLines)
+                    if (st.Split('|')[1] == s)
+                    {
+                        string[] lines = File.ReadAllLines($"{usdaroot}{st.Split('|')[0]}");
+                        usdaPairs.Add(s, lines);                  
+                    }             
+
             //prints the results            
             println();
             for (int i = 2; i < args.Length; i++)
@@ -69,7 +92,7 @@ namespace logRunner
                 dates.Add(args[i]);
                 printLog(args[i], nutrients);
             }
-            
+
             println("press any key to exit...");
             Console.ReadKey();
         }
@@ -81,11 +104,7 @@ namespace logRunner
             println("==========", ConsoleColor.DarkCyan);
             string[] foodDayLines = File.ReadAllLines($"{root}foodlog{sl}{date}.TXT");
             println(string.Join("\n", foodDayLines));
-            for (int i = 0; i < nutrients.Count; i++)
-            {
-                println($"{nuts[i].field}", ConsoleColor.Green);
-                printp(nuts[i].intake, nuts[i].rda);
-            }
+            //???
             println();
         }
         

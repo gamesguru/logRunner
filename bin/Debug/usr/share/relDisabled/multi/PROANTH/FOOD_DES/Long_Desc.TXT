@@ -1,0 +1,283 @@
+Milk, chocolate, fluid, commercial, whole, with added vitamin A and vitamin D
+Spices, basil, dried
+Spices, chili powder
+Spices, cinnamon, ground
+Spices, cloves, ground
+Spices, curry powder
+Spices, garlic powder
+Spices, ginger, ground
+Spices, mustard seed, ground
+Spices, onion powder
+Spices, oregano, dried
+Spices, paprika
+Spices, parsley, dried
+Spices, pepper, black
+Spices, poppy seed
+Spices, turmeric, ground
+Babyfood, vegetables, green beans, strained
+Babyfood, vegetables, squash, strained
+Babyfood, fruit, applesauce, strained
+Babyfood, vegetables, peas, strained
+Babyfood, fruit, peaches, strained
+Babyfood, fruit, pears, strained
+Babyfood, fruit, apple and blueberry, junior
+Babyfood, juice, apple
+Babyfood, cereal, barley, dry
+Babyfood, dessert, cherry vanilla pudding, junior
+Apples, raw, with skin
+Apples, raw, without skin
+Apple juice, canned or bottled, unsweetened, without added ascorbic acid
+Apricots, raw
+Avocados, raw, all commercial varieties
+Bananas, raw
+Blackberries, raw
+Blueberries, raw
+Blueberries, canned, heavy syrup, solids and liquids
+Blueberries, frozen, unsweetened
+Cherries, sweet, raw
+Cranberries, raw
+Cranberries, dried, sweetened
+Cranberry sauce, canned, sweetened
+Currants, european black, raw
+Custard-apple, (bullock's-heart), raw
+Dates, deglet noor
+Elderberries, raw
+Figs, raw
+Gooseberries, raw
+Grapefruit, raw, pink and red, all areas
+Grapefruit juice, white, canned, sweetened
+Grape juice, canned or bottled, unsweetened, without added ascorbic acid
+Kiwifruit, green, raw
+Limes, raw
+Mangos, raw
+Melons, cantaloupe, raw
+Melons, honeydew, raw
+Nectarines, yellow, raw
+Oranges, raw, all commercial varieties
+Oranges, raw, navels
+Orange juice, chilled, includes from concentrate
+Tangerines, (mandarin oranges), raw
+Peaches, raw
+Peaches, canned, heavy syrup pack, solids and liquids
+Pears, raw
+Pineapple, raw, all varieties
+Plums, raw
+Pomegranates, raw
+Plums, dried (prunes), uncooked
+Quinces, raw
+Raisins, seedless
+Raspberries, raw
+Rhubarb, raw
+Strawberries, raw
+Watermelon, raw
+Peaches, canned, heavy syrup, drained solids
+Pears, raw, red anjou
+Pineapple, raw, extra sweet variety
+Pomegranate juice, bottled
+Apples, raw, red delicious, with skin
+Apples, raw, golden delicious, with skin
+Apples, raw, granny smith, with skin
+Apples, raw, gala, with skin
+Apples, raw, fuji, with skin
+Artichokes, (globe or french), cooked, boiled, drained, without salt
+Asparagus, cooked, boiled, drained
+Beans, snap, green, raw
+Beets, raw
+Broadbeans, immature seeds, raw
+Broccoli, raw
+Broccoli, cooked, boiled, drained, without salt
+Broccoli raab, raw
+Broccoli raab, cooked
+Cabbage, raw
+Cabbage, cooked, boiled, drained, without salt
+Cabbage, red, raw
+Cabbage, red, cooked, boiled, drained, without salt
+Cabbage, chinese (pak-choi), raw
+Carrots, raw
+Carrots, cooked, boiled, drained, without salt
+Cauliflower, raw
+Celeriac, raw
+Celery, raw
+Corn, sweet, yellow, raw
+Cucumber, with peel, raw
+Cucumber, peeled, raw
+Eggplant, raw
+Garlic, raw
+Jerusalem-artichokes, raw
+Lentils, sprouted, raw
+Lettuce, cos or romaine, raw
+Lettuce, iceberg (includes crisphead types), raw
+Lettuce, green leaf, raw
+Lettuce, red leaf, raw
+Onions, raw
+Onions, cooked, boiled, drained, without salt
+Onions, sweet, raw
+Parsnips, raw
+Peas, green, raw
+Peppers, sweet, green, raw
+Peppers, sweet, green, cooked, boiled, drained, without salt
+Potatoes, russet, flesh and skin, raw
+Potatoes, white, flesh and skin, raw
+Potatoes, red, flesh and skin, raw
+Potatoes, Russet, flesh and skin, baked
+Potatoes, white, flesh and skin, baked
+Potatoes, red, flesh and skin, baked
+Potatoes, boiled, cooked in skin, flesh, without salt
+Potatoes, boiled, cooked without skin, flesh, without salt
+Radishes, raw
+Rutabagas, raw
+Spinach, raw
+Spinach, frozen, chopped or leaf, unprepared
+Squash, summer, zucchini, includes skin, raw
+Sweet potato, raw, unprepared
+Sweet potato, cooked, baked in skin, without salt
+Sweet potato, cooked, boiled, without skin
+Tomatoes, red, ripe, raw, year round average
+Tomatoes, red, ripe, cooked
+Turnips, raw
+Peppers, sweet, red, raw
+Peppers, sweet, red, cooked, boiled, drained, without salt
+Squash, zucchini, baby, raw
+Carrots, baby, raw
+Nuts, almonds
+Nuts, brazilnuts, dried, unblanched
+Nuts, cashew nuts, raw
+Nuts, chestnuts, european, dried, unpeeled
+Nuts, hazelnuts or filberts
+Nuts, macadamia nuts, dry roasted, without salt added
+Nuts, pecans
+Nuts, pine nuts, dried
+Nuts, pistachio nuts, raw
+Nuts, walnuts, english
+Alcoholic beverage, beer, regular, all
+Alcoholic beverage, wine, table, red
+Alcoholic Beverage, wine, table, red, Cabernet Sauvignon
+Alcoholic Beverage, wine, table, red, Pinot Noir
+Alcoholic Beverage, wine, table, red, Syrah
+Alcoholic beverage, wine, table, white
+Alcoholic Beverage, wine, table, red, Sangiovese
+Coffee, brewed from grounds, prepared with tap water
+Cranberry juice cocktail, bottled
+Tea, green, brewed
+Malted drink mix, chocolate, powder
+Tea, black, brewed
+Cranberry juice cocktail, frozen concentrate, prepared with water
+Alcoholic Beverage, wine, table, red, Merlot
+Beans, adzuki, mature seeds, raw
+Beans, black, mature seeds, raw
+Beans, kidney, red, mature seeds, raw
+Beans, navy, mature seeds, raw
+Beans, pinto, mature seeds, raw
+Beans, pinto, mature seeds, cooked, boiled, without salt
+Beans, white, mature seeds, raw
+Broadbeans (fava beans), mature seeds, raw
+Chickpeas (garbanzo beans, bengal gram), mature seeds, raw
+Cowpeas, common (blackeyes, crowder, southern), mature seeds, raw
+Lentils, raw
+Peas, green, split, mature seeds, raw
+Peanuts, all types, raw
+Peanuts, all types, oil-roasted, with salt
+Peanut butter, smooth style, with salt
+Soybeans, mature seeds, raw
+Baking chocolate, unsweetened, squares
+Candies, sweet chocolate
+Candies, milk chocolate
+Cocoa, dry powder, unsweetened
+Cocoa, dry powder, unsweetened, processed with alkali
+Candies, chocolate, dark, NFS
+Barley, hulled
+Buckwheat
+Buckwheat flour, whole-groat
+Millet, raw
+Oat bran, raw
+Rice, brown, long-grain, raw
+Oats
+Rice, white, long-grain, regular, raw, enriched
+Rye flour, medium
+Sorghum grain
+Wheat bran, crude
+Wheat flour, whole-grain
+Wild rice, raw
+Barley flour or meal
+Mush, blue corn with ash (Navajo)
+Cornmeal, blue (Navajo)
+Melon, banana (Navajo)
+Squash, Indian, raw (Navajo)
+Agave, raw (Southwest)
+Agave, cooked (Southwest)
+Agave, dried (Southwest)
+Babyfood, fruit, tutti frutti, junior
+Bee Pollen
+Babyfood, juice, pear
+Babyfood, grape juice, no sugar, canned
+Alcoholic beverage, wine, white, sherry
+Grapes, seeds, raw
+Grapes, skins, raw
+Medlar , raw
+Strawberry tree fruit [arbutus], raw 
+Marionberries, raw
+Hops
+Juice, pear
+Babyfood, fruit, bananas
+Babyfood, fruit, apples, organic
+Babyfood, fruit, apple, strawberry, banana
+Babyfood, fruit, apricots with pears and apples
+Babyfood, fruit, banana plum and grape
+Babyfood, fruit, plums with apples
+Babyfood, fruit, banana strawberry
+Babyfood, dessert, blueberry buckle
+Sorghum bran, Sumac
+Buckwheat hulls
+Cacao beans 
+Lettuce, not specified as to type
+Plum, yellow, whole, raw 
+Nectarines, white, whole, raw 
+Peaches, white, whole, raw 
+Sorghum, hi-tannin, whole grain extrudate
+Apples, raw, golden delicious, without peel
+Apples, raw, Red Delicious, without peel
+Grapes, red, raw 
+Pears, raw, green cultivars, with peel
+Plums, black diamond, with peel, raw 
+Coffee, grounds
+Blueberries, wild, raw 
+Persimmons, raw , purchased in Spain
+Snacks, tortilla chips, low fat, made with olestra
+Apples, raw, skin only
+Black Currant Juice 
+Chokeberry, raw 
+Lingonberries [cowberries], raw 
+Sea buckthorn berries
+Arctic bramble berries 
+Currants, red, raw 
+Grapes, white or green, raw 
+Juice, grape, white
+Onions, red, raw 
+Jams and preserves, strawberry 
+Bilberry soup 
+Apple cider [European] 
+Cranberry juice, raw 
+Bog whortleberries, wild, frozen 
+Rowanberries, raw 
+Cloudberries, raw 
+Crowberries, raw 
+Bilberry, raw 
+Carob fiber [Caromax]
+Jams and preserves, raspberry 
+Juice, grape, red
+Alcoholic beverage, wine, table, rose
+Sorghum, grain, white
+Service (Saskatoon) berries
+Barley malt
+Blueberries, canned in water, solid and liquid
+Buckwheat grits
+Raspberries, yellow, raw
+Peaches, canned, heavy syrup, drained liquid
+Oranges, blood, raw
+Rye, bran
+Rose hips
+Wheat, not specified to type
+Rice, red, raw
+Wild rice mix of 3 blends (wild, white and Basmati), dry
+Wild rice, quick-cooking, dry
+Rice, black, raw

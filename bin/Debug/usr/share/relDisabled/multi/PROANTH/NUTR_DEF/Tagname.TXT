@@ -1,0 +1,5 @@
+PAdimer
+PAtrimer
+PA4-6mer
+PA7-10mer
+PApolymer
