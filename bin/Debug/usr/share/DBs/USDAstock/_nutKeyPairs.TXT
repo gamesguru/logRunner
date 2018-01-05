@@ -32,8 +32,8 @@ SEL.TXT|Se
 PHO.TXT|P
 MAN.TXT|Mn
 COP.TXT|Cu
-CHO.TXT|Lycopene
-CHO.TXT|LutZea
+LYC.TXT|Lycopene
+LUT.TXT|LutZea
 CHO.TXT|Choline
 GMW49.TXT|Serving
 #GMW51.TXT|Serving2

@@ -25,23 +25,21 @@ namespace logRunner
             public string[] entries;
             public string rda;
             public string consumed;
-            public double intake;
+            //public double intake;
             public string unit;
         }
 
         public class _foodObj{
             public string ndbno;
+            public int index;
             public double grams;
         }
         public class _usdaNDBclass{
             public string ndbno;
             public int index;
         }
-        // public class _usdaFileClass{
-        //     public string fileName;
-        //     public string[] lines;
-        // }
-        static Dictionary<string, string[]> usdaPairs;
+
+        static Dictionary<string, string[]> usdaFileNameLinePairs;
         static string usdaroot;
         static List<string> fields;
 
@@ -101,22 +99,34 @@ namespace logRunner
                 }
             }
 
+            foreach (string s in usdaNutKeyLines)
+                foreach (_nutrient n in nutrients)
+                    if (n.field == s.Split('|')[1])
+                        n.fileName = s.Split('|')[0];
             println("...reading in USDAstock...", ConsoleColor.DarkCyan);
+
             //compares against usda fields
             fields = new List<string>();
             for (int i = 0; i < nutrients.Count; i++)
                 foreach (string s in usdaNutKeyLines)
                     if (s.Split('|')[1] == nutrients[i].field)
                         fields.Add(nutrients[i].field);
+            
+            //grabs only active fields
+            List<_nutrient> newNutrients = new List<_nutrient>();
+            foreach (_nutrient n in nutrients)
+                if (fields.Contains(n.field))
+                    newNutrients.Add(n);
+            nutrients = newNutrients;
 
             //reads in data from main database
-            usdaPairs = new Dictionary<string, string[]>();
+            usdaFileNameLinePairs = new Dictionary<string, string[]>();
             foreach (string s in fields)
                 foreach (string st in usdaNutKeyLines)
                     if (st.Split('|')[1] == s)
                     {
                         string[] lines = File.ReadAllLines($"{usdaroot}{st.Split('|')[0]}");
-                        usdaPairs.Add(s, lines);
+                        usdaFileNameLinePairs.Add(st.Split('|')[0], lines);
                     }
             println();
 
@@ -125,6 +135,7 @@ namespace logRunner
             {
                 dates.Add(args[i]);
                 //prints the results  
+                printLog("9-20-2017", nutrients);
                 //printLog(args[i], nutrients); //uncomment this
             }
           
@@ -135,39 +146,56 @@ namespace logRunner
         #region printp and printLog
         private static void printLog(string date, List<_nutrient> nuts)
         {
+            //breaks up by date
             println("==========", ConsoleColor.DarkCyan);
             println(date, ConsoleColor.DarkCyan);
             println("==========", ConsoleColor.DarkCyan);
-            Dictionary<string, double> cons = new Dictionary<string, double>();
-            foreach (_nutrient n in nuts)
-                cons.Add(n.field, 0.0);
+
+            //where is this used?
+            // Dictionary<string, double> cons = new Dictionary<string, double>();
+            // foreach (_nutrient n in nuts)
+            //     cons.Add(n.field, 0.0);
+
             string[] foodDayLines = File.ReadAllLines($"{root}foodlog{sl}{date}.TXT");
 
             //preps the calculation
-            List<_foodObj> todaysFood = new List<_foodObj>();            
+            List<_foodObj> todaysFood = new List<_foodObj>();
             foreach (string s in foodDayLines)
                 if (s.StartsWith("USDAstock"))
+                {
+                    _foodObj f = new _foodObj();
+                    f.ndbno = s.Split('|')[1];
+                    string fileName = "";
+                    foreach (string st in usdaNutKeyLines)
+                        if (st.Split('|')[1] == "NDBNo")
+                            fileName = st.Split('|')[0];
+                    string[] lines = usdaFileNameLinePairs[fileName]; //DOESN'T CONTAIN NDB
+                    for (int i = 0; i < lines.Length; i++)
+                        if (lines[i] == f.ndbno)
+                        {
+                            f.index = i;
+                            break;
+                        }
+
+                    try { f.grams = Convert.ToDouble(s.Split('|')[1]); }
+                    catch (Exception e)
                     {
-                        _foodObj f = new _foodObj();
-                        f.ndbno = s.Split('|')[1];
-                        try{f.grams = Convert.ToDouble(s.Split('|')[1]);}
-                        catch (Exception e){f.grams = 0;
-                            printE(e);}
-                            todaysFood.Add(f);
+                        f.grams = 0;
+                        printE(e);
                     }
+                    todaysFood.Add(f);
+                }
 
             //performs piecemeal addition
             foreach (_nutrient n in nuts)
             {
-                if (fields.Contains(n.field))
+                string[] nutValLines = usdaFileNameLinePairs[n.field];
+                foreach (_foodObj f in todaysFood)
                 {
-                    string[] nutValLines = usdaPairs[n.field];
-                    foreach (_foodObj f in todaysFood)
-                    {
-                        n.consumed +=;
+                    n.consumed +=0;
 
-                    }
                 }
+
             }
             //println(string.Join("\n", foodDayLines));
             //???
@@ -180,7 +208,7 @@ namespace logRunner
             double r = 1;
             try
             {
-                c = nut.consumed.Split(' ')[0];
+                c = Convert.ToDouble(nut.consumed.Split(' ')[0]);
                 r = Convert.ToDouble(nut.rda.Split(' ')[0]);
             }
             catch (Exception e)
