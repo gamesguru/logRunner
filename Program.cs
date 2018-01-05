@@ -8,7 +8,7 @@ namespace logRunner
     class MainClass
     {
         static string root = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
-        static string slash = Path.DirectorySeparatorChar.ToString();
+        static string sl = Path.DirectorySeparatorChar.ToString();
         
         
         public static class profile
@@ -20,10 +20,12 @@ namespace logRunner
         public class _nutrient
         {
             public string field;
-            public string unit;
+            public string rda;
+            public string intake;
         }
-        
-        
+
+
+
         static List<_nutrient> nutrients = new List<_nutrient>();
         static List<string> dates = new List<string>();
         static string[] activeFieldsLines;
@@ -32,34 +34,35 @@ namespace logRunner
         
         public static void Main(string[] args)
         {
+            printp("10 mg", "15 mg");
+            Console.ReadKey();
             Console.WriteLine("...logger starting...");
             if (args.Length == 0)
-                args = File.ReadAllLines($"{root}{slash}args.TXT");
+                args = File.ReadAllLines($"{root}{sl}args.TXT");
                         
+            //parses the arguments
             profile.index = Convert.ToInt32(args[0]);
             outputLogFile = args[1];
-			root = $"{root}{slash}usr{slash}profile{profile.index}{slash}";
+			root = $"{root}{sl}usr{sl}profile{profile.index}{sl}";
             
             string[] profData = File.ReadAllLines($"{root}profile.TXT");            
             activeFieldsLines = File.ReadAllLines($"{root}activeFields.TXT");
             profile.name = profData[0];
             println(profile.name, ConsoleColor.Green);
             
-            //
+            //grabs the active nutrients
             foreach (string s in activeFieldsLines){
-            //deal with mid-line comments
-                string leading = s.Split('#')[0];
+                string leading = s.Split('#')[0];            //deal with mid-line comments!!
                 if (leading != "") // && frmMain.activeFields.Contains(leading))
                 {
                     _nutrient n = new _nutrient();
                     n.field = leading.Split('|')[0];
-                    n.unit = leading.Split('|')[1];
+                    n.rda = leading.Split('|')[1];
                     nutrients.Add(n);
                 }
-                    //activeFields.Add(leading);
             }
-            //
             
+            //prints the results            
             println();
             for (int i = 2; i < args.Length; i++)
             {
@@ -71,18 +74,43 @@ namespace logRunner
             Console.ReadKey();
         }
 
-        private static void printLog(string date, List<_nutrient> nutrients)
+        private static void printLog(string date, List<_nutrient> nuts)
         {
             println("==========", ConsoleColor.DarkCyan);
             println(date, ConsoleColor.DarkCyan);
             println("==========", ConsoleColor.DarkCyan);
-            for (int i = 0; i < nutrients.Count; i++)     
+            string[] foodDayLines = File.ReadAllLines($"{root}foodlog{sl}{date}.TXT");
+            println(string.Join("\n", foodDayLines));
+            for (int i = 0; i < nutrients.Count; i++)
             {
-                println($"{nutrients[i].field}", ConsoleColor.Green);
-                //println($" (RDA= '{nutrients[i].unit}')");
+                println($"{nuts[i].field}", ConsoleColor.Green);
+                printp(nuts[i].intake, nuts[i].rda);
+            }
+            println();
+        }
+        
+        private static double printp(string consumed, string rda){
+            int r = Convert.ToInt32(rda.Split(' ')[0]);
+            int c = Convert.ToInt32(consumed.Split(' ')[0]);
+            double x = (double)c / (double)r;
+            ConsoleColor color = ConsoleColor.Green;
+            if (x < 0.7)
+                color = ConsoleColor.DarkYellow;
+            else if (x < 0.5)
+                color = ConsoleColor.DarkRed;
             
-            }       
-			println();
+            string prog = "==================================================";
+            int eL = prog.Length;
+            eL = Convert.ToInt32(eL * x);
+            int spac = prog.Length - eL;
+            prog = "<";
+            for (int i = 0; i < eL; i++)
+                prog += "=";
+            for (int i = 0; i < spac; i++)
+                prog += " ";
+            prog += $"> {100 * Math.Round((double)x, 2)}%";
+            println(prog, color);
+            return x;
         }
         
         static List<string> outputLog = new List<string>();
