@@ -21,17 +21,36 @@ namespace logRunner
         public class _nutrient
         {
             public string field;
+            public string fileName;
+            public string[] entries;
             public string rda;
             public string consumed;
+            public double intake;
+            public string unit;
         }
 
-
+        public class _foodObj{
+            public string ndbno;
+            public double grams;
+        }
+        public class _usdaNDBclass{
+            public string ndbno;
+            public int index;
+        }
+        // public class _usdaFileClass{
+        //     public string fileName;
+        //     public string[] lines;
+        // }
         static Dictionary<string, string[]> usdaPairs;
         static string usdaroot;
-        static List<_nutrient> nutrients = new List<_nutrient>();
-        static List<string> dates = new List<string>();
+        static List<string> fields;
+
         static string[] activeFieldsLines;
         static string[] usdaNutKeyLines;
+
+        static List<_nutrient> nutrients = new List<_nutrient>();
+        static List<string> dates = new List<string>();
+
         static string outputLogFile;
         #endregion
 
@@ -84,7 +103,7 @@ namespace logRunner
 
             println("...reading in USDAstock...", ConsoleColor.DarkCyan);
             //compares against usda fields
-            List<string> fields = new List<string>();
+            fields = new List<string>();
             for (int i = 0; i < nutrients.Count; i++)
                 foreach (string s in usdaNutKeyLines)
                     if (s.Split('|')[1] == nutrients[i].field)
@@ -101,18 +120,14 @@ namespace logRunner
                     }
             println();
 
-            //foodObj class??
-            //reads in the user data/foodlog
+            //reads in the user foodlog and computes results
             for (int i = 2; i < args.Length; i++)
             {
                 dates.Add(args[i]);
-                //printLog(args[i], nutrients);
+                //prints the results  
+                //printLog(args[i], nutrients); //uncomment this
             }
-            foreach (_nutrient n in nutrients){
-                
-            }
-
-			//prints the results            
+          
             println("press any key to exit...");
             Console.ReadKey();
         }
@@ -127,11 +142,34 @@ namespace logRunner
             foreach (_nutrient n in nuts)
                 cons.Add(n.field, 0.0);
             string[] foodDayLines = File.ReadAllLines($"{root}foodlog{sl}{date}.TXT");
+
+            //preps the calculation
+            List<_foodObj> todaysFood = new List<_foodObj>();            
             foreach (string s in foodDayLines)
                 if (s.StartsWith("USDAstock"))
-                    ;
+                    {
+                        _foodObj f = new _foodObj();
+                        f.ndbno = s.Split('|')[1];
+                        try{f.grams = Convert.ToDouble(s.Split('|')[1]);}
+                        catch (Exception e){f.grams = 0;
+                            printE(e);}
+                            todaysFood.Add(f);
+                    }
 
-            println(string.Join("\n", foodDayLines));
+            //performs piecemeal addition
+            foreach (_nutrient n in nuts)
+            {
+                if (fields.Contains(n.field))
+                {
+                    string[] nutValLines = usdaPairs[n.field];
+                    foreach (_foodObj f in todaysFood)
+                    {
+                        n.consumed +=;
+
+                    }
+                }
+            }
+            //println(string.Join("\n", foodDayLines));
             //???
             println();
         }
@@ -142,7 +180,7 @@ namespace logRunner
             double r = 1;
             try
             {
-                c = Convert.ToDouble(nut.consumed.Split(' ')[0]);
+                c = nut.consumed.Split(' ')[0];
                 r = Convert.ToDouble(nut.rda.Split(' ')[0]);
             }
             catch (Exception e)
