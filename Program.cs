@@ -102,22 +102,40 @@ namespace logRunner
             println("==========", ConsoleColor.DarkCyan);
             println(date, ConsoleColor.DarkCyan);
             println("==========", ConsoleColor.DarkCyan);
+            Dictionary<string, double> cons = new Dictionary<string, double>();
+            foreach (_nutrient n in nuts)
+                cons.Add(n.field, 0.0);
             string[] foodDayLines = File.ReadAllLines($"{root}foodlog{sl}{date}.TXT");
+            foreach (string s in foodDayLines)
+                if (s.StartsWith("USDAstock"))
+                    ;
+                    
             println(string.Join("\n", foodDayLines));
             //???
             println();
         }
-        
-        private static double printp(string consumed, string rda){
-            int r = Convert.ToInt32(rda.Split(' ')[0]);
-            int c = Convert.ToInt32(consumed.Split(' ')[0]);
+
+        private static double printp(string consumed, string rda)
+        {
+            int c = 0;
+            int r = 1;
+            try
+            {
+                r = Convert.ToInt32(rda.Split(' ')[0]);
+                c = Convert.ToInt32(consumed.Split(' ')[0]);
+            }
+            catch (Exception e)
+            {
+                printE(e);
+                return 0;
+            }
             double x = (double)c / (double)r;
             ConsoleColor color = ConsoleColor.Green;
             if (x < 0.7)
                 color = ConsoleColor.DarkYellow;
             else if (x < 0.5)
                 color = ConsoleColor.DarkRed;
-            
+
             string prog = "==================================================";
             int eL = prog.Length;
             eL = Convert.ToInt32(eL * x);
@@ -148,6 +166,15 @@ namespace logRunner
             Console.Write(s);
             Console.ForegroundColor = ConsoleColor.White;
             outputLog[outputLog.Count - 1] += s;
+        }
+
+        public static void printE(Exception ex)
+        {
+            println($" ===============\n  --Exception--\n ===============", ConsoleColor.DarkRed);
+            println($"{DateTime.Now.ToString()}\n{ ex.Source}, { ex.HResult}\n{ ex.Data}");
+            println($"{ ex.Message}", ConsoleColor.DarkRed);
+            println($"\n\n{ ex.TargetSite}\n{ ex.StackTrace}");
+            println(" ===================\n  --End exception--\n ===================", ConsoleColor.DarkRed);
         }
     }
 }
