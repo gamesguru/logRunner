@@ -1,0 +1,5 @@
+/home/shane/MonoProjects/logRunner/obj/x86/Debug/logRunner.csproj.CoreCompileInputs.cache
+/home/shane/MonoProjects/logRunner/bin/Debug/logRunner.exe
+/home/shane/MonoProjects/logRunner/bin/Debug/logRunner.pdb
+/home/shane/MonoProjects/logRunner/obj/x86/Debug/logRunner.exe
+/home/shane/MonoProjects/logRunner/obj/x86/Debug/logRunner.pdb

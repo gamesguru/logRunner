@@ -35,8 +35,20 @@ namespace logRunner
 
         public static void Main(string[] args)
         {
-            //printp("10 mg", "15 mg");
-            //.ReadKey();
+            _nutrient np = new _nutrient();
+            np.rda = "17 mg";
+            np.consumed = "21 mg";
+            printp(np);
+            np.rda = "17 mg";
+            np.consumed = "16 mg";
+            printp(np);
+            np.rda = "17 mg";
+            np.consumed = "11 mg";
+            printp(np);
+            np.rda = "27 mg";
+            np.consumed = "11 mg";
+            printp(np);
+            Console.ReadKey();
             println("...fetching global keys...", ConsoleColor.DarkCyan);
 
             if (args.Length == 0)
@@ -115,25 +127,30 @@ namespace logRunner
             println();
         }
 
-        private static double printp(string consumed, string rda)
+        private static double printp(_nutrient nut)//(string consumed, string rda)
         {
-            int c = 0;
-            int r = 1;
+            double c = 0;
+            double r = 1;
             try
             {
-                r = Convert.ToInt32(rda.Split(' ')[0]);
-                c = Convert.ToInt32(consumed.Split(' ')[0]);
+				c = Convert.ToDouble(nut.consumed.Split(' ')[0]);
+                r = Convert.ToDouble(nut.rda.Split(' ')[0]);
             }
             catch (Exception e)
             {
                 printE(e);
                 return 0;
             }
-            double x = (double)c / (double)r;
-            ConsoleColor color = ConsoleColor.Green;
-            if (x < 0.7)
-                color = ConsoleColor.DarkYellow;
-            else if (x < 0.5)
+            double x = c / r;
+            ConsoleColor color = ConsoleColor.Blue;
+            if (x > 1.0)
+            {
+				x = 1.0;
+                color = ConsoleColor.DarkMagenta;
+            }
+            else if (x < 0.7 && x > 0.5)
+                color = ConsoleColor.Yellow;
+            else if (x <= 0.5)
                 color = ConsoleColor.DarkRed;
 
             string prog = "==================================================";
@@ -145,13 +162,12 @@ namespace logRunner
                 prog += "=";
             for (int i = 0; i < spac; i++)
                 prog += " ";
-            prog += $"> {100 * Math.Round((double)x, 2)}%";
+            prog += $"> {100 * Math.Round(c / r, 3)}%";
             println(prog, color);
             return x;
         }
         
         static List<string> outputLog = new List<string>();
-        
         private static void println(string s, ConsoleColor color = ConsoleColor.White){
             Console.ForegroundColor = color;
             Console.WriteLine(s);
