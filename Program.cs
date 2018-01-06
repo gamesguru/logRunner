@@ -11,6 +11,8 @@ namespace logRunner
         static string root = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
         static string sl = Path.DirectorySeparatorChar.ToString();
 
+        static bool printDetail = false;
+        static bool saveLog = false;
 
         public static class profile
         {
@@ -53,10 +55,16 @@ namespace logRunner
 
         public static void Main(string[] args)
         {
-            //updates user
             println("...fetching global keys...", ConsoleColor.DarkCyan);
             if (args.Length == 0)
                 args = File.ReadAllLines($"{root}{sl}args.TXT");
+
+            string[] sets = File.ReadAllLines($"{root}{sl}lsettings.ini");
+            foreach (string s in sets)
+                if (s.StartsWith("[PrintDetail]"))
+                    printDetail = Convert.ToBoolean(s.Replace("[PrintDetail]", "").Replace("\t", ""));
+                else if (s.StartsWith("[SaveLog]"))
+                    saveLog = Convert.ToBoolean(s.Replace("[SaveLog]", "").Replace("\t", ""));
             
             //parses the arguments
             profile.index = Convert.ToInt32(args[0]);
@@ -118,11 +126,9 @@ namespace logRunner
                     }
             println();
 
-            //reads in the user foodlog and computes results
+            //loops thru dates, reads in the user foodlog and computes results
             for (int i = 2; i < args.Length; i++)
             {
-                //dates.Add(args[i]);
-
                 //prints the results  
                 try { printLog(args[i], nutrients); }
                 catch (Exception e)
@@ -133,7 +139,8 @@ namespace logRunner
                 foreach (_nutrient n in nutrients)
                     n.consumed = 0;
             }
-          
+            if (saveLog)
+                File.WriteAllLines(outputLogFile, outputLog);
             println("press any key to exit...");
             Console.ReadKey();
         }
@@ -145,14 +152,7 @@ namespace logRunner
             println("==========", ConsoleColor.DarkCyan);
             println(date, ConsoleColor.DarkCyan);
             println("==========", ConsoleColor.DarkCyan);
-
-
-
-            //where is this used?
-            // Dictionary<string, double> cons = new Dictionary<string, double>();
-            // foreach (_nutrient n in nuts)
-            //     cons.Add(n.field, 0.0);
-
+            
             string[] foodDayLines = File.ReadAllLines($"{root}foodlog{sl}{date}.TXT");
             
 
@@ -195,17 +195,16 @@ namespace logRunner
                         n.unit = s.Split('|')[1];
                         break;
                     }
-                //n.entries = File.ReadAllLines($"{usdaroot}{n.fileName}");
                 string[] nutValLines = usdaFileNameLinePairs[n.fileName];
 
                 //performs the addition
                 foreach (_foodObj f in todaysFood)
                 {
-                    n.consumed += Convert.ToDouble(nutValLines[f.index]) * f.grams * 0.01;
+                    try { n.consumed += Convert.ToDouble(nutValLines[f.index]) * f.grams * 0.01; }
+                    catch (Exception e) { printE(e); }
                     n.contrib += $"{Math.Round(n.consumed, 3)}, ";
                 }
-                //try { n.consumed += Convert.ToInt32(nutValLines[f.index]); }
-                //catch (Exception ex) { printE(ex); }
+                
                 //prints results
                 printp(n);
             }
@@ -216,8 +215,6 @@ namespace logRunner
         {
             double c = 0;
             double r = 1;
-            //c = nut.consumed;
-            //r = Convert.ToDouble(nut.rda.Split(' ')[0]);
             try
             {
                 c = nut.consumed;
@@ -249,9 +246,14 @@ namespace logRunner
                 prog += "=";
             for (int i = 0; i < spac; i++)
                 prog += " ";
-            prog += $"> {100 * Math.Round(c / r, 3)}% \t[{Math.Round(c, 4)}/{nut.rda.Split(' ')[0]} {nut.unit} -- {nut.field}] {{{nut.contrib}}}";
+            string pad = "";
+            for (int i = 0; i < (20 - $"[{Math.Round(c, 4)}/{nut.rda.Split(' ')[0]} {nut.unit}".Length); i++)
+                pad += " ";
+            if (printDetail)
+                prog += $"> {100 * Math.Round(c / r, 3)}% \t[{Math.Round(c, 4)}/{nut.rda.Split(' ')[0]} {nut.unit}{pad} -- {nut.field}] {{{nut.contrib}}}";
+            else
+                prog += $"> {100 * Math.Round(c / r, 3)}% \t[{Math.Round(c, 4)}/{nut.rda.Split(' ')[0]} {nut.unit}{pad} -- {nut.field}]";
             println(prog, color);
-            //println();
             return x;
         }
         #endregion
@@ -276,7 +278,7 @@ namespace logRunner
             outputLog[outputLog.Count - 1] += s;
         }
 
-        public static void printE(Exception ex)
+        private static void printE(Exception ex)
         {
             println($" ===============\n  --Exception--\n ===============", ConsoleColor.DarkRed);
             println($"{DateTime.Now.ToString()}\n{ ex.Source}, { ex.HResult}\n{ ex.Data}");

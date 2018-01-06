@@ -1,0 +1,5 @@
+/media/shane/RaptorWS/MonoProjects/logRunner/bin/Debug/logRunner.exe
+/media/shane/RaptorWS/MonoProjects/logRunner/bin/Debug/logRunner.pdb
+/media/shane/RaptorWS/MonoProjects/logRunner/obj/x86/Debug/logRunner.csproj.CoreCompileInputs.cache
+/media/shane/RaptorWS/MonoProjects/logRunner/obj/x86/Debug/logRunner.exe
+/media/shane/RaptorWS/MonoProjects/logRunner/obj/x86/Debug/logRunner.pdb

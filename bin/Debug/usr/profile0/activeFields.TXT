@@ -30,17 +30,17 @@ Fe|10 mg #Iron
 ## VITAMINS ##
 ##############
 VitA|900 μg
-VitC|90 mg
+VitC|80 mg
 VitD|6 μg
 VitE|20 mg #30 IU
-#VitK
-#B1
-#B2
-#B3
-#B5
+VitK|0.13 mg
+B1|1.1 mg
+B2|1.2 mg
+B3|20 mg
+B5|5 mg
 B6|1.2 mg
-#B7
-#B9
+B7|0.3 mg
+B9|0.4 mg
 B12|1 mg
 ##############
 ## MINERALS ##
