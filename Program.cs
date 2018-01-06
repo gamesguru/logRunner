@@ -22,7 +22,7 @@ namespace logRunner
         {
             public string field;
             public string fileName;
-            public string[] entries;
+            //public string[] entries;
             public string rda;
             public string consumed;
             //public double intake;
@@ -34,10 +34,8 @@ namespace logRunner
             public int index;
             public double grams;
         }
-        public class _usdaNDBclass{
-            public string ndbno;
-            public int index;
-        }
+        
+
 
         static Dictionary<string, string[]> usdaFileNameLinePairs;
         static string usdaroot;
@@ -45,6 +43,7 @@ namespace logRunner
 
         static string[] activeFieldsLines;
         static string[] usdaNutKeyLines;
+        static string[] ndbnos;
 
         static List<_nutrient> nutrients = new List<_nutrient>();
         static List<string> dates = new List<string>();
@@ -100,9 +99,13 @@ namespace logRunner
             }
 
             foreach (string s in usdaNutKeyLines)
+            {
+                if (s.Split('|')[1] == "NDBNo")
+                    ndbnos = File.ReadAllLines($"{usdaroot}{s.Split('|')[0]}");
                 foreach (_nutrient n in nutrients)
                     if (n.field == s.Split('|')[1])
                         n.fileName = s.Split('|')[0];
+            }
             println("...reading in USDAstock...", ConsoleColor.DarkCyan);
 
             //compares against usda fields
@@ -165,11 +168,11 @@ namespace logRunner
                 {
                     _foodObj f = new _foodObj();
                     f.ndbno = s.Split('|')[1];
-                    string fileName = "";
-                    foreach (string st in usdaNutKeyLines)
-                        if (st.Split('|')[1] == "NDBNo")
-                            fileName = st.Split('|')[0];
-                    string[] lines = usdaFileNameLinePairs[fileName]; //DOESN'T CONTAIN NDB
+                    //string fileName = "";
+                    //foreach (string st in usdaNutKeyLines)
+                    //    if (st.Split('|')[1] == "NDBNo")
+                    //        fileName = st.Split('|')[0];
+                    //string[] lines = usdaFileNameLinePairs[fileName]; //DOESN'T CONTAIN NDB
                     for (int i = 0; i < lines.Length; i++)
                         if (lines[i] == f.ndbno)
                         {

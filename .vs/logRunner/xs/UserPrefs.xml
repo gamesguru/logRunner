@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{19960975-6B82-4A02-B458-0CC0D17FCD01}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="36" Column="10" />
+      <File FileName="Program.cs" Line="188" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/home/shane/MonoProjects/logRunner/Program.cs" relfile="Program.cs" line="180" column="31" />
+      <Breakpoint file="/media/shane/RaptorWS/MonoProjects/logRunner/Program.cs" relfile="Program.cs" line="180" column="31" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
