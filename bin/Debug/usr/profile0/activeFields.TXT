@@ -30,7 +30,7 @@ Fe|10 mg #Iron
 ## VITAMINS ##
 ##############
 VitA|900 μg
-#VitC
+VitC|90 mg
 VitD|6 μg
 VitE|20 mg #30 IU
 #VitK
@@ -38,10 +38,10 @@ VitE|20 mg #30 IU
 #B2
 #B3
 #B5
-B6|1200 μg
+B6|1.2 mg
 #B7
 #B9
-B12|1mg
+B12|1 mg
 ##############
 ## MINERALS ##
 ##############
@@ -83,7 +83,7 @@ Valine|1800 mg
 #Choline
 EpaDha|600 mg
 Lycopene|15 mg
-LutZea|12 mg
+LutZea|12000 ug
 #Carnitine
 #Lipoic acid
 Inositol|4 g
