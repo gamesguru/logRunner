@@ -56,8 +56,6 @@ namespace logRunner
         public static void Main(string[] args)
         {
             println("...fetching global keys...", ConsoleColor.DarkCyan);
-            if (args.Length == 0)
-                args = File.ReadAllLines($"{root}{sl}args.TXT");
 
             string[] sets = File.ReadAllLines($"{root}{sl}lsettings.ini");
             foreach (string s in sets)
@@ -65,6 +63,8 @@ namespace logRunner
                     printDetail = Convert.ToBoolean(s.Replace("[PrintDetail]", "").Replace("\t", ""));
                 else if (s.StartsWith("[SaveLog]"))
                     saveLog = Convert.ToBoolean(s.Replace("[SaveLog]", "").Replace("\t", ""));
+                else if (s.StartsWith("[Args]") && args.Length < 3)
+                    args = s.Replace("[Args]", "").Replace("\t", "").Split(new string[] { ", " }, StringSplitOptions.RemoveEmptyEntries);
             
             //parses the arguments
             profile.index = Convert.ToInt32(args[0]);
@@ -249,12 +249,12 @@ namespace logRunner
             for (int i = 0; i < spac; i++)
                 prog += " ";
             string pad = "";
-            for (int i = 0; i < (20 - $"[{Math.Round(c, 4)}/{nut.rda.Split(' ')[0]} {nut.unit}".Length); i++)
+            for (int i = 0; i < (20 - $"[{Math.Round(c, 1)}/{nut.rda.Split(' ')[0]} {nut.unit}".Length); i++)
                 pad += " ";
             if (printDetail)
-                prog += $"> {100 * Math.Round(c / r, 3)}% \t[{Math.Round(c, 4)}/{nut.rda.Split(' ')[0]} {nut.unit}{pad} -- {nut.field}] {{{nut.contrib}}}";
+                prog += $"> {100 * Math.Round(c / r, 3)}% \t[{Math.Round(c, 1)}/{nut.rda.Split(' ')[0]} {nut.unit}{pad} -- {nut.field}] {{{nut.contrib}}}";
             else
-                prog += $"> {100 * Math.Round(c / r, 3)}% \t[{Math.Round(c, 4)}/{nut.rda.Split(' ')[0]} {nut.unit}{pad} -- {nut.field}]";
+                prog += $"> {100 * Math.Round(c / r, 3)}% \t[{Math.Round(c, 1)}/{nut.rda.Split(' ')[0]} {nut.unit}{pad} -- {nut.field}]";
             println(prog, color);
             return x;
         }

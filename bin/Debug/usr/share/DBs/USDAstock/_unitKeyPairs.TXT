@@ -18,6 +18,7 @@ VIT.TXT|mg
 THI.TXT|mg
 RIB.TXT|mg
 NIA.TXT|mg
+PAN.TXT|mg
 VIT25.TXT|mg
 FOL.TXT|µg
 FOL27.TXT|µg

@@ -1,3 +1,0 @@
-0
-/media/shane/RaptorWS/MonoProjects/Nutritracker/Nutritracker/bin/Debug/logRunner.TXT
-01-06-2018
