@@ -13,7 +13,8 @@ namespace logRunner
 
         static bool printDetail = false;
         static bool saveLog = false;
-
+        static string[] profData;
+        
         public static class profile
         {
             public static string name;
@@ -35,9 +36,7 @@ namespace logRunner
             public string name;
             public int index;
             public double grams;
-        }
-        
-
+        }      
 
         static Dictionary<string, string[]> usdaFileNameLinePairs;
         static string usdaroot;
@@ -48,14 +47,12 @@ namespace logRunner
         static string[] ndbnos;
 
         static List<_nutrient> nutrients = new List<_nutrient>();
-        static List<string> dates = new List<string>();
 
         static string outputLogFile;
         #endregion
 
         public static void Main(string[] args)
         {
-            println("...fetching global keys...", ConsoleColor.DarkCyan);
 
             string[] sets = File.ReadAllLines($"{root}{sl}lsettings.ini");
             foreach (string s in sets)
@@ -65,7 +62,11 @@ namespace logRunner
                     saveLog = Convert.ToBoolean(s.Replace("[SaveLog]", "").Replace("\t", ""));
                 else if (s.StartsWith("[Args]") && args.Length < 3)
                     args = s.Replace("[Args]", "").Replace("\t", "").Split(new string[] { ", " }, StringSplitOptions.RemoveEmptyEntries);
-            
+
+            println("Settings:", ConsoleColor.Green);            
+			println(string.Join("\n", sets));
+			println("\n\n...fetching global keys...", ConsoleColor.DarkRed);
+   
             //parses the arguments
             profile.index = Convert.ToInt32(args[0]);
             outputLogFile = args[1];
@@ -73,7 +74,7 @@ namespace logRunner
             usdaNutKeyLines = File.ReadAllLines($"{usdaroot}_nutKeyPairs.TXT");
             root = $"{root}{sl}usr{sl}profile{profile.index}{sl}"; //sets to user root
 
-            string[] profData = File.ReadAllLines($"{root}profile.TXT");
+            profData = File.ReadAllLines($"{root}profile.TXT");
             activeFieldsLines = File.ReadAllLines($"{root}activeFields.TXT");
             profile.name = profData[0];
 
@@ -85,8 +86,7 @@ namespace logRunner
                     n.field = s.Split('#')[0].Trim().Split('|')[0];
                     n.rda = s.Split('#')[0].Trim().Split('|')[1];
                     nutrients.Add(n);
-                }
-            
+                }            
 
             foreach (string s in usdaNutKeyLines)
             {
@@ -96,7 +96,8 @@ namespace logRunner
                     if (n.field == s.Split('|')[1])
                         n.fileName = s.Split('|')[0];
             }
-            println("...reading in USDAstock...", ConsoleColor.DarkCyan);
+            println("...reading in USDAstock...", ConsoleColor.DarkRed);
+            print("\nCurrent user: ");
             println(profile.name, ConsoleColor.Green);
 
             //compares against usda fields
@@ -118,11 +119,14 @@ namespace logRunner
             foreach (string s in fields)
                 foreach (string st in usdaNutKeyLines)
                     if (st.Split('|')[1] == s)
-                    {
-                        string[] lines = File.ReadAllLines($"{usdaroot}{st.Split('|')[0]}");
-                        usdaFileNameLinePairs.Add(st.Split('|')[0], lines);
-                    }
+                        usdaFileNameLinePairs.Add(st.Split('|')[0], File.ReadAllLines($"{usdaroot}{st.Split('|')[0]}"));
+                    
+            //outputs the legend        
             println();
+            //println("warn", ConsoleColor.Yellow);
+            //println("crit", ConsoleColor.DarkRed);
+            //println("ideal", ConsoleColor.Blue);
+            //println("over", ConsoleColor.DarkBlue);
 
             //loops thru dates, reads in the user foodlog and computes results
             for (int i = 2; i < args.Length; i++)
@@ -140,9 +144,12 @@ namespace logRunner
             if (saveLog){
                 Directory.CreateDirectory(Path.GetDirectoryName(outputLogFile));
 				File.WriteAllLines(outputLogFile, outputLog);
+                Console.Write("Log saved to ");
+                println(outputLogFile, ConsoleColor.Cyan);
             }
             println("press any key to exit...");
             Console.ReadKey();
+            Console.WriteLine();
         }
 
         #region printp and printLog
@@ -180,7 +187,7 @@ namespace logRunner
                     println($"{f.name} ({f.grams} g)");
                     todaysFood.Add(f);
                 }
-
+            println($"\n{profData[0]}'s NUTRITION DETAIL REPORT {date}\n", ConsoleColor.Green);
             //performs piecemeal addition
             foreach (_nutrient n in nuts)
             {
@@ -223,8 +230,8 @@ namespace logRunner
             }
             double x = c / r;
             ConsoleColor color = ConsoleColor.Blue;
-			if (x > 2.2)            
-				color = ConsoleColor.DarkBlue;
+			if (x > 1.9)            
+				color = ConsoleColor.DarkGray;
             if (x > 1.0)
                 x = 1.0;
             
