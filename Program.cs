@@ -139,8 +139,10 @@ namespace logRunner
                 foreach (_nutrient n in nutrients)
                     n.consumed = 0;
             }
-            if (saveLog)
-                File.WriteAllLines(outputLogFile, outputLog);
+            if (saveLog){
+                Directory.CreateDirectory(Path.GetDirectoryName(outputLogFile));
+				File.WriteAllLines(outputLogFile, outputLog);
+            }
             println("press any key to exit...");
             Console.ReadKey();
         }
@@ -227,11 +229,11 @@ namespace logRunner
             }
             double x = c / r;
             ConsoleColor color = ConsoleColor.Blue;
+			if (x > 2.2)            
+				color = ConsoleColor.DarkBlue;
             if (x > 1.0)
-            {
                 x = 1.0;
-                color = ConsoleColor.DarkMagenta;
-            }
+            
             else if (x < 0.7 && x > 0.5)
                 color = ConsoleColor.Yellow;
             else if (x <= 0.5)

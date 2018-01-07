@@ -33,15 +33,15 @@ VitA|900 μg
 VitC|80 mg
 VitD|6 μg
 VitE|20 mg #30 IU
-VitK|0.13 mg
+VitK|130 ug
 B1|1.1 mg
 B2|1.2 mg
 B3|20 mg
 B5|5 mg
 B6|1.2 mg
 B7|0.3 mg
-B9|0.4 mg
-B12|1 mg
+B9|400 ug
+B12|2.4 ug
 ##############
 ## MINERALS ##
 ##############
@@ -82,10 +82,10 @@ Valine|1800 mg
 ##########
 #Choline
 EpaDha|600 mg
-Lycopene|15 mg
-LutZea|12000 ug
+Lycopene|3000 ug
+LutZea|7000 ug
 #Carnitine
-#Lipoic acid
+#LipoicAcid
 Inositol|4 g
 ##################
 ## USER-DEFINED ##

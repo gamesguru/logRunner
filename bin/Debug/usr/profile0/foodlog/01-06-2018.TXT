@@ -1,7 +1,10 @@
 --Breakfast--
-USDAstock|20137|175
-USDAstock|11510|125
-USDAstock|11251|85
-USDAstock|11124|100
+USDAstock|13047|100
+USDAstock|01270|28
+USDAstock|09038|55
+USDAstock|11251|20
+USDAstock|11529|35
+USDAstock|11282|15
+USDAstock|11356|125
 --Lunch--
 --Dinner--
