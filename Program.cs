@@ -71,7 +71,7 @@ namespace logRunner
             outputLogFile = args[1];
             usdaroot = $"{root}{sl}usr{sl}share{sl}DBs{sl}USDAstock{sl}";
             usdaNutKeyLines = File.ReadAllLines($"{usdaroot}_nutKeyPairs.TXT");
-            root = $"{root}{sl}usr{sl}profile{profile.index}{sl}";
+            root = $"{root}{sl}usr{sl}profile{profile.index}{sl}"; //sets to user root
 
             string[] profData = File.ReadAllLines($"{root}profile.TXT");
             activeFieldsLines = File.ReadAllLines($"{root}activeFields.TXT");
@@ -79,16 +79,14 @@ namespace logRunner
 
             //grabs the active nutrients
             foreach (string s in activeFieldsLines)
-            {
-                string leading = s.Split('#')[0].Trim();
-                if (leading != "") // && frmMain.activeFields.Contains(leading))
+                if (s.Split('#')[0].Trim() != "")
                 {
                     _nutrient n = new _nutrient();
-                    n.field = leading.Split('|')[0];
-                    n.rda = leading.Split('|')[1];
+                    n.field = s.Split('#')[0].Trim().Split('|')[0];
+                    n.rda = s.Split('#')[0].Trim().Split('|')[1];
                     nutrients.Add(n);
                 }
-            }
+            
 
             foreach (string s in usdaNutKeyLines)
             {
@@ -151,14 +149,10 @@ namespace logRunner
         private static void printLog(string date, List<_nutrient> nuts)
         {
             //breaks up by date
-            println("==========", ConsoleColor.DarkCyan);
-            println(date, ConsoleColor.DarkCyan);
-            println("==========", ConsoleColor.DarkCyan);
-            
-            string[] foodDayLines = File.ReadAllLines($"{root}foodlog{sl}{date}.TXT");
-            
+            println($"==========\n{date}\n==========", ConsoleColor.DarkCyan);           
 
             //preps the calculation
+            string[] foodDayLines = File.ReadAllLines($"{root}foodlog{sl}{date}.TXT");
             string nameFile = "";
             foreach (string s in usdaNutKeyLines)
                 if (s.Split('|')[1] == "FoodName")
@@ -213,7 +207,7 @@ namespace logRunner
             println();
         }
 
-        private static double printp(_nutrient nut)//(string consumed, string rda)
+        private static double printp(_nutrient nut)
         {
             double c = 0;
             double r = 1;
