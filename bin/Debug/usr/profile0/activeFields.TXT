@@ -98,41 +98,41 @@ Oxalates|200 mg
 #############################
 ## EXTENDED FLAVONOID USDA ##
 #############################
-Cyanidin|180 mg
+Cyanidin|20 mg
 #Petunidin
 #Delphinidin 
 #Malvidin
 #Pelargonidin
 #Peonidin
-(+)-Catechin|80 mg
-(-)-Epigallocatechin|120 mg
-(-)-Epicatechin|120 mg
-(-)-Epicatechin_3-gallate|180 mg
-(-)-Epigallocatechin_3-gallate|280 mg
+(+)-Catechin|40 mg
+(-)-Epigallocatechin|40 mg
+(-)-Epicatechin|40 mg
+(-)-Epicatechin_3-gallate|40 mg
+(-)-Epigallocatechin_3-gallate|60 mg
 #Theaflavin
 #Thearubigins
 #Eriodictyol
-Hesperetin|120mg
-Naringenin|100mg
-Apigenin|40 mg
-Luteolin|40 mg
-Isorhamnetin|40 mg
-Kaempferol|60 mg
-Myricetin|80 mg
-Quercetin|90 mg
+Hesperetin|80 mg
+Naringenin|60 mg
+Apigenin|30 mg
+Luteolin|20 mg
+Isorhamnetin|5 mg
+Kaempferol|5 mg
+Myricetin|2 mg
+Quercetin|20 mg
 #Theaflavin-3,3'-digallate
 #Theaflavin-3'-gallate
 #Theaflavin-3-gallate
 #(+)-Gallocatechin
-Daidzein|60 mg
-Genistein|80 mg
+Daidzein|30 mg
+Genistein|15 mg
 #Glycitein
-Total_isoflavones|180 mg
+Total_isoflavones|45 mg
 #Biochanin_A
 #Formononetin
-#Coumestrol|80 mg
-#Proanthocyanidin_dimers|40 mg
-Proanthocyanidin_trimers|40 mg
-Proanthocyanidin_4-6mers|60 mg
-Proanthocyanidin_7-10mers|60 mg
-#Proanthocyanidin_polymers_(>10mers)|80 mg
+#Coumestrol|20 mg
+Proanthocyanidin_dimers|10 mg
+Proanthocyanidin_trimers|5 mg
+Proanthocyanidin_4-6mers|5 mg
+Proanthocyanidin_7-10mers|2 mg
+Proanthocyanidin_polymers_(>10mers)|1 mg

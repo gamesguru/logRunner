@@ -9,6 +9,7 @@ namespace logRunner
     {
         #region pub decs
         static string root = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+        static string rootSpare = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
         static string sl = Path.DirectorySeparatorChar.ToString();
 
         static bool printDetail = false;
@@ -35,6 +36,7 @@ namespace logRunner
             public string ndbno;
             public string name;
             public int index;
+            public List<int> indices;
             public double grams;
         }      
 
@@ -103,10 +105,16 @@ namespace logRunner
             //compares against usda fields
             fields = new List<string>();
             for (int i = 0; i < nutrients.Count; i++)
+            {
                 foreach (string s in usdaNutKeyLines)
                     if (s.Split('|')[1] == nutrients[i].field)
                         fields.Add(nutrients[i].field);
-            
+                foreach (string s in Directory.GetDirectories($"{rootSpare}{sl}usr{sl}share{sl}_rel_USDAstock"))
+                    if (!s.Split(Path.DirectorySeparatorChar)[s.Split(Path.DirectorySeparatorChar).Length - 1].StartsWith("_"))
+                        foreach (string st in File.ReadAllLines($"{s}{sl}_dbInfo.TXT"))
+                            if (st.StartsWith("[Field]"))
+                                fields.Add(st.Replace("[Field]", ""));                
+            }
             //grabs only active fields
             List<_nutrient> newNutrients = new List<_nutrient>();
             foreach (_nutrient n in nutrients)
@@ -156,7 +164,7 @@ namespace logRunner
         private static void printLog(string date, List<_nutrient> nuts)
         {
             //breaks up by date
-            println($"==========\n{date}\n==========", ConsoleColor.DarkCyan);           
+            println($"==========\n{date}\n==========", ConsoleColor.DarkCyan);
 
             //preps the calculation
             string[] foodDayLines = File.ReadAllLines($"{root}foodlog{sl}{date}.TXT");
@@ -193,21 +201,52 @@ namespace logRunner
             {
                 string[] unitLines = File.ReadAllLines($"{usdaroot}_unitKeyPairs.TXT");
                 foreach (string s in unitLines)
-                    if (s.StartsWith(n.fileName))
+                    if (n.fileName != null && s.StartsWith(n.fileName))
                     {
                         n.unit = s.Split('|')[1];
                         break;
                     }
-                string[] nutValLines = usdaFileNameLinePairs[n.fileName];
-
-                //performs the addition
-                foreach (_foodObj f in todaysFood)
+                //usda specific.. :(
+                try
                 {
-                    try { n.consumed += Convert.ToDouble(nutValLines[f.index]) * f.grams * 0.01; }
-                    catch (Exception e) { printE(e); }
-                    n.contrib += $"{Math.Round(n.consumed, 3)}, ";
+                    string[] nutValLines = usdaFileNameLinePairs[n.fileName];
+
+                    //performs the addition
+                    foreach (_foodObj f in todaysFood)
+                    {
+                        try { n.consumed += Convert.ToDouble(nutValLines[f.index]) * f.grams * 0.01; }
+                        catch (Exception e) { printE(e); }
+                        n.contrib += $"{Math.Round(n.consumed, 3)}, ";
+                    }
                 }
-                
+                catch { }
+
+                //rel - multi
+                foreach (_foodObj f in todaysFood)
+                    try
+                    {
+                        foreach (string s in Directory.GetDirectories($"{rootSpare}{sl}usr{sl}share{sl}_rel_USDAstock"))
+                            if (!s.Split(Path.DirectorySeparatorChar)[s.Split(Path.DirectorySeparatorChar).Length - 1].StartsWith("_"))
+                            {
+                                foreach (string st in File.ReadAllLines($"{s}{sl}_dbInfo.TXT"))
+                                    if (st.StartsWith("[Field]"))
+                                        fields.Add(st.Replace("[Field]", ""));
+
+                                string[] ndblines = File.ReadAllLines($"{s}{sl}NDB.TXT");
+                                string[] vallines = File.ReadAllLines($"{s}{sl}VAL.TXT");
+                                string[] nutlines = File.ReadAllLines($"{s}{sl}NUT.TXT");
+                                for (int i = 0; i < ndblines.Length; i++)
+                                    if (ndblines[i] == f.ndbno && nutlines[i] == n.field)
+                                    {
+                                        n.consumed += Convert.ToDouble(vallines[i]) * f.grams * 0.01;
+                                        if (printDetail)
+                                            println($"{f.name}//{n.field}//{Convert.ToDouble(vallines[i]) * f.grams * 0.01}");
+                                        break; //this should be okay, as a 1:1 uniqueness is guaranteed
+                                    }
+                            }
+                    }
+                    catch { }
+                    
                 //prints results
                 printp(n);
             }
