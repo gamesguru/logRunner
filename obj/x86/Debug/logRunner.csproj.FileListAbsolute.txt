@@ -3,3 +3,7 @@
 /media/shane/RaptorWS/MonoProjects/logRunner/obj/x86/Debug/logRunner.csproj.CoreCompileInputs.cache
 /media/shane/RaptorWS/MonoProjects/logRunner/obj/x86/Debug/logRunner.exe
 /media/shane/RaptorWS/MonoProjects/logRunner/obj/x86/Debug/logRunner.pdb
+C:\Users\sjaroch\Desktop\home-lib\logRunner\obj\x86\Debug\logRunner.csprojResolveAssemblyReference.cache
+C:\Users\sjaroch\Desktop\home-lib\logRunner\obj\x86\Debug\logRunner.csproj.CoreCompileInputs.cache
+C:\Users\sjaroch\Desktop\home-lib\logRunner\obj\x86\Debug\logRunner.exe
+C:\Users\sjaroch\Desktop\home-lib\logRunner\obj\x86\Debug\logRunner.pdb

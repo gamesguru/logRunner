@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Diagnostics;
@@ -36,13 +36,23 @@ namespace logRunner
             public string ndbno;
             public string name;
             public int index;
-            public List<int> indices;
+            //public List<int> indices;
             public double grams;
-        }      
+        }   
+        
+        public class _relDB
+        {
+            public string path;
+            public string[] ndbLines;
+            public string[] valLines;
+            public string[] nutLines;
+            //key-name dictionary? performance issues?
+        }
 
         static Dictionary<string, string[]> usdaFileNameLinePairs;
         static string usdaroot;
         static List<string> fields;
+        static List<_relDB> relDBs = new List<_relDB>();
 
         static string[] activeFieldsLines;
         static string[] usdaNutKeyLines;
@@ -197,16 +207,16 @@ namespace logRunner
                 }
             println($"\n{profData[0]}'s NUTRITION DETAIL REPORT {date}\n", ConsoleColor.Green);
             //performs piecemeal addition
+            //usda specific.. :(
+            string[] unitLines = File.ReadAllLines($"{usdaroot}_unitKeyPairs.TXT");
             foreach (_nutrient n in nuts)
             {
-                string[] unitLines = File.ReadAllLines($"{usdaroot}_unitKeyPairs.TXT");
                 foreach (string s in unitLines)
                     if (n.fileName != null && s.StartsWith(n.fileName))
                     {
                         n.unit = s.Split('|')[1];
                         break;
                     }
-                //usda specific.. :(
                 try
                 {
                     string[] nutValLines = usdaFileNameLinePairs[n.fileName];
@@ -220,36 +230,43 @@ namespace logRunner
                     }
                 }
                 catch { }
+				}
 
-                //rel - multi
+            //rel - multi
+            foreach (_nutrient n in nuts)
+            {
+                foreach (string s in Directory.GetDirectories($"{rootSpare}{sl}usr{sl}share{sl}_rel_USDAstock"))
+                    if (!s.Split(Path.DirectorySeparatorChar)[s.Split(Path.DirectorySeparatorChar).Length - 1].StartsWith("_"))
+                    {
+                        _relDB r = new _relDB();
+                        r.path = s;
+                        r.ndbLines = File.ReadAllLines($"{s}{sl}NDB.TXT");
+                        r.valLines = File.ReadAllLines($"{s}{sl}VAL.TXT");
+                        r.nutLines = File.ReadAllLines($"{s}{sl}NUT.TXT");
+                        foreach (string st in File.ReadAllLines($"{s}{sl}_dbInfo.TXT"))
+                            if (st.StartsWith("[Field]"))
+                                fields.Add(st.Replace("[Field]", ""));
+                    }
+
                 foreach (_foodObj f in todaysFood)
                     try
                     {
-                        foreach (string s in Directory.GetDirectories($"{rootSpare}{sl}usr{sl}share{sl}_rel_USDAstock"))
-                            if (!s.Split(Path.DirectorySeparatorChar)[s.Split(Path.DirectorySeparatorChar).Length - 1].StartsWith("_"))
+                        for (int i = 0; i < ndblines.Length; i++)
+                            if (ndblines[i] == f.ndbno && nutlines[i] == n.field)
                             {
-                                foreach (string st in File.ReadAllLines($"{s}{sl}_dbInfo.TXT"))
-                                    if (st.StartsWith("[Field]"))
-                                        fields.Add(st.Replace("[Field]", ""));
-
-                                string[] ndblines = File.ReadAllLines($"{s}{sl}NDB.TXT");
-                                string[] vallines = File.ReadAllLines($"{s}{sl}VAL.TXT");
-                                string[] nutlines = File.ReadAllLines($"{s}{sl}NUT.TXT");
-                                for (int i = 0; i < ndblines.Length; i++)
-                                    if (ndblines[i] == f.ndbno && nutlines[i] == n.field)
-                                    {
-                                        n.consumed += Convert.ToDouble(vallines[i]) * f.grams * 0.01;
-                                        if (printDetail)
-                                            println($"{f.name}//{n.field}//{Convert.ToDouble(vallines[i]) * f.grams * 0.01}");
-                                        break; //this should be okay, as a 1:1 uniqueness is guaranteed
-                                    }
+                                n.consumed += Convert.ToDouble(vallines[i]) * f.grams * 0.01;
+                                if (printDetail)
+                                    println($"{f.name}//{n.field}//{Convert.ToDouble(vallines[i]) * f.grams * 0.01}");
+                                break; //this should be okay, as a 1:1 uniqueness is guaranteed
                             }
+
                     }
                     catch { }
-                    
-                //prints results
-                printp(n);
             }
+
+            //prints results
+            foreach (_nutrient n in nutrients)
+                printp(n);
             println();
         }
 
