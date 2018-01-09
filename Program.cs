@@ -15,6 +15,7 @@ namespace logRunner
         static bool printDetail = false;
         static bool saveLog = false;
         static string[] profData;
+        static int insig;
         
         public static class profile
         {
@@ -258,6 +259,7 @@ namespace logRunner
                                     if (printDetail)
                                         println($"{f.name}//{n.field}//{Convert.ToDouble(r.valLines[i]) * f.grams * 0.01}");
                                     n.ext = true;
+                                    n.unit = n.rda.Split(' ')[1];
                                     break; //this should be okay, as each ndb listing (per food) has one specific nutrient input
                                 }
                                 catch (Exception ex) {
@@ -265,20 +267,24 @@ namespace logRunner
                                 }
 
             int m = nuts.Count;
-            List<_nutrient> nuts2 = nuts;
+            List<_nutrient> nuts2 = new List<_nutrient>();
             for (int i = 0; i < m; i++)
                 try
                 {
-                    if (nuts2[i].consumed / Convert.ToDouble(nuts2[i].rda.Split(' ')[0]) < 0.01 && nuts2[i].ext)
-                        nuts2.RemoveAt(i);
-                    else
-                        println(nuts2[i].field + " -- " + nuts2[i].consumed.ToString());
+                    if (nuts[i].consumed / Convert.ToDouble(nuts[i].rda.Split(' ')[0]) > 0.01 || !nuts[i].ext)
+                        nuts2.Add(nuts[i]);
                 }
-                catch { }
+                catch(Exception e) {println(e.ToString()); }
 
             //prints results
             foreach (_nutrient n in nuts2)// nutrients)
                 printp(n);
+            println();
+            println($"...{nuts.Count - nuts2.Count} minor fields with negligible data, they are not reported here...");
+            if (printDetail)
+                foreach (_nutrient n in nuts)
+                    if (!nuts2.Contains(n))
+                        println(n.field);
             println();
         }
 
@@ -320,10 +326,9 @@ namespace logRunner
             string pad = "";
             for (int i = 0; i < (20 - $"[{Math.Round(c, 1)}/{nut.rda.Split(' ')[0]} {nut.unit}".Length); i++)
                 pad += " ";
+            prog += $"> {100 * Math.Round(c / r, 3)}% \t[{Math.Round(c, 1)}/{nut.rda.Split(' ')[0]} {nut.unit}{pad} -- {nut.field}]";
             if (printDetail)
-                prog += $"> {100 * Math.Round(c / r, 3)}% \t[{Math.Round(c, 1)}/{nut.rda.Split(' ')[0]} {nut.unit}{pad} -- {nut.field}] {{{nut.contrib}}}";
-            else
-                prog += $"> {100 * Math.Round(c / r, 3)}% \t[{Math.Round(c, 1)}/{nut.rda.Split(' ')[0]} {nut.unit}{pad} -- {nut.field}]";
+                prog+=$" {{{nut.contrib}}}"; 
             println(prog, color);
             return x;
         }
