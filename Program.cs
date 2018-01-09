@@ -230,39 +230,37 @@ namespace logRunner
                     }
                 }
                 catch { }
-				}
+            }
 
             //rel - multi
+            foreach (string s in Directory.GetDirectories($"{rootSpare}{sl}usr{sl}share{sl}_rel_USDAstock"))
+                if (!s.Split(Path.DirectorySeparatorChar)[s.Split(Path.DirectorySeparatorChar).Length - 1].StartsWith("_"))
+                {
+                    _relDB r = new _relDB();
+                    r.path = s;
+                    r.ndbLines = File.ReadAllLines($"{s}{sl}NDB.TXT");
+                    r.valLines = File.ReadAllLines($"{s}{sl}VAL.TXT");
+                    r.nutLines = File.ReadAllLines($"{s}{sl}NUT.TXT");
+                    relDBs.Add(r);
+                    foreach (string st in File.ReadAllLines($"{s}{sl}_dbInfo.TXT"))
+                        if (st.StartsWith("[Field]") && !fields.Contains(st.Replace("[Field]", "")))
+                            fields.Add(st.Replace("[Field]", ""));
+                }
             foreach (_nutrient n in nuts)
-            {
-                foreach (string s in Directory.GetDirectories($"{rootSpare}{sl}usr{sl}share{sl}_rel_USDAstock"))
-                    if (!s.Split(Path.DirectorySeparatorChar)[s.Split(Path.DirectorySeparatorChar).Length - 1].StartsWith("_"))
-                    {
-                        _relDB r = new _relDB();
-                        r.path = s;
-                        r.ndbLines = File.ReadAllLines($"{s}{sl}NDB.TXT");
-                        r.valLines = File.ReadAllLines($"{s}{sl}VAL.TXT");
-                        r.nutLines = File.ReadAllLines($"{s}{sl}NUT.TXT");
-                        foreach (string st in File.ReadAllLines($"{s}{sl}_dbInfo.TXT"))
-                            if (st.StartsWith("[Field]"))
-                                fields.Add(st.Replace("[Field]", ""));
-                    }
-
                 foreach (_foodObj f in todaysFood)
-                    try
-                    {
-                        for (int i = 0; i < ndblines.Length; i++)
-                            if (ndblines[i] == f.ndbno && nutlines[i] == n.field)
-                            {
-                                n.consumed += Convert.ToDouble(vallines[i]) * f.grams * 0.01;
-                                if (printDetail)
-                                    println($"{f.name}//{n.field}//{Convert.ToDouble(vallines[i]) * f.grams * 0.01}");
-                                break; //this should be okay, as a 1:1 uniqueness is guaranteed
-                            }
+                    foreach (_relDB r in relDBs)
+                        for (int i = 0; i < r.ndbLines.Length; i++)
+                            if (r.ndbLines[i] == f.ndbno && r.nutLines[i] == n.field)                            
+                                try
+                                {
+                                    n.consumed += Convert.ToDouble(r.valLines[i]) * f.grams * 0.01;
+                                    if (printDetail)
+                                        println($"{f.name}//{n.field}//{Convert.ToDouble(r.valLines[i]) * f.grams * 0.01}");
+                                    break; //this should be okay, as each ndb listing (per food) has one specific nutrient input
+                                }
+                                catch { }
+                            
 
-                    }
-                    catch { }
-            }
 
             //prints results
             foreach (_nutrient n in nutrients)
