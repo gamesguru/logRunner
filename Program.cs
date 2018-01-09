@@ -30,6 +30,7 @@ namespace logRunner
             public double consumed = 0;
             public string unit;
 			public string contrib;
+            public bool ext;
         }
 
         public class _foodObj{
@@ -256,14 +257,27 @@ namespace logRunner
                                     n.consumed += Convert.ToDouble(r.valLines[i]) * f.grams * 0.01;
                                     if (printDetail)
                                         println($"{f.name}//{n.field}//{Convert.ToDouble(r.valLines[i]) * f.grams * 0.01}");
+                                    n.ext = true;
                                     break; //this should be okay, as each ndb listing (per food) has one specific nutrient input
                                 }
-                                catch { }
-                            
+                                catch (Exception ex) {
+                                    printE(ex);
+                                }
 
+            int m = nuts.Count;
+            List<_nutrient> nuts2 = nuts;
+            for (int i = 0; i < m; i++)
+                try
+                {
+                    if (nuts2[i].consumed / Convert.ToDouble(nuts2[i].rda.Split(' ')[0]) < 0.01 && nuts2[i].ext)
+                        nuts2.RemoveAt(i);
+                    else
+                        println(nuts2[i].field + " -- " + nuts2[i].consumed.ToString());
+                }
+                catch { }
 
             //prints results
-            foreach (_nutrient n in nutrients)
+            foreach (_nutrient n in nuts2)// nutrients)
                 printp(n);
             println();
         }
