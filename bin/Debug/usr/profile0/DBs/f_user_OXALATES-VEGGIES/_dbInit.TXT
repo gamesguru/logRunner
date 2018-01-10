@@ -1,0 +1,7 @@
+[File]VEG.TXT
+[Header]Vegetable
+
+[File]OXA.TXT
+[Header]Oxalic acid
+[Unit]g Per 100 g
+

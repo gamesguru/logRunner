@@ -1,0 +1,515 @@
+fi002, fi015, fi017, fi023, fi028, fi074, fi100, fi118, fi157, fi277, fi435, fi244, fi266, fi333, fi435, fi465, fi445, UK7-16-154, CIQ12-Nile tilapia, CRY-Tilapia, SR27-15261, WF
+calc. from 091001
+calc. from 091001
+calc. from 091001
+fi015, fi074, fi277, fi244, fi266, fi465, CIQ12-Nile tilapia, 091001, SR27-15261
+calc. from 091002
+calc. from 091002
+calc. from 091002
+fi074, fi244, fi266, 091001, SR27-15261
+calc. from 091003
+calc. from 091003
+calc. from 091003
+fi333, fi367, fi467, 091001, AF2-AAG15, SR27-15261
+calc. from 091004
+calc. from 091004
+calc. from 091004
+fi023, fi028, fi038, fi100, fi118, fi278, fi445, 091001, SR27-15261
+calc. from 091005
+calc. from 091005
+calc. from 091005
+fi100, fi333, 091001, SR27-15261
+calc. from 091006
+calc. from 091006
+calc. from 091006
+fi001, fi002, fi023, fi028, ffi033, i034, fi038, fi046, fi097, fi103, fi118, fi196, fi278, fi280, fi282, fi287, fi288, fi291, fi297, fi298, fi329, fi327, fi355, AF1-AAG24, S1-Catfishes, air-breathing (Clariidae spp), S2-Catfishes, air-breathing (Clariidae spp), S3-Catfishes, air-breathing (Clariidae), S4-Catfishes, air-breathing (Clariidae spp), P6-090383, AF2-AAG22, BD13-09_0070, CH02-121105, FAOY-Catfish fillet, dAA, 091017, 091021
+calc. from 091007
+calc. from 091007
+calc. from 091007
+fi003, fi103, fi199, fi297, fi298, fi329, fi327, fi355, fi367, AF2-AAG22, BD13-09_0070, 091007, dAA, 091017, 091021
+calc. from 091008
+calc. from 091008
+calc. from 091008
+fi001, fi023, fi028, fi034, fi038, fi097, fi118, fi196, fi278, fi280, fi282, fi292, 091007, dAA, 091017, 091021
+calc. from 091009
+calc. from 091009
+calc. from 091009
+fi023, fi028, fi038, fi118, fi196, fi278, 091007, 091009
+calc. from 091010
+calc. from 091010
+calc. from 091010
+fi023, fi028, fi038, fi118, fi196, fi278, 091007, 091009
+calc. from 091011
+calc. from 091011
+calc. from 091011
+fi002, fi046, fi287, fi288, fi291, AF1-AAG24, 091007, 091017, 091021
+calc. from 091012
+calc. from 091012
+calc. from 091012
+fi002, fi288, fi291, AF-AAG24, 091007, 091013
+calc. from 091013
+calc. from 091013
+calc. from 091013
+fi004, fi026, fi110, fi122, fi202, fi105, fi110, fi283, fi284, fi285, fi286, CAN-3036, SR27-15062, DTU-611, SWE-1262, SFK6-Pike, USY-1830, dAA
+calc. from 091014
+calc. from 091014
+calc. from 091014
+fi026, fi110, fi122, fi202, fi283, fi284, fi285, fi286, DTU-611, SWE-1262, 091015, dAA
+calc. from 091015
+calc. from 091015
+calc. from 091015
+fi004, SR27-15062, CAN-3036, 091015, 091016, dAA
+calc. from 091016
+calc. from 091016
+calc. from 091016
+fi120, fi014, fi289, fi290, fi291, fi365, fi366, fi465, SR27-15010/15234
+calc. from 091017
+calc. from 091017
+calc. from 091017
+fi120, fi289, fi291, fi365, fi465, SR27-15234, 091017
+calc. from 091018
+calc. from 091018
+calc. from 091018
+fi289, 091017, 091018, SR27-15234, fi465
+calc. from 091019
+calc. from 091019
+calc. from 091019
+fi120, fi365, fi359, SR27-15010/15234, fi465, 091017
+calc. from 091020
+calc. from 091020
+calc. from 091020
+fi002, fi005, fi012, fi013, fi074, fi244, fi266, fi269, fi279, fi281, fi290, fi463, FAOY-Catfish, fillet, dAA, 091007, 091017
+calc. from 091021
+calc. from 091021
+calc. from 091021
+fi005, fi012, fi013, fi074, fi244, fi266, fi269, 091021, dAA
+calc. from 091022
+calc. from 091022
+calc. from 091022
+091022, 091021, dAA
+calc. from 091023
+calc. from 091023
+calc. from 091023
+fi333, fi362, fi367, fi464, 091021, dAA
+calc. from 091024
+calc. from 091024
+calc. from 091024
+fi463, fi466, fi367, 091021, 091024, dAA
+calc. from 091025
+calc. from 091025
+calc. from 091025
+fi005, fi045, fi074, fi105, fi243, fi244, fi268, fi361, fi443, fi444, fi446, NIFES-Atlantic salmon - farmed (Salmo salar), SR27-15236/15076, UK7-16-360/16-356, DTU-1658/30, USY-2230
+calc. from 091026
+calc. from 091026
+calc. from 091026
+fi005, fi105, fi243, fi244, fi361, fi443, fi444, NIFES-Atlantic salmon - farmed (Salmo salar), SR27-15236, UK7-16-356, DTU-1658, 091026
+calc. from 091027
+calc. from 091027
+calc. from 091027
+fi105, fi244, fi361, fi443, NIFES- Atlantic salmon - farmed (Salmo salar), 091026, 091027
+calc. from 091028
+calc. from 091028
+calc. from 091028
+fi243, 091026,  091027
+calc. from 091029
+calc. from 091029
+calc. from 091029
+fi105, UK7-16-356, 091026, 091027
+calc. from 091030
+calc. from 091030
+calc. from 091030
+fi244, fi444, 091026, 091027
+calc. from 091031
+calc. from 091031
+calc. from 091031
+fi074, fi105, fi443, fi444, SR27-15076, DTU-30, UK7-16-360, 091026
+calc. from 091032
+calc. from 091032
+calc. from 091032
+fi074, fi105, fi443, DTU-30, UK7-16-360, 091026, 091032
+calc. from 091033
+calc. from 091033
+calc. from 091033
+fi444, SR27-15076, 091026, 091032
+calc. from 091034
+calc. from 091034
+calc. from 091034
+fi045, fi105, fi115, fi243, fi269, fi446, fi451, fi453, fi454, fi455, fi457, DTU-1552/1553/998, SWD-1288/1269
+fi269, fi453, fi454, fi455, SWD-1269, DTU-1552/998, 091062
+fi269, DTU-1553, SWD-1288, 091062
+fi454, fi455, fi105, SWD-1269, DTU-998, 091062, 091063
+fi453, fi454, fi455, fi269, DTU-1552, 091062, 091063
+fi018, fi055, fi074, fi099, fi105, fi119, fi120, fi122, fi141, fi154, fi180, fi195, fi244, fi269, fi361, fi438, fi440, fi441, SR27-15240/15115, DK7-0886, NIFES-Rainbow trout - farmed (Onocorhynchus mykiss), CAN-3205/3186, CH02-121130, NZ13-K50, USY-2565, fi472
+calc. from 091035
+calc. from 091035
+calc. from 091035
+fi018, fi055, fi074, fi105, fi119, fi120, fi122, fi154, fi180, fi244, fi361, fi269, fi438, fi440, fi441, NIFES-Rainbow trout - farmed (Onocorhynchus mykiss), SR27-1524, CAN-3186, UK7-16-395, 091035
+calc. from 091036
+calc. from 091036
+calc. from 091036
+fi105, fi154, 091035, 091036
+calc. from 091037
+calc. from 091037
+calc. from 091037
+fi438, fi440, f441, DK7-0886, 091035, 091036
+calc. from 091038
+calc. from 091038
+calc. from 091038
+fi361, NIFES-Rainbow trout - farmed (Onocorhynchus mykiss), 091035, 091036
+calc. from 091039
+calc. from 091039
+calc. from 091039
+fi120, SR27-15240, CAN-3186, 091035, 091036
+calc. from 091040
+calc. from 091040
+calc. from 091040
+fi120, fi195, fi141, fi438, SR27-15115, CAN-3205, 091035
+calc. from 091041
+calc. from 091041
+calc. from 091041
+fi055, fi066, fi080, fi045, fi092, fi275, fi276, fi244, DTU-595, dAA
+calc. from 091042
+calc. from 091042
+calc. from 091042
+fi055, fi066, fi080, fi244, fi275, 091042, dAA
+calc. from 091043
+calc. from 091043
+calc. from 091043
+fi045, fi074, fi105, fi122, fi146, fi290, fi243, fi244, fi266, fi361, fi365, fi366, fi437, fi439, fi440, fi441, fi446, NIFES-Cod - wild/farmed - fillet (Gadus morhua), SR27-15015, DTU-72, FAO89
+calc. from 091044
+calc. from 091044
+calc. from 091044
+fi290, fi365, fi366, SR27-15015, 091044
+calc. from 091045
+calc. from 091045
+calc. from 091045
+fi074, fi105, fi122, fi146, fi243, fi244, fi266, fi361, fi365, fi366, fi437, fi439, fi440, fi441, NIFES-Cod - farmed/wild - fillet (Gadus morhua), DTU-72, 091044
+calc. from 091046
+calc. from 091046
+calc. from 091046
+fi074, fi105, fi122, fi146, fi244, fi266, fi243, fi439, fi440, fi441, NIFES-Cod - wild - fillet (Gadus morhua), 091044
+calc. from 091047
+calc. from 091047
+calc. from 091047
+fi074, fi105, fi122, fi146, fi243, fi244, fi266, fi440, fi441, 091044, 091047
+calc. from 091048
+calc. from 091048
+calc. from 091048
+fi243, 091044, 091047
+calc. from 091049
+calc. from 091049
+calc. from 091049
+fi290, fi361, fi243, NIFES-Cod - farmed - fillet (Gadus morhua), 091044
+calc. from 091050
+calc. from 091050
+calc. from 091050
+fi361, NIFES-Cod - farmed - fillet (Gadus morhua), 091044
+calc. from 091051
+calc. from 091051
+calc. from 091051
+fi030, fi125, fi156, fi195, fi290, SR27-15268/15019, CAN-3196, USY-889
+calc. from 091052
+calc. from 091052
+calc. from 091052
+fi030, fi125, fi156, fi195, fi290, 091052
+calc. from 091053
+calc. from 091053
+calc. from 091053
+SR27-15268, 091052
+calc. from 091054
+calc. from 091054
+calc. from 091054
+SR27-15019, 091052
+calc. from 091055
+calc. from 091055
+calc. from 091055
+fi009, fi034, fi045, fi048, fi070, fi080, fi136, fi244, fi266, fi269, fi471, dAA
+calc. from 091056
+calc. from 091056
+calc. from 091056
+fi048, fi070, fi080, fi244, 091056, dAA
+calc. from 091057
+calc. from 091057
+calc. from 091057
+fi009, fi070, fi136, fi244, fi266, fi269, 091056
+calc. from 091058
+calc. from 091058
+calc. from 091058
+fi003, fi055, fi072, fi073, fi080, fi082, fi089, fi105, fi131, fi173, fi244, NIFES-Horse mackerel (Trachurus trachurus), dAA
+calc. from 091059
+calc. from 091059
+calc. from 091059
+fi003, fi055, fi072, fi089, fi105, fi131, fi244, NIFES-Horse mackerel (Trachurus trachurus), 091059, dAA
+calc. from 091060
+calc. from 091060
+calc. from 091060
+fi072, fi073, fi080, fi082, fi089, fi105, fi173, fi244, 091059, dAA
+calc. from 091061
+calc. from 091061
+calc. from 091061
+fi120, fi228, CH02-122116, SR27-15242/15145, UK7-16-235, S1/S2/S3/S4-Crayfish (Miscellaneous spp), USY-969, dAA
+calc. from 092001
+calc. from 092001
+calc. from 092001
+fi120, fi228, SR27-15145, 092001, dAA
+calc. from 092002
+calc. from 092002
+calc. from 092002
+fi120, SR27-15242, 092001, dAA
+calc. from 092003
+calc. from 092003
+calc. from 092003
+fi046, fi189, fi199, fi205, fi245, fi327, fi329, fi354, fi355, fi367, fi446, CH02-122110/122112/122107/122108/122109, AF2-AAG105/AAG283, UK6-16-238, SR27-15149, USY-2331
+calc. from 092004
+calc. from 092004
+calc. from 092004
+fi046, fi199, fi205, fi327, fi329, fi354, fi355, fi367, AF2-AAG105/AAG283, CH02-122110/122112, AF1-AAG104, 092004
+calc. from 092005
+calc. from 092005
+calc. from 092005
+fi354, fi367, 092005, 092004
+calc. from 092006
+calc. from 092006
+calc. from 092006
+fi205, fi327, fi329, fi354, AF1-AAG104, AF2-AAG283, 092005, 092004
+calc. from 092007
+calc. from 092007
+calc. from 092007
+fi195, S1-Dungeness crab, S2-Jonah crab, SR27-15143, NZ13-T15, dAA
+calc. from 092008
+calc. from 092008
+calc. from 092008
+fi195, S1-Dungeness crab, SR27-15143, dAA, USY-949, 092008
+calc. from 092009
+calc. from 092009
+calc. from 092009
+NZ13-T15, 092008, dAA
+calc. from 092010
+calc. from 092010
+calc. from 092010
+fi165, S2-Tanner crabs, SR27-15144, dAA
+calc. from 092011
+calc. from 092011
+calc. from 092011
+fi155, fi164, fi175, fi219, fi221, S1/S2-Callinectus sapidus/Neptunnis spp./Scylia serrata, SR27-15139, CH02-123001/123003/123004/123005, AF1-AAG37, AF2-AAG40, 092014
+calc. from 092012
+calc. from 092012
+calc. from 092012
+fi221, S1-Callinectus sapidus, S2-Callinectus sapidus, SR27-15137, 092012, 092014
+calc. from 092013
+calc. from 092013
+calc. from 092013
+fi155, fi175, fi219, fi221, AF1-AAG37, 092012, dAA
+calc. from 092014
+calc. from 092014
+calc. from 092014
+fi155, CH02-123003/123005, S1-Scylia serrata, S2-Scylia serrata, AF2-AAG40, 092012, 092014
+calc. from 092015
+calc. from 092015
+calc. from 092015
+fi045, fi080, fi159, fi162, fi190, 202, fi220, fi232, fi243, AF1-AAG73, SR27-15147, B02-Lobster boiled, 092019
+calc. from 092016
+calc. from 092016
+calc. from 092016
+fi159, fi190, 092016, 092019
+calc. from 092017
+calc. from 092017
+calc. from 092017
+fi045, fi159, fi190, 092016, 092019
+calc. from 092018
+calc. from 092018
+calc. from 092018
+fi080, fi162, fi202, fi220, fi232, fi243, 092016, dAa
+calc. from 092019
+calc. from 092019
+calc. from 092019
+fi065, fi202, fi232, fi429, CH02-122111/122114, S1-Lobster, SR27-15154, NZ13-T2, B02-Lobster boiled, dAA
+calc. from 092020
+calc. from 092020
+calc. from 092020
+fi429, NZ13-T2, 092020, dAA
+calc. from 092021
+calc. from 092021
+calc. from 092021
+fi165, fi195, S1/S2-King crab, SR27-15136, USY-969, dAA
+calc. from 092022
+calc. from 092022
+calc. from 092022
+fi165, fi195, S1-King crab, S2-King crab, SR27-15136, 092022, dAA
+calc. from 092023
+calc. from 092023
+calc. from 092023
+fi206, fi268, dAA
+calc. from 092024
+calc. from 092024
+calc. from 092024
+fi156, fi171, fi195, fi266, S1-Shrimp (Miscellaneous spp), S3-Shrimp (Miscellaneous spp), 092026, dAA
+calc. from 092025
+calc. from 092025
+calc. from 092025
+fi171, fi195, fi266, 092025, FAO89-Northern prawn, dAA
+calc. from 092026
+calc. from 092026
+calc. from 092026
+fi088, fi155, fi168, fi170, fi171, fi172, fi185, fi189, fi202, fi205, fi220, fi232, fi233, fi238, fi239,  fi268, fi269, fi329, fi338, fi344, fi345, fi367, fi429, fi430, CH02-122102/122106/122103/122105/122101, S1/S3-Prawns (Miscellaneous spp), AF2-AAG282, NZ13-T1028, FAO89-Penaeus shrimps, dAA
+calc. from 092027
+calc. from 092027
+calc. from 092027
+fi429, 092027
+calc. from 092028
+calc. from 092028
+calc. from 092028
+fi429, 092027
+calc. from 092029
+calc. from 092029
+calc. from 092029
+fi155, fi172, fi239, fi329, fi344, fi367, 092027, dAA
+calc. from 092030
+calc. from 092030
+calc. from 092030
+fi429, 092027
+calc. from 092031
+calc. from 092031
+calc. from 092031
+fi429, 092027
+calc. from 092032
+calc. from 092032
+calc. from 092032
+fi429, 092027
+calc. from 092033
+calc. from 092033
+calc. from 092033
+fi248, fi338, fi430, fi170, fi155, fi329, fi238, CH02-122102/122106, 092027
+calc. from 092034
+calc. from 092034
+calc. from 092034
+fi170, fi430, 092027, 092034
+calc. from 092035
+calc. from 092035
+calc. from 092035
+fi172, fi239, 092027, dAA
+calc. from 092036
+calc. from 092036
+calc. from 092036
+fi170, fi269, 092027
+calc. from 092037
+calc. from 092037
+calc. from 092037
+AF1-AAG131, NZ10-T45, USY-2331, dAA
+calc. from 092038
+calc. from 092038
+calc. from 092038
+fi195, fi204, fi429, CH02-124101, NZ13-T10, AF1-AAG122, SR27-15155, USY-1, dAA
+calc. from 093001
+calc. from 093001
+fi235, fi240, dAA
+calc. from 093002
+calc. from 093002
+fi235, dAA
+calc. from 093003
+calc. from 093003
+fi240, 093002, dAA
+calc. from 093004
+calc. from 093004
+fi120, fi156, fi174, fi177, fi193, fi195, fi203, fi226, fi230, fi244, fi429, SR27-15171/15167/15245, NZ13-T8, USY-1620, dAA
+calc. from 093005
+calc. from 093005
+fi156, fi174, fi177, fi226, fi230, fi244, SR27-15171, NZ13-T8, 093005, dAA
+calc. from 093006
+calc. from 093006
+fi174, fi226, 093006, 093005, dAA
+calc. from 093007
+calc. from 093007
+fi193, fi203, 093005, dAA
+calc. from 093008
+calc. from 093008
+fi120, SR27-15245/15167, 093005, dAA
+calc. from 093009
+calc. from 093009
+fi120, SR27-15245, 093005, 093009, dAA
+calc. from 093010
+calc. from 093010
+fi120, SR27-15167, 093005, 093009, dAA
+calc. from 093011
+calc. from 093011
+fi195,fi268, fi429, CH02-124108/124109, AF2-AAG95, NZ13-T6, UK7-16260, dAA, USY-1620
+calc. from 093012
+calc. from 093012
+fi268, UK7-16-260, 093012, dAA
+calc. from 093013
+calc. from 093013
+fi080, fi169, fi173, fi198, fi203, fi230, CH02-124115, DK7-2864, SR27-15164, UK7-16-497, 093020, USY-1530, dAA
+calc. from 093014
+calc. from 093014
+fi198, fi230, 093014, dAA
+calc. from 093015
+calc. from 093015
+CH02-124115, DK7-2864, SR27-15164, UK7-16-497, 093014, dAA
+calc. from 093016
+calc. from 093016
+fi080, fi169, fi173, 093014, dAA
+calc. from 093017
+calc. from 093017
+fi080, fi173, 093014, 093017, dAA
+calc. from 093018
+calc. from 093018
+fi169, 093014, 093017, dAA
+calc. from 093019
+calc. from 093019
+fi203, fi209, AF2-AAG255, NZ13-T1024, 093014, 093021, USY-1530
+calc. from 093020
+calc. from 093020
+NZ13-T1024, 093020
+calc. from 093021
+calc. from 093021
+fi209, AF2-AAG255, 093020, 093021
+calc. from 093022
+calc. from 093022
+fi045, fi177, fi202, fi227, fi230, fi244, fi266 CH02-124111/124113, SR27-15172, NZ13-T11/T30 , AF2-AAG3, TRS46
+calc. from 093023
+calc. from 093023
+fi045, fi244, fi266, 093023
+calc. from 093024
+calc. from 093024
+fi158, fi177, fi181, fi192, fi195, fi215, fi234, fi230, fi236, AF1-AAG246, CH02-124202 NZ13-T1, AF2-AAG250, USY-868, dAA
+calc. from 093025
+calc. from 093025
+fi158, fi192, fi215, 093025, dAA
+calc. from 093026
+calc. from 093026
+fi045, fi080, fi155, fi173, fi177, fi149, fi182, fi202, fi225, fi241, CH02-129010, AF2-AAG202, AF1-AAG205, SR27-15175, UK6-16264, UK7-16263, USY-2471, dAA
+calc. from 093027
+calc. from 093027
+calc. from 093027
+fi045, fi080, fi173, fi202, fi225, fi241, UK6-16264, UK7-16263, 093027, dAA
+calc. from 093028
+calc. from 093028
+calc. from 093028
+fi045, fi080, fi173, fi202, fi225, 093027, 093028, dAA
+calc. from 093029
+calc. from 093029
+calc. from 093029
+fi045, fi080, fi178, fi195, fi202, fi225, fi241, CH02-129012, DK7-0019, SR27-15166 UK7-16-259, FAO89, dAA
+calc. from 093030
+calc. from 093030
+calc. from 093030
+fi045, fi080, fi178, fi202, fi241, CH02-129012, SR27-15166 UK7-16-259, 093030, dAA
+calc. from 093031
+calc. from 093031
+calc. from 093031
+ fi080, fi178, fi202, fi225, 093031, 093030, dAA
+calc. from 093032
+calc. from 093032
+calc. from 093032
+fi080, fi194, fi202, NZ13-T13, USY-2471, dAA
+calc. from 093033
+calc. from 093033
+calc. from 093033
+fi045, fi065, fi080, fi088, fi155, fi202, fi210, fi225, fi241, CH02-129006, AF2-AAG42, UK7-16-254, USY-2471, dAA
+calc. from 093034
+calc. from 093034
+calc. from 093034
+fi045, fi065, fi080, fi088, fi202, fi210, fi225, fi241, 093034, dAA
+calc. from 093035
+calc. from 093035
+calc. from 093035

@@ -1,0 +1,177 @@
+VIA001: pu075, pu255, McW/2015 (13-041), USDA/SR28 (16001)
+VIA002: calculated from VIA001
+VIA003: calculated from VIA001
+VSU001: 2E, pu094
+VSU002: calculated from VSU001
+VSU003: calculated from VSU001
+PHV002: pu007, pu008, pu009, pu067, pu106, pu116, pu224, pu225, pu255, pu262, pu265, pu270, pu271, USDA/SR28 (16014)
+PHV013: calculated from PHV002
+PHV014: calculated from PHV002
+PHV009: pu008, pu009, pu225
+PHV027: calculated from PHV009
+PHV028: calculated from PHV009
+VIF001: McW/2015 (13-067), phy1, phy17, pu002, pu003, pu007, pu057, pu143, pu150, pu161, pu162, pu186, pu192, pu194, pu220, pu225, pu228, pu255, pu258, pu259, pu260, pu261, pu277, USDA/SR28 (16052)
+VIF003: calculated from VIF001
+VIF004: calculated from VIF001
+VIF002: pu057
+VIF005: calculated from VIF002
+VIF006: calculated from VIF002
+CIA001: pu057, pu059, pu061, pu062, pu072, pu007, pu008, pu009, pu228, pu237, pu238, pu239, pu241, pu242, pu243, pu244, pu245, pu246, pu247, pu249, pu250, pu255, pu257, pu261, pu262, pu192, pu111, pu140, pu141, pu142, pu143, pu144, pu145, pu148, pu150, pu151, pu152, pu153, pu154, pu155, pu156, pu224, phy1, phy5, phy6, pu093, pu059, pu159, pu161, pu163, McW/2015 (13-076,13-074), USDA/SR28 (16056)
+CIA007: calculated from CIA001
+CIA008: calculated from CIA001
+CIA006: pu057, pu245/pu246/pu247, CIA001
+CIA017: calculated from CIA006
+CIA018: calculated from CIA006
+CIA004: pu239, pu059, pu008, pu009, pu145, CIA001
+CIA013: calculated from CIA004
+CIA014: calculated from CIA004
+CIA005: phy6, pu093, pu155, pu257, pu237, pu062, CIA001
+CIA015: calculated from CIA005
+CIA016: calculated from CIA005
+CIA003: pu057, pu008, pu239, pu242, pu245, pu246, pu247, pu142, pu145, pu151, pu153, pu059, pu161, CIA001
+CIA011: calculated from CIA003
+CIA012: calculated from CIA003
+CIA002: pu057, pu059, pu072, pu008, pu238, pu239, pu242, pu249, pu140, pu142, pu145, pu152, pu153, pu156, McW/2015(13-076), McW/2015(13-074), CIA001
+CIA009: calculated from CIA002
+CIA010: calculated from CIA002
+PHV001: AUSNUT/2011-2013 (13A20122/13A20124), McW/2015 (13-106/13-109), phy1, phy41, phy54, phy6, phy83, pu007, pu002, pu008, pu009, pu050, pu056, pu067, pu070, pu075, pu093, pu103, pu105, pu106, pu109, pu110, pu111, pu112, pu113, pu115, pu116, pu118, pu137, pu150, pu159, pu160, pu161, pu163, pu224, pu225, pu228, pu255, pu261, pu262, pu263, pu265, pu266, pu267, pu268, pu269, pu270, pu271, pu272, pu273, pu274, pu275, pu276, tu3, USDA/SR28 (16014/16016/16019/16022/16024/16027/16030/16032/16035/16037/16040/16042/16045/16047/16049)
+PHV011: calculated from PHV001
+PHV012: calculated from PHV001
+PHV007: pu050, pu111, pu224, pu274
+PHV023: calculated from PHV007
+PHV024: calculated from PHV007
+PHV008: pu008, pu009, pu225, pu255, pu266, pu268
+PHV025: calculated from PHV008
+PHV026: calculated from PHV008
+PHV010: phy6, pu093
+PHV029: calculated from PHV010
+PHV030: calculated from PHV010
+VUN001: 2E, phy57, phy7, phy83, pu010, pu035, pu075, pu081, pu082, pu093, pu132, pu143, pu150, pu160, pu163, pu200, pu201, pu202, pu203, pu204, pu207, pu208, pu209, pu211, pu212, pu214, pu215, pu216, pu217, pu218, pu222, pu224, pu228, pu234, pu235, pu236, pu252, pu255, pu266, USDA/SR28 (16062)
+VUN005: calculated from VUN001
+VUN006: calculated from VUN001
+VUN003: pu203, pu204, pu207, pu211, pu224
+VUN009: calculated from VUN003
+VUN010: calculated from VUN003
+VUN004: pu093, pu201, pu234, pu252
+VUN011: calculated from VUN004
+VUN012: calculated from VUN004
+VUN002: phy57, pu081, pu082, pu132, pu214, pu215, pu217, pu222, pu236
+VUN007: calculated from VUN002
+VUN008: calculated from VUN002
+LAP001: pu062, pu101, pu125, pu136, pu177, pu228, pu252, THAI/2016(0300504), USDA/SR28 (16067)
+LAP002: calculated from LAP001
+LAP003: calculated from LAP001
+PHV003: AUSNUT/2011-2013 (13A20124), McW/2015 (13-109), phy1, phy6, pu070, pu075, pu093, pu118, pu150, pu160, pu163, pu225, pu255, pu262, pu266, pu268, pu272, pu275, pu276, THAI/2016 (0300506), tu3, USDA/SR28 (16030/16032/16035)
+PHV015: calculated from PHV003
+PHV016: calculated from PHV003
+PHV004: AUSNUT/2011-2013 (13A20124), McW/2015 (13-109), phy1, phy6, pu075, pu118, pu150, pu163, pu268, pu272, pu275, pu276, THAI/2016 (0300506), USDA/SR28 (16032/16035)
+PHV017: calculated from PHV004
+PHV018: calculated from PHV004
+LEC007: AUSNUT/2011-2013 (13A20141), pu059, pu255, pu275, pu276, McW/2015 (13-091)
+LEC021: calculated from LEC007
+LEC022: calculated from LEC007
+LEC001: AUSNUT/2011-2013 (13A20141/13A20142), McW/2015 (13-089), phy1, phy5, phy6, phy83, pu002, pu007, pu008, pu057, pu059, pu061, pu072, pu111, pu135, pu137, pu138, pu139, pu143, pu150, pu161, pu163, pu224, pu228, pu232, pu233, pu250, pu255, pu257, pu261, pu262, USDA/SR28 (16069/16144)
+LEC009: calculated from LEC001
+LEC010: calculated from LEC001
+LEC006: phy6, phy83, pu093, pu143, pu161, pu163, pu257
+LEC019: calculated from LEC006
+LEC020: calculated from LEC006
+LEC002: phy83, pu008, pu057, pu059, pu072, pu138, pu139, pu161, pu163, pu232
+LEC011: calculated from LEC002
+LEC012: calculated from LEC002
+LEC004: phy83, pu008, pu059, pu161, pu163, pu232
+LEC015: calculated from LEC004
+LEC016: calculated from LEC004
+LEC003: phy83, pu008, pu057, pu059, pu072, pu139, pu150, pu161, pu163, pu232, USDA/SR28 (16144)
+LEC013: calculated from LEC003
+LEC014: calculated from LEC003
+LEC005: phy83, pu008, pu059,pu161, pu163, pu232
+LEC017: calculated from LEC005
+LEC018: calculated from LEC005
+PHL001: AUSNUT/2011-2013 (13A20127), pu038, pu043, pu049, pu069, pu071, pu163, pu255, pu272, pu275, pu276, pu120, pu123, pu130, pu134, 12pl, phy54, USDA/SR28 (16071/16074)
+PHL002: calculated from PHL001
+PHL003: calculated from PHL001
+LUS001: AUSNUT/2011-2013 (13A20148), pu057, pu161, pu180, pu181, pu183, pu184, pu185, pu186, pu189, pu190, pu191, pu193, pu194, pu195, pu196, pu197, pu224, pu279, pu280, USDA/SR28 (16076)
+LUS007: calculated from LUS001
+LUS002: pu161, pu180, pu183, pu184, pu185, pu189, pu190, pu191, pu193, pu195, pu196, pu197, pu224, pu279, pu280, USDA/SR28 (16076)
+LUS008: calculated from LUS002
+LUS003: pu180, pu183, pu185, pu186, pu190, pu193, pu194, pu195
+LUS009: calculated from LUS003
+LUS004: pu161, pu180, pu183, pu185, pu190, pu194, pu195
+LUS010: calculated from LUS004
+LUS005: pu057
+LUS011: calculated from LUS005
+LUS006: pu180, pu183, pu185, pu190
+LUS012: calculated from LUS006
+VAC001: pu035, pu066, pu093, pu201, pu231, pu278, USDA/SR28 (16078)
+VAC003: calculated from VAC001
+VAC004: calculated from VAC001
+VAC002: pu035, pu066, pu093, pu201, pu231, pu278, USDA/SR28 (16078)
+VAC005: calculated from VAC002
+VAC006: calculated from VAC002
+VIR001: phy2, phy5, phy7, pu005, pu006, pu057, pu062, pu063, pu073, pu074, pu075, pu076, pu093, pu102, pu126, pu144, pu155, pu178, pu227, pu228, pu237, pu253, pu257, THAI/2016 (0300507), USDA/SR28 (16080)
+VIR004: calculated from VIR001
+VIR005: calculated from VIR001
+VIR002: pu057
+VIR006: calculated from VIR002
+VIR007: calculated from VIR002
+VIR003: pu006, pu062, pu063, pu074, pu093, pu102, pu126, pu155, pu227, pu237, pu257
+VIR008: calculated from VIR003
+VIR009: calculated from VIR003
+VIM001: McW/2015 (13-096), pu060, pu061, pu062, pu063, pu093, pu102, pu237, pu253, pu257, THAI/2016 (0300502), USDA/SR28 (16083)
+VIM003: calculated from VIM001
+VIM004: calculated from VIM001
+VIM002: pu062, pu063, pu093, pu102, pu237, pu257
+VIM005: calculated from VIM002
+VIM006: calculated from VIM002
+PHV005: phy54, phy83, pu008, pu163, pu225, pu255, pu261, pu263, pu271, USDA/SR28 (16024/16037/16045/16049)
+PHV019: calculated from PHV005
+PHV020: calculated from PHV005
+PIS008: McW/2015, pu059, pu163, pu275, pu276, USDA/SR28
+PIS025: calculated from PIS008
+PIS026: calculated from PIS008
+PIS001: McW/2015 (13-130), phy1, phy17, pu002, pu007, pu008, pu009, pu057, pu059, pu061, pu072, pu093, pu111, pu137, pu163, pu186, pu194, pu239, pu250, pu253, pu262, pu266, USDA/SR28
+PIS011: calculated from PIS001
+PIS012: calculated from PIS001
+PIS009: pu059, pu275/pu276, pu163, McW/2015 (13-141)
+PIS027: calculated from PIS009
+PIS028: calculated from PIS009
+PIS002: pu057, pu059, pu072, pu008, pu009, pu239, pu255, pu186, pu163
+PIS013: calculated from PIS002
+PIS014: calculated from PIS002
+PIS004: pu057
+PIS017: calculated from PIS004
+PIS018: calculated from PIS004
+PIS006: pu008, pu059, pu239
+PIS021: calculated from PIS006
+PIS022: calculated from PIS006
+PIS010: pu059, pu163, McW/2015 (13-141)
+PIS029: calculated from PIS010
+PIS030: calculated from PIS010
+PIS003: pu008, pu009, pu057, pu072, pu163, pu239
+PIS019: calculated from PIS003
+PIS020: calculated from PIS003
+PIS005: pu057
+PIS017: calculated from PIS005
+PIS018: calculated from PIS005
+PIS007: pu008, pu009, pu059, pu239
+PIS023: calculated from PIS007
+PIS024: calculated from PIS007
+CAC001: 14V, McW/2015 (13-102), phy80, pu084, pu093, pu126, pu128, pu130, pu131, pu132, pu133, pu163, pu218, pu224, pu257, pu272, pu278, tu3, USDA/SR28 (16101)
+CAC004: calculated from CAC001
+CAC005: calculated from CAC001
+CAC003: pu093, pu126, pu257
+CAC008: calculated from CAC003
+CAC009: calculated from CAC003
+CAC002: 14V, pu084, pu128, pu130, pu132, pu133, pu272
+CAC006: calculated from CAC002
+CAC007: calculated from CAC002
+PHV006: McW/2015 (13-106), phy32, pu008, pu049, pu103, pu163, pu225, pu275, pu276, USDA/SR28 (16042)
+PHV021: calculated from PHV006
+PHV022: calculated from PHV006
+VIU001: pu036, pu047, pu051, pu093, pu100, pu101, pu102, pu160
+VIU003: calculated from VIU001
+VIU004: calculated from VIU001
+VIU002: pu036, pu047, pu093, pu100, pu102
+VIU005: calculated from VIU002
+VIU006: calculated from VIU002

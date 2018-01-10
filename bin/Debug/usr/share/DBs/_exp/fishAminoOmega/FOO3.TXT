@@ -1,0 +1,515 @@
+Nile tilapia, fillet, raw (n.s.)
+Nile tilapia, fillet, steamed (n.s.)
+Nile tilapia, fillet, boiled in recipe (n.s.)
+Nile tilapia, fillet, grilled (n.s.)
+Nile tilapia, farmed, fillet, raw (n.s.)
+Nile tilapia, farmed, fillet, steamed (n.s.)
+Nile tilapia, farmed, fillet, boiled in recipe (n.s.)
+Nile tilapia, farmed, fillet, grilled (n.s.)
+Nile tilapia, farmed, fillet w/o skin, raw (China)
+Nile tilapia, farmed, fillet w/o skin, steamed (China)
+Nile tilapia, farmed, fillet w/o skin, boiled in recipe (China)
+Nile tilapia, farmed, fillet w/o skin, grilled (China)
+Nile tilapia, dressed w/ head, raw (Bangladesh)
+Nile tilapia, dressed w/ head, steamed (Bangladesh)
+Nile tilapia, dressed w/ head, boiled in recipe (Bangladesh)
+Nile tilapia, dressed w/ head, grilled (Bangladesh)
+Nile tilapia, wild, fillet w/ bones, raw (Africa)
+Nile tilapia, wild, fillet w/ bones, steamed (Africa)
+Nile tilapia, wild, fillet w/ bones, boiled in recipe (Africa)
+Nile tilapia, wild, fillet w/ bones, grilled (Africa)
+Nile tilapia, wild, dorsal muscle w/o skin, raw
+Nile tilapia, wild, dorsal muscle w/o skin, steamed
+Nile tilapia, wild, dorsal muscle w/o skin, boiled in recipe 
+Nile tilapia, wild, dorsal muscle w/o skin, grilled
+Torpedo-shaped catfishes, raw
+Torpedo-shaped catfishes, boiled
+Torpedo-shaped catfishes, boiled in recipe
+Torpedo-shaped catfishes, baked
+Philippine catfish, whole, raw
+Philippine catfish, whole, boiled♦
+Philippine catfish, whole, boiled in recipe
+Philippine catfish, whole, baked
+North African catfish, fillet, raw (n.s.)
+North African catfish, fillet, boiled♦ (n.s.)
+North African catfish, fillet, boiled in recipe (n.s.)
+North African catfish, fillet, baked (n.s.)
+North African catfish, wild, fillet w/ bones, raw
+North African catfish, wild, fillet w/ bones, boiled♦
+North African catfish, wild, fillet w/ bones, boiled in recipe
+North African catfish, wild, fillet w/ bones, baked
+North African catfish, wild, fillet, raw
+North African catfish, wild, fillet, boiled♦
+North African catfish, wild, fillet, boiled in recipe
+North African catfish, wild, fillet, baked
+Bighead catfish, fillet, raw (ASEAN)
+Bighead catfish, fillet, boiled♦ (ASEAN)
+Bighead catfish, fillet, boiled in recipe (ASEAN)
+Bighead catfish, fillet, baked (ASEAN)
+Bighead catfish, fillet w/ skin, raw (ASEAN)
+Bighead catfish, fillet w/ skin, boiled♦ (ASEAN)
+Bighead catfish, fillet w/ skin, boiled in recipe (ASEAN)
+Bighead catfish, fillet w/ skin, baked (ASEAN)
+Northern pike, fillet w/o skin, raw (n.s.)
+Northern pike, fillet w/o skin, boiled♦ (n.s.)
+Northern pike, fillet w/o skin, boiled in recipe (n.s.)
+Northern pike, fillet w/o skin, baked (n.s.)
+Northern pike, wild, fillet w/o skin, raw (Europe)
+Northern pike, wild, fillet w/o skin, boiled♦ (Europe)
+Northern pike, wild, fillet w/o skin, boiled in recipe (Europe)
+Northern pike, wild, fillet w/o skin, baked (Europe)
+Northern pike, wild, fillet w/o skin, raw (North America)
+Northern pike, wild, fillet w/o skin, boiled♦ (North America)
+Northern pike, wild, fillet w/o skin, boiled in recipe (North America)
+Northern pike, wild, fillet w/o skin, baked (North America)
+Catfish, channel, fillet, raw (n.s.)
+Catfish, channel, fillet, boiled♦ (n.s.)
+Catfish, channel, fillet, boiled in recipe (n.s.)
+Catfish, channel, fillet, baked (n.s.)
+Catfish, channel, farmed, fillet, raw (USA)
+Catfish, channel, farmed, fillet, boiled♦ (USA)
+Catfish, channel, farmed, fillet, boiled in recipe (USA)
+Catfish, channel, farmed, fillet, baked (USA)
+Catfish, channel, farmed, fillet, raw, (previously frozen) (USA)
+Catfish, channel, farmed, fillet, boiled♦, (previously frozen) (USA)
+Catfish, channel, farmed, fillet, boiled in recipe, (previously frozen) (USA)
+Catfish, channel, farmed, fillet, baked, (previously frozen) (USA)
+Catfish, channel, wild, fillet, raw (USA)
+Catfish, channel, wild, fillet, boiled♦ (USA)
+Catfish, channel, wild, fillet, boiled in recipe (USA)
+Catfish, channel, wild, fillet, baked (USA)
+Striped catfish, fillet, raw (n.s.)
+Striped catfish, fillet, boiled♦ (n.s.)
+Striped catfish, fillet, boiled in recipe (n.s.)
+Striped catfish, fillet, baked (n.s.)
+Striped catfish, farmed, fillet w/o skin, raw, (previously frozen) (Vietnam)
+Striped catfish, farmed, fillet w/o skin, boiled♦ (previously frozen) (Vietnam)
+Striped catfish, farmed, fillet w/o skin, boiled in recipe, (previously frozen) (Vietnam)
+Striped catfish, farmed, fillet w/o skin, baked (previously frozen) (Vietnam)
+Striped catfish, farmed, fillet w/o skin, raw, (previously frozen) (n.s.)
+Striped catfish, farmed, fillet w/o skin, boiled♦ (previously frozen) (n.s.)
+Striped catfish, farmed, fillet w/o skin, boiled in recipe, (previously frozen) (n.s.)
+Striped catfish, farmed, fillet w/o skin, baked (previously frozen) (n.s.)
+Striped catfish, whole, raw (ASEAN/Bangladesh)
+Striped catfish, whole, boiled♦ (ASEAN/Bangladesh)
+Striped catfish, whole, boiled in recipe (ASEAN/Bangladesh)
+Striped catfish, whole, baked (ASEAN/Bangladesh)
+Striped catfish, tail part, raw (Bangladesh)
+Striped catfish, tail part, boiled♦ (Bangladesh)
+Striped catfish, tail part, boiled in recipe (Bangladesh)
+Striped catfish, tail part, baked (Bangladesh)
+Atlantic salmon, fillet w/o skin, raw (n.s.)
+Atlantic salmon, fillet w/o skin, boiled♦ (n.s.) 
+Atlantic salmon, fillet w/o skin, boiled in recipe (n.s.) 
+Atlantic salmon, fillet w/o skin, grilled♦ (n.s.)
+Atlantic salmon, farmed, fillet w/o skin, raw (n.s.)
+Atlantic salmon, farmed, fillet w/o skin, boiled♦ (n.s.)
+Atlantic salmon, farmed, fillet w/o skin, boiled in recipe (n.s.)
+Atlantic salmon, farmed, fillet w/o skin, grilled♦ (n.s.)
+Atlantic salmon, farmed, fillet w/o skin, raw (Norway)
+Atlantic salmon, farmed, fillet w/o skin, boiled♦ (Norway)
+Atlantic salmon, farmed, fillet w/o skin, boiled in recipe (Norway)
+Atlantic salmon, farmed, fillet w/o skin, grilled♦ (Norway)
+Atlantic salmon, farmed, fillet w/o skin, raw (Iceland)
+Atlantic salmon, farmed, fillet w/o skin, boiled♦ (Iceland)
+Atlantic salmon, farmed, fillet w/o skin, boiled in recipe (Iceland)
+Atlantic salmon, farmed, fillet w/o skin, grilled♦ (Iceland)
+Atlantic salmon, farmed, fillet w/o skin, raw (Ireland, UK)
+Atlantic salmon, farmed, fillet w/o skin, boiled♦ (Ireland, UK)
+Atlantic salmon, farmed, fillet w/o skin, boiled in recipe (Ireland, UK)
+Atlantic salmon, farmed, fillet w/o skin, grilled♦ (Ireland, UK)
+Atlantic salmon, farmed, fillet w/o skin nor visible fat, raw (Chile)
+Atlantic salmon, farmed, fillet w/o skin nor visible fat, boiled♦ (Chile)
+Atlantic salmon, farmed, fillet w/o skin nor visible fat, boiled in recipe (Chile)
+Atlantic salmon, farmed, fillet w/o skin nor visible fat, grilled♦ (Chile)
+Atlantic salmon, wild, fillet w/o skin, raw (n.s.)
+Atlantic salmon, wild, fillet w/o skin, boiled♦ (n.s.)
+Atlantic salmon, wild, fillet w/o skin, boiled in recipe (n.s.)
+Atlantic salmon, wild, fillet w/o skin, grilled♦ (n.s.)
+Atlantic salmon, wild, fillet w/o skin, raw (Northeast Atlantic)
+Atlantic salmon, wild, fillet w/o skin, boiled♦ (Northeast Atlantic)
+Atlantic salmon, wild, fillet w/o skin, boiled in recipe (Northeast Atlantic)
+Atlantic salmon, wild, fillet w/o skin, grilled♦ (Northeast Atlantic)
+Atlantic salmon, wild, fillet w/o skin, raw (Northwest Atlantic)
+Atlantic salmon, wild, fillet w/o skin, boiled♦ (Northwest Atlantic)
+Atlantic salmon, wild, fillet w/o skin, boiled in recipe (Northwest Atlantic)
+Atlantic salmon, wild, fillet w/o skin, grilled♦ (Northwest Atlantic)
+Atlantic salmon, smoked (n.s.)
+Atlantic salmon, fillet w/o skin, cold-smoked
+Atlantic salmon, fillet w/o skin, hot-smoked
+Atlantic salmon, wild, fillet w/o skin, cold-smoked (NE Atlantic)
+Atlantic salmon, farmed, fillet w/o skin, cold-smoked
+Rainbow trout, fillet, raw (n.s.) 
+Rainbow trout, fillet, boiled♦ (n.s.) 
+Rainbow trout, fillet, boiled in recipe (n.s.) 
+Rainbow trout, fillet, grilled♦ (n.s.) 
+Rainbow trout, farmed, fillet, raw (n.s.)
+Rainbow trout, farmed, fillet, boiled♦ (n.s.)
+Rainbow trout, farmed, fillet, boiled in recipe (n.s.)
+Rainbow trout, farmed, fillet, grilled♦ (n.s.)
+Rainbow trout, farmed, fillet w/o skin, raw (Germany)
+Rainbow trout, farmed, fillet w/o skin, boiled♦ (Germany)
+Rainbow trout, farmed, fillet w/o skin, boiled in recipe (Germany)
+Rainbow trout, farmed, fillet w/o skin, grilled♦ (Germany)
+Rainbow trout, farmed, fillet w/ skin, raw (Denmark)
+Rainbow trout, farmed, fillet w/ skin, boiled♦ (Denmark)
+Rainbow trout, farmed, fillet w/ skin, boiled in recipe (Denmark)
+Rainbow trout, farmed, fillet w/ skin, grilled♦ (Denmark)
+Rainbow trout, farmed, fillet, raw (Norway)
+Rainbow trout, farmed, fillet, boiled♦ (Norway)
+Rainbow trout, farmed, fillet, boiled in recipe (Norway)
+Rainbow trout, farmed, fillet, grilled♦ (Norway)
+Rainbow trout, farmed, fillet, raw (USA)
+Rainbow trout, farmed, fillet, boiled♦ (USA)
+Rainbow trout, farmed, fillet, boiled in recipe (USA)
+Rainbow trout, farmed, fillet, grilled♦ (USA)
+Rainbow trout, wild, fillet, raw
+Rainbow trout, wild, fillet, boiled♦
+Rainbow trout, wild, fillet, boiled in recipe
+Rainbow trout, wild, fillet, grilled♦
+Common sole, fillet, raw (n.s.)
+Common sole, fillet, boiled (n.s.)
+Common sole, fillet, boiled in recipe (n.s.)
+Common sole, fillet, grilled♦ (n.s.)
+Common sole, wild, fillet, raw
+Common sole, wild, fillet, boiled
+Common sole, wild, fillet, boiled in recipe
+Common sole, wild, fillet, grilled♦
+Atlantic cod, fillet, raw (n.s.)
+Atlantic cod, fillet, boiled♦ (n.s.)
+Atlantic cod, fillet, boiled in recipe (n.s.)
+Atlantic cod, fillet, grilled♦ (n.s.)
+Atlantic cod, fillet, raw (Northwest Atlantic)
+Atlantic cod, fillet, boiled♦ (Northwest Atlantic)
+Atlantic cod, fillet, boiled in recipe (Northwest Atlantic)
+Atlantic cod, fillet, grilled♦ (Northwest Atlantic)
+Atlantic cod, fillet, raw (Northeast Atlantic)
+Atlantic cod, fillet, boiled♦ (Northeast Atlantic)
+Atlantic cod, fillet, boiled in recipe (Northeast Atlantic)
+Atlantic cod, fillet, grilled♦ (Northeast Atlantic)
+Atlantic cod, wild, fillet, raw (Northeast Atlantic)
+Atlantic cod, wild, fillet, boiled♦ (Northeast Atlantic)
+Atlantic cod, wild, fillet, boiled in recipe (Northeast Atlantic)
+Atlantic cod, wild, fillet, grilled♦ (Northeast Atlantic)
+Atlantic cod, wild, fillet w/o skin, raw (Northeast Atlantic)
+Atlantic cod, wild, fillet w/o skin, boiled♦ (Northeast Atlantic)
+Atlantic cod, wild, fillet w/o skin, boiled in recipe (Northeast Atlantic)
+Atlantic cod, wild, fillet w/o skin, grilled♦ (Northeast Atlantic)
+Atlantic cod, wild, fillet w/o skin, raw (treated)
+Atlantic cod, wild, fillet w/o skin, boiled♦ (treated)
+Atlantic cod, wild, fillet w/o skin, boiled in recipe (treated)
+Atlantic cod, wild, fillet w/o skin, grilled♦ (treated)
+Atlantic cod, farmed, fillet, raw (n.s.)
+Atlantic cod, farmed, fillet, boiled♦ (n.s.)
+Atlantic cod, farmed, fillet, boiled in recipe (n.s.)
+Atlantic cod, farmed, fillet, grilled♦ (n.s.)
+Atlantic cod, farmed, fillet, raw (Norway)
+Atlantic cod, farmed, fillet, boiled♦ (Norway)
+Atlantic cod, farmed, fillet, boiled in recipe (Norway)
+Atlantic cod, farmed, fillet, grilled♦ (Norway)
+Pacific cod, fillet, raw (n.s.)
+Pacific cod, fillet, boiled♦ (n.s.)
+Pacific cod, fillet, boiled in recipe (n.s.)
+Pacific cod, fillet, grilled♦ (n.s.)
+Pacific cod, wild, fillet, raw (Northeast Pacific)
+Pacific cod, wild, fillet, boiled♦ (Northeast Pacific)
+Pacific cod, wild, fillet, boiled in recipe (Northeast Pacific)
+Pacific cod, wild, fillet, grilled♦ (Northeast Pacific)
+Pacific cod, fillet, raw (not previously frozen)
+Pacific cod, fillet, boiled♦ (not previously frozen)
+Pacific cod, fillet, boiled in recipe (not previously frozen)
+Pacific cod, fillet, grilled♦ (not previously frozen)
+Pacific cod, fillet, raw (may have been previously frozen)
+Pacific cod, fillet, boiled♦ (may have been previously frozen)
+Pacific cod, fillet, boiled in recipe (may have been previously frozen)
+Pacific cod, fillet, grilled♦ (may have been previously frozen)
+European sea bass, fillet, raw (n.s.)
+European sea bass, fillet, poached (n.s.)
+European sea bass, fillet, boiled in recipe (n.s.)
+European sea bass, fillet, baked (n.s.)
+European sea bass, wild, fillet, raw
+European sea bass, wild, fillet, poached
+European sea bass, wild, fillet, boiled in recipe
+European sea bass, wild, fillet, baked
+European sea bass, farmed, fillet, raw
+European sea bass, farmed, fillet, poached
+European sea bass, farmed, fillet, boiled in recipe
+European sea bass, farmed, fillet, baked
+Atlantic horse mackerel, wild, fillet w/o skin, raw (n.s.)
+Atlantic horse mackerel, wild, fillet w/o skin, boiled♦ (n.s.)
+Atlantic horse mackerel, wild, fillet w/o skin, boiled in recipe (n.s.)
+Atlantic horse mackerel, wild, fillet w/o skin, grilled♦ (n.s.)
+Atlantic horse mackerel, wild, fatty, fillet w/o skin, raw
+Atlantic horse mackerel, wild, fatty, fillet w/o skin, boiled♦
+Atlantic horse mackerel, wild, fatty, fillet w/o skin, boiled in recipe
+Atlantic horse mackerel, wild, fatty, fillet w/o skin, grilled♦
+Atlantic horse mackerel, atlantic, wild, lean, fillet w/o skin, raw
+Atlantic horse mackerel, wild, lean, fillet w/o skin, boiled♦
+Atlantic horse mackerel, wild, lean, fillet w/o skin, boiled in recipe
+Atlantic horse mackerel, wild, lean, fillet w/o skin, grilled♦
+European/Euro-American/Oceanian crayfishes, flesh, raw (n.s.)
+European/Euro-American/Oceanian crayfishes, flesh, boiled (n.s.)
+European/Euro-American/Oceanian crayfishes, flesh, boiled in recipe (n.s.)
+European/Euro-American/Oceanian crayfishes, flesh, grilled♦ (n.s.)
+European/Euro-American/Oceanian crayfishes, wild, flesh, raw (n.s.)
+European/Euro-American/Oceanian crayfishes, wild, flesh, boiled
+European/Euro-American/Oceanian crayfishes, wild, flesh, boiled in recipe
+European/Euro-American/Oceanian crayfishes, wild, flesh, grilled♦
+European/Euro-American/Oceanian crayfishes, farmed flesh, raw
+European/Euro-American/Oceanian crayfishes, farmed flesh, boiled
+European/Euro-American/Oceanian crayfishes, farmed flesh, boiled in recipe
+European/Euro-American/Oceanian crayfishes, farmed flesh, grilled♦
+Palaemonid shrimps, flesh, raw
+Palaemonid shrimps, flesh, boiled
+Palaemonid shrimps, flesh, boiled in recipe
+Palaemonid shrimps, flesh, grilled♦
+River prawns, flesh, raw
+River prawns, flesh, boiled
+River prawns, flesh, boiled in recipe
+River prawns, flesh, grilled♦
+Monsoon river prawn, flesh, raw
+Monsoon river prawn, flesh, boiled
+Monsoon river prawn, flesh, boiled in recipe
+Monsoon river prawn, flesh, grilled♦
+Giant river prawn, flesh, raw
+Giant river prawn, flesh, boiled
+Giant river prawn, flesh, boiled in recipe
+Giant river prawn, flesh, grilled♦
+Jonah crabs/Rock crabs, flesh, raw
+Jonah crabs/Rock crabs, flesh, boiled
+Jonah crabs/Rock crabs, flesh, boiled in recipe
+Jonah crabs/Rock crabs, flesh, grilled♦
+Dungeness crab, meat, raw
+Dungeness crab, flesh, boiled
+Dungeness crab, flesh, boiled in recipe
+Dungeness crab, flesh, grilled♦
+Edible crab, flesh, raw (New Zealand)
+Edible crab, flesh, boiled (New Zealand)
+Edible crab, flesh, boiled in recipe (New Zealand)
+Edible crab, flesh, grilled♦ (New Zealand)
+Tanner crabs, flesh, raw
+Tanner crabs, flesh, boiled
+Tanner crabs, flesh, boiled in recipe
+Tanner crabs, flesh, grilled♦
+Swimming crabs, etc., flesh, raw
+Swimming crabs, etc., flesh, boiled
+Swimming crabs, etc., flesh, boiled in recipe
+Swimming crabs, etc., flesh, grilled♦
+Blue crab, flesh, raw
+Blue crab, flesh, boiled
+Blue crab, flesh, boiled in recipe
+Blue crab, flesh, grilled♦
+Blue swimming crab, flesh, raw
+Blue swimming crab, flesh, boiled
+Blue swimming crab, flesh, boiled in recipe
+Blue swimming crab, flesh, grilled♦
+Indo-Pacific swamp crab, flesh, raw
+Indo-Pacific swamp crab, flesh, boiled
+Indo-Pacific swamp crab, flesh, boiled in recipe
+Indo-Pacific swamp crab, flesh, grilled♦
+True lobsters/Lobsterettes, flesh, raw
+True lobsters/Lobsterettes, flesh, boiled
+True lobsters/Lobsterettes, flesh, boiled in recipe
+True lobsters/Lobsterettes, flesh, grilled♦
+American lobster, flesh, raw
+American lobster, flesh, boiled
+American lobster, flesh, boiled in recipe
+American lobster, flesh, grilled♦
+European lobster, flesh, raw
+European lobster, flesh, boiled
+European lobster, flesh, boiled in recipe
+European lobster, flesh, grilled♦
+Norway lobster, flesh, raw
+Norway lobster, flesh, boiled
+Norway lobster, flesh, boiled in recipe
+Norway lobster, flesh, grilled♦
+Spiny lobsters, flesh, raw
+Spiny lobsters, flesh, boiled
+Spiny lobsters, flesh, boiled in recipe
+Spiny lobsters, flesh, grilled♦
+Red rock lobster, flesh, raw
+Red rock lobster, flesh, boiled
+Red rock lobster, flesh, boiled in recipe
+Red rock lobster, flesh, grilled♦
+King crabs/Stone crabs, flesh, raw
+King crabs/Stone crabs, flesh, boiled
+King crabs/Stone crabs, flesh, boiled in recipe
+King crabs/Stone crabs, flesh, grilled♦
+Red king crab, flesh, raw
+Red king crab, flesh, boiled
+Red king crab, flesh, boiled in recipe
+Red king crab, flesh, grilled♦
+Common shrimp, flesh, raw
+Common shrimp, flesh, boiled
+Common shrimp, flesh, boiled in recipe
+Common shrimp, flesh, grilled♦
+Pandalus shrimps, flesh, raw
+Pandalus shrimps, flesh, boiled
+Pandalus shrimps, flesh, boiled in recipe
+Pandalus shrimps, flesh, grilled♦
+Northern prawn, flesh, raw
+Northern prawn, flesh, boiled
+Northern prawn, flesh, boiled in recipe
+Northern prawn, flesh, grilled♦
+Penaeid shrimps, flesh, raw
+Penaeid shrimps, flesh, boiled
+Penaeid shrimps, flesh, boiled in recipe
+Penaeid shrimps, flesh, grilled♦
+Endeavour shrimp, flesh, raw
+Endeavour shrimp, flesh, boiled
+Endeavour shrimp, flesh, boiled in recipe
+Endeavour shrimp, flesh, grilled♦
+Eastern school shrimp, flesh, raw
+Eastern school shrimp, flesh, boiled
+Eastern school shrimp, flesh, boiled in recipe
+Eastern school shrimp, flesh, grilled♦
+Speckled shrimp, flesh, raw
+Speckled shrimp, flesh, boiled
+Speckled shrimp, flesh, boiled in recipe
+Speckled shrimp, flesh, grilled♦
+Brown tiger prawn, flesh, raw
+Brown tiger prawn, flesh, boiled
+Brown tiger prawn, flesh, boiled in recipe
+Brown tiger prawn, flesh, grilled♦
+Western king prawn, flesh, raw
+Western king prawn, flesh, boiled
+Western king prawn, flesh, boiled in recipe
+Western king prawn, flesh, grilled♦
+Banana prawn, flesh, raw
+Banana prawn, flesh, boiled
+Banana prawn, flesh, boiled in recipe
+Banana prawn, flesh, grilled♦
+Giant tiger prawn, flesh, raw (n.s.)
+Giant tiger prawn, flesh, boiled (n.s.)
+Giant tiger prawn, flesh, boiled in recipe (n.s.)
+Giant tiger prawn, flesh, grilled♦ (n.s.)
+Giant tiger prawn, farmed, flesh, raw
+Giant tiger prawn, farmed, flesh, boiled
+Giant tiger prawn, farmed, flesh, boiled in recipe
+Giant tiger prawn, farmed, flesh, grilled♦
+Green tiger prawn, flesh, raw
+Green tiger prawn, flesh, boiled
+Green tiger prawn, flesh, boiled in recipe
+Green tiger prawn, flesh, grilled♦
+Whiteleg shrimp, flesh, raw
+Whiteleg shrimp, flesh, boiled
+Whiteleg shrimp, flesh, boiled in recipe
+Whiteleg shrimp, flesh, grilled♦
+Sergestid shrimps, flesh, raw
+Sergestid shrimps, flesh, boiled
+Sergestid shrimps, flesh, boiled in recipe
+Sergestid shrimps, flesh, grilled♦
+Abalones, muscle, raw
+Abalones, muscle, boiled♦
+Abalones, muscle, boiled in recipe
+Conch shells, flesh, raw
+Conch shells, flesh, boiled♦
+Conch shells, flesh, boiled in recipe
+Giant Eastern Pacific conch, flesh, raw
+Giant Eastern Pacific conch, flesh, boiled♦
+Giant Eastern Pacific conch, flesh, boiled in recipe
+Eastern Pacific fighting conch, flesh, raw
+Eastern Pacific fighting conch, flesh, boiled♦
+Eastern Pacific fighting conch, flesh, boiled in recipe
+Cupped oysters, flesh, raw
+Cupped oysters, flesh, steamed
+Cupped oysters, flesh, boiled in recipe
+Pacific cupped oyster, flesh, raw (n.s.)
+Pacific cupped oyster, flesh, steamed (n.s.)
+Pacific cupped oyster, flesh, boiled in recipe (n.s.)
+Pacific cupped oyster, farmed, flesh, raw
+Pacific cupped oyster, farmed, flesh, steamed
+Pacific cupped oyster, farmed, flesh, boiled in recipe
+Mangrove cupped oyster, flesh, raw
+Mangrove cupped oyster, flesh, steamed
+Mangrove cupped oyster, flesh, boiled in recipe
+American cupped oyster, flesh, raw (n.s.)
+American cupped oyster, flesh, steamed (n.s.)
+American cupped oyster, flesh, boiled in recipe (n.s.)
+American cupped oyster, flesh, farmed, raw (USA)
+American cupped oyster, flesh, farmed, steamed (USA)
+American cupped oyster, flesh, farmed, boiled in recipe (USA)
+American cupped oyster, flesh, wild, raw (USA)
+American cupped oyster, flesh,wild, steamed (USA)
+American cupped oyster, flesh,wild, boiled in recipe (USA)
+Flat oysters, flesh, raw
+Flat oysters, flesh, steamed
+Flat oysters, flesh, boiled in recipe
+European flat oyster, flesh, raw
+European flat oyster, flesh, steamed
+European flat oyster, flesh, boiled in recipe
+Mytilus mussels, flesh, raw
+Mytilus mussels, flesh, boiled♦
+Mytilus mussels, flesh, boiled in recipe
+Korean mussel, flesh, raw
+Korean mussel, flesh, boiled♦
+Korean mussel, flesh, boiled in recipe
+Blue mussel, flesh, raw
+Blue mussel, flesh, boiled♦
+Blue mussel, flesh, boiled in recipe
+Mediterranean mussel, flesh, raw (n.s.)
+Mediterranean mussel, flesh, boiled♦ (n.s.)
+Mediterranean mussel, flesh, boiled in recipe (n.s.)
+Mediterranean mussel, wild, flesh, raw
+Mediterranean mussel, wild, flesh, boiled♦
+Mediterranean mussel, wild, flesh, boiled in recipe
+Mediterranean mussel, farmed, flesh, raw
+Mediterranean mussel, farmed, flesh, boiled♦
+Mediterranean mussel, farmed, flesh, boiled in recipe
+Perna mussel, flesh, raw
+Perna mussel, flesh, boiled♦
+Perna mussel, flesh, boiled in recipe
+New Zealand mussel, flesh, raw (New Zealand)
+New Zealand mussel, flesh, boiled♦ (New Zealand)
+New Zealand mussel, flesh, boiled in recipe (New Zealand)
+Green mussel, flesh, raw
+Green mussel, flesh, boiled♦
+Green mussel, flesh, boiled in recipe
+Scallops, flesh, raw
+Scallops, flesh, boiled
+Scallops, flesh, boiled in recipe
+Great Atlantic scallop, flesh, raw
+Great Atlantic scallop, flesh, boiled
+Great Atlantic scallop, flesh, boiled in recipe
+Venus clams, flesh, raw
+Venus clams, flesh, boiled♦
+Venus clams, flesh, boiled in recipe
+Striped venus, flesh, raw
+Striped venus, flesh, boiled♦
+Striped venus, flesh, boiled in recipe
+Inshore squids, flesh, raw
+Inshore squids, flesh, boiled
+Inshore squids, flesh, boiled in recipe
+Inshore squids, flesh, grilled
+European squid, flesh, raw (n.s.)
+European squid, flesh, boiled (n.s.)
+European squid, flesh, boiled in recipe (n.s.)
+European squid, flesh, grilled (n.s.)
+European squid, wild, flesh, raw (Mediterranean Sea)
+European squid, wild, flesh, boiled (Mediterranean Sea)
+European squid, wild, flesh, boiled in recipe (Mediterranean Sea)
+European squid, wild, flesh, grilled (Mediterranean Sea)
+Octopuses, etc., flesh, raw
+Octopuses, etc., flesh, boiled
+Octopuses, etc., flesh, boiled in recipe
+Octopuses, etc., flesh, grilled
+Common octopus, flesh, raw (n.s.)
+Common octopus, flesh, boiled (n.s.)
+Common octopus, flesh, boiled in recipe (n.s.)
+Common octopus, flesh, grilled (n.s.)
+Common octopus, wild, flesh, raw (Mediterranean Sea)
+Common octopus, wild, flesh, boiled (Mediterranean Sea)
+Common octopus, wild, flesh, boiled in recipe (Mediterranean Sea)
+Common octopus, wild, flesh, grilled (Mediterranean Sea)
+Ommastrephidae squids, flesh, raw
+Ommastrephidae squids, flesh, boiled
+Ommastrephidae squids, flesh, boiled in recipe
+Ommastrephidae squids, flesh, grilled
+Cuttlefish/Bobtail squids, flesh, raw
+Cuttlefish, bobtail squids, flesh, boiled
+Cuttlefish, bobtail squids, flesh, boiled in recipe
+Cuttlefish, bobtail squids, flesh, grilled
+Common cuttlefish, flesh, raw
+Common cuttlefish, flesh, boiled
+Common cuttlefish, flesh, boiled in recipe
+Common cuttlefish, flesh, grilled
