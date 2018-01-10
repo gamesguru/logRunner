@@ -1,7 +1,12 @@
 [Field]Proanthocyanidin_dimers
+
 [Field]Proanthocyanidin_trimers
+
 [Field]Proanthocyanidin_4-6mers
+
 [Field]Proanthocyanidin_7-10mers
+
 [Field]Proanthocyanidin_polymers_(>10mers)
+
 
 [Unit]mg Per 100 g

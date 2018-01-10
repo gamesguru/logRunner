@@ -15,8 +15,10 @@ namespace logRunner
         static bool printDetail = false;
         static bool saveLog = false;
         static string[] profData;
-        static int insig;
-        
+        static double warn;
+        static double crit;
+        static double over;
+
         public static class profile
         {
             public static string name;
@@ -74,6 +76,12 @@ namespace logRunner
                     printDetail = Convert.ToBoolean(s.Replace("[PrintDetail]", "").Replace("\t", ""));
                 else if (s.StartsWith("[SaveLog]"))
                     saveLog = Convert.ToBoolean(s.Replace("[SaveLog]", "").Replace("\t", ""));
+                else if (s.StartsWith("[Warn]"))
+                    warn = Convert.ToDouble(s.Replace("[Warn]", "").Replace("\t", ""));
+                else if (s.StartsWith("[Crit]"))
+                    crit = Convert.ToDouble(s.Replace("[Crit]", "").Replace("\t", ""));
+                else if (s.StartsWith("[Over]"))
+                    over = Convert.ToDouble(s.Replace("[Over]", "").Replace("\t", ""));
                 else if (s.StartsWith("[Args]") && args.Length < 3)
                     args = s.Replace("[Args]", "").Replace("\t", "").Split(new string[] { ", " }, StringSplitOptions.RemoveEmptyEntries);
 
@@ -251,21 +259,26 @@ namespace logRunner
             foreach (_nutrient n in nuts)
                 foreach (_foodObj f in todaysFood)
                     foreach (_relDB r in relDBs)
+                    {
+                        n.ext = true;
                         for (int i = 0; i < r.ndbLines.Length; i++)
-                            if (r.ndbLines[i] == f.ndbno && r.nutLines[i] == n.field)                            
+                            if (r.ndbLines[i] == f.ndbno && r.nutLines[i] == n.field)
                                 try
                                 {
+
                                     n.consumed += Convert.ToDouble(r.valLines[i]) * f.grams * 0.01;
-                                    if (printDetail)
-                                        println($"{f.name}//{n.field}//{Convert.ToDouble(r.valLines[i]) * f.grams * 0.01}");
-                                    n.ext = true;
+                                    //if (printDetail)
+                                    //    println($"{f.name}//{n.field}//{Convert.ToDouble(r.valLines[i]) * f.grams * 0.01}");
                                     n.unit = n.rda.Split(' ')[1];
+                                    n.contrib += $"{Math.Round(n.consumed, 3)}, ";
+
                                     break; //this should be okay, as each ndb listing (per food) has one specific nutrient input
                                 }
-                                catch (Exception ex) {
+                                catch (Exception ex)
+                                {
                                     printE(ex);
                                 }
-
+                    }
             int m = nuts.Count;
             List<_nutrient> nuts2 = new List<_nutrient>();
             for (int i = 0; i < m; i++)
@@ -304,14 +317,14 @@ namespace logRunner
             }
             double x = c / r;
             ConsoleColor color = ConsoleColor.Blue;
-			if (x > 1.9)            
+			if (x > over)            
 				color = ConsoleColor.DarkGray;
             if (x > 1.0)
                 x = 1.0;
             
-            else if (x < 0.7 && x > 0.5)
+            else if (x < warn && x > crit)
                 color = ConsoleColor.Yellow;
-            else if (x <= 0.5)
+            else if (x <= crit)
                 color = ConsoleColor.DarkRed;
 
             string prog = "==================================================";

@@ -1,9 +1,14 @@
 [Field]Daidzein
-[Field]Genistein
-[Field]Glycitein
-[Field]Total_isoflavones
-[Field]Biochanin_A
-[Field]Formononetin
-[Field]Coumestrol
 
+[Field]Genistein
+
+[Field]Glycitein
+
+[Field]Total_isoflavones
+
+[Field]Biochanin_A
+
+[Field]Formononetin
+
+[Field]Coumestrol
 [Unit]mg Per 100 g
