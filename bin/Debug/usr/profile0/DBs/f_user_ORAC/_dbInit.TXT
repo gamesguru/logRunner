@@ -1,0 +1,7 @@
+[File]FOO.TXT
+[Header]Food Name
+
+[File]ORA.TXT
+[Header]ORAC Value
+[Unit]Per 100g
+

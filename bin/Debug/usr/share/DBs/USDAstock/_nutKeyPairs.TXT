@@ -36,6 +36,4 @@ LYC.TXT|Lycopene
 LUT.TXT|LutZea
 CHO.TXT|Choline
 GMW49.TXT|Serving
-#GMW51.TXT|Serving2
 GMW.TXT|Weight
-#GMW50.TXT|Weight2

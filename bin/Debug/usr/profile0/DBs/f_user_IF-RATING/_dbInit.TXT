@@ -1,0 +1,14 @@
+[File]FOO.TXT
+[Header]Food name
+
+[File]SER.TXT
+[Header]Serving
+
+[File]WEI.TXT
+[Header]Weight
+[Unit]g
+
+[File]IFX.TXT
+[Header]IF rating
+[Unit]Per $Weight
+

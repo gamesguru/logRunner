@@ -1,0 +1,28 @@
+FOO.TXT|Food
+CAL.TXT|Calcium [mg]
+SER.TXT|Serving Size
+WEI.TXT|Weight [g]
+PER.TXT|percent water
+ENE.TXT|Energy [kcal]
+PRO.TXT|Protein [g]
+CAR.TXT|Carbohydrate [g]
+FIB.TXT|Fiber [g]
+CHO.TXT|Cholesterol [mg]
+TOT.TXT|Total Fat [g]
+SAT.TXT|Saturate Fat [g]
+MON.TXT|Monosat Fat [g]
+POL.TXT|Polyunsat Fat [g]
+IRO.TXT|Iron [mg]
+MAG.TXT|Magnesium [mg]
+SOD.TXT|Sodium [mg]
+PHO.TXT|Phosphorous [mg]
+CAX.TXT|Ca:P ratio
+POT.TXT|Potassium [mg]
+ZIN.TXT|Zinc [mg]
+NIA.TXT|Niacin [mg]
+THI.TXT|Thiamin [mg]
+RIB.TXT|Riboflavin [mg]
+VIT.TXT|Vit A [RE]
+VIT25.TXT|Vit B6 [mg]
+VIT26.TXT|Vit C [mg]
+FOO27.TXT|Food type
