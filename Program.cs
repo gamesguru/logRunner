@@ -76,10 +76,8 @@ namespace logRunner
 
             List<string> sets = new List<string>();
             foreach (string s in File.ReadAllLines($"{root}{sl}lsettings.ini"))
-                if (!s.StartsWith("#") && s.Length > 1)
-                    sets.Add(s);
-            for (int i = 0;  i < sets.Count; i++)
-                sets[i] = sets[i].Split('#')[0];
+                if (!s.StartsWith("#") && s.Length > 4)
+                    sets.Add(s.Split('#')[0]);
 
             foreach (string s in sets)
                 if (s == null || s.Length == 0)
@@ -151,14 +149,18 @@ namespace logRunner
             fields = new List<string>();
             for (int i = 0; i < nutrients.Count; i++)
             {
+                //base db
                 foreach (string s in usdaNutKeyLines)
                     if (s.Split('|')[1] == nutrients[i].field)
                         fields.Add(nutrients[i].field);
+                //ext db
                 foreach (string s in Directory.GetDirectories($"{rootSpare}{sl}usr{sl}share{sl}_rel_USDAstock"))
                     if (!s.Split(Path.DirectorySeparatorChar)[s.Split(Path.DirectorySeparatorChar).Length - 1].StartsWith("_"))
                         foreach (string st in File.ReadAllLines($"{s}{sl}_dbInfo.TXT"))
                             if (st.StartsWith("[Field]"))
-                                fields.Add(st.Replace("[Field]", ""));                
+                                fields.Add(st.Replace("[Field]", ""));   
+                //paired fields (user-specific)
+                foreach (string s in Directory.GetDi)             
             }
             //grabs only active fields
             List<_nutrient> newNutrients = new List<_nutrient>();
@@ -173,13 +175,7 @@ namespace logRunner
                 foreach (string st in usdaNutKeyLines)
                     if (st.Split('|')[1] == s)
                         usdaFileNameLinePairs.Add(st.Split('|')[0], File.ReadAllLines($"{usdaroot}{st.Split('|')[0]}"));
-                    
-            //outputs the legend        
             println();
-            //println("warn", ConsoleColor.Yellow);
-            //println("crit", ConsoleColor.DarkRed);
-            //println("ideal", ConsoleColor.Blue);
-            //println("over", ConsoleColor.DarkBlue);
 
             //loops thru dates, reads in the user foodlog and computes results
             for (int i = 2; i < args.Length; i++)
@@ -203,6 +199,66 @@ namespace logRunner
             println("press any key to exit...");
             Console.ReadKey();
             Console.WriteLine();
+        }
+
+        private static ConsoleColor _color(string color){
+            ConsoleColor c;
+            switch (color)
+            {
+                case "Black":
+                    c = ConsoleColor.Black;
+                    break;
+                case "Blue":
+                    c = ConsoleColor.Blue;
+                    break;
+                case "Cyan":
+                    c = ConsoleColor.Cyan;
+                    break;
+                case "DarkBlue":
+                    c = ConsoleColor.DarkBlue;
+                    break;
+                case "DarkCyan":
+                    c = ConsoleColor.DarkCyan;
+                    break;
+                case "DarkGray":
+                    c = ConsoleColor.DarkGray;
+                    break;
+                case "DarkGreen":
+                    c = ConsoleColor.DarkGreen;
+                    break;
+                case "DarkMagenta":
+                    c = ConsoleColor.DarkMagenta;
+                    break;
+                case "DarkRed":
+                    c = ConsoleColor.DarkRed;
+                    break;
+                case "DarkYellow":
+                    c = ConsoleColor.DarkYellow;
+                    break;
+                case "Gray":
+                    c = ConsoleColor.Gray;
+                    break;
+                case "Green":
+                    c = ConsoleColor.Green;
+                    break;
+                case "Magenta":
+                    c = ConsoleColor.Magenta;
+                    break;
+                case "Red":
+                    c = ConsoleColor.Red;
+                    break;
+                case "White":
+                    c = ConsoleColor.White;
+                    break;
+                case "Yellow":
+                    c = ConsoleColor.Yellow;
+                    break;
+                default:
+                    println($"unknown color: {color}", ConsoleColor.Yellow);
+                    c = ConsoleColor.White;
+                    break;
+            }
+            return c;
         }
 
         #region printp and printLog
@@ -373,66 +429,6 @@ namespace logRunner
             return x;
         }
         #endregion
-
-        private static ConsoleColor _color(string color){
-            ConsoleColor c;
-            switch (color)
-            {
-                case "Black":
-                    c = ConsoleColor.Black;
-                    break;
-                case "Blue":
-                    c = ConsoleColor.Blue;
-                    break;
-                case "Cyan":
-                    c = ConsoleColor.Cyan;
-                    break;
-                case "DarkBlue":
-                    c = ConsoleColor.DarkBlue;
-                    break;
-                case "DarkCyan":
-                    c = ConsoleColor.DarkCyan;
-                    break;
-                case "DarkGray":
-                    c = ConsoleColor.DarkGray;
-                    break;
-                case "DarkGreen":
-                    c = ConsoleColor.DarkGreen;
-                    break;
-                case "DarkMagenta":
-                    c = ConsoleColor.DarkMagenta;
-                    break;
-                case "DarkRed":
-                    c = ConsoleColor.DarkRed;
-                    break;
-                case "DarkYellow":
-                    c = ConsoleColor.DarkYellow;
-                    break;
-                case "Gray":
-                    c = ConsoleColor.Gray;
-                    break;
-                case "Green":
-                    c = ConsoleColor.Green;
-                    break;
-                case "Magenta":
-                    c = ConsoleColor.Magenta;
-                    break;
-                case "Red":
-                    c = ConsoleColor.Red;
-                    break;
-                case "White":
-                    c = ConsoleColor.White;
-                    break;
-                case "Yellow":
-                    c = ConsoleColor.Yellow;
-                    break;
-                default:
-                    println($"unknown color: {color}", ConsoleColor.Yellow);
-                    c = ConsoleColor.White;
-                    break;
-            }
-            return c;
-        }
 
         #region main print functions
         static List<string> outputLog = new List<string>();
