@@ -98,7 +98,9 @@ namespace logRunner
 
             profData = File.ReadAllLines($"{root}profile.TXT");
             activeFieldsLines = File.ReadAllLines($"{root}activeFields.TXT");
-            profile.name = profData[0];
+            foreach(string s in profData)
+                if (s.StartsWith("[Name]"))
+                    profile.name = s.Replace("[Name]", "");
 
             //grabs the active nutrients
             foreach (string s in activeFieldsLines)
@@ -215,7 +217,9 @@ namespace logRunner
                     println($"{f.name} ({f.grams} g)");
                     todaysFood.Add(f);
                 }
-            println($"\n{profData[0]}'s NUTRITION DETAIL REPORT {date}\n", ConsoleColor.Green);
+            print($"\n{profile.name}'s ", ConsoleColor.Green);
+            print("NUTRITION DETAIL REPORT ");
+            println($"{ date}\n", ConsoleColor.Green);
             //performs piecemeal addition
             //usda specific.. :(
             string[] unitLines = File.ReadAllLines($"{usdaroot}_unitKeyPairs.TXT");
