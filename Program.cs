@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.IO;
 using System.Diagnostics;
 
@@ -16,8 +17,12 @@ namespace logRunner
         static bool saveLog = false;
         static string[] profData;
         static double warn;
+        static ConsoleColor warnColor;
         static double crit;
+        static ConsoleColor critColor;
         static double over;
+        static ConsoleColor overColor;
+        static ConsoleColor defaultColor;
 
         public static class profile
         {
@@ -50,7 +55,6 @@ namespace logRunner
             public string[] ndbLines;
             public string[] valLines;
             public string[] nutLines;
-            //key-name dictionary? performance issues?
         }
 
         static Dictionary<string, string[]> usdaFileNameLinePairs;
@@ -70,18 +74,37 @@ namespace logRunner
         public static void Main(string[] args)
         {
 
-            string[] sets = File.ReadAllLines($"{root}{sl}lsettings.ini");
+            List<string> sets = new List<string>();
+            foreach (string s in File.ReadAllLines($"{root}{sl}lsettings.ini"))
+                if (!s.StartsWith("#") && s.Length > 1)
+                    sets.Add(s);
+            for (int i = 0;  i < sets.Count; i++)
+                sets[i] = sets[i].Split('#')[0];
+
             foreach (string s in sets)
-                if (s.StartsWith("[PrintDetail]"))
+                if (s == null || s.Length == 0)
+                    continue;
+                else if (s.StartsWith("[PrintDetail]"))
                     printDetail = Convert.ToBoolean(s.Replace("[PrintDetail]", "").Replace("\t", ""));
                 else if (s.StartsWith("[SaveLog]"))
                     saveLog = Convert.ToBoolean(s.Replace("[SaveLog]", "").Replace("\t", ""));
                 else if (s.StartsWith("[Warn]"))
-                    warn = Convert.ToDouble(s.Replace("[Warn]", "").Replace("\t", ""));
+                {
+                    warn = Convert.ToDouble(s.Replace("[Warn]", "").Replace("\t", "").Split(' ')[0]);
+                    warnColor = _color(s.Replace("[Warn]", "").Replace("\t", "").Split(' ')[1]);
+                }
                 else if (s.StartsWith("[Crit]"))
-                    crit = Convert.ToDouble(s.Replace("[Crit]", "").Replace("\t", ""));
+                {
+                    crit = Convert.ToDouble(s.Replace("[Crit]", "").Replace("\t", "").Split(' ')[0]);
+                    critColor = _color(s.Replace("[Crit]", "").Replace("\t", "").Split(' ')[1]);
+                }
                 else if (s.StartsWith("[Over]"))
-                    over = Convert.ToDouble(s.Replace("[Over]", "").Replace("\t", ""));
+                {
+                    over = Convert.ToDouble(s.Replace("[Over]", "").Replace("\t", "").Split(' ')[0]);
+                    overColor = _color(s.Replace("[Over]", "").Replace("\t", "").Split(' ')[1]);
+                }
+                else if (s.StartsWith("[DefaultColor]"))
+                    defaultColor = _color(s.Replace("[DefaultColor]", "").Replace("\t", ""));
                 else if (s.StartsWith("[Args]") && args.Length < 3)
                     args = s.Replace("[Args]", "").Replace("\t", "").Split(new string[] { ", " }, StringSplitOptions.RemoveEmptyEntries);
 
@@ -320,16 +343,16 @@ namespace logRunner
                 return 0;
             }
             double x = c / r;
-            ConsoleColor color = ConsoleColor.Blue;
+            ConsoleColor color = defaultColor;
 			if (x > over)            
-				color = ConsoleColor.DarkGray;
+				color = overColor;
             if (x > 1.0)
                 x = 1.0;
             
             else if (x < warn && x > crit)
-                color = ConsoleColor.Yellow;
+                color = warnColor;
             else if (x <= crit)
-                color = ConsoleColor.DarkRed;
+                color = critColor;
 
             string prog = "==================================================";
             int eL = prog.Length;
@@ -350,6 +373,66 @@ namespace logRunner
             return x;
         }
         #endregion
+
+        private static ConsoleColor _color(string color){
+            ConsoleColor c;
+            switch (color)
+            {
+                case "Black":
+                    c = ConsoleColor.Black;
+                    break;
+                case "Blue":
+                    c = ConsoleColor.Blue;
+                    break;
+                case "Cyan":
+                    c = ConsoleColor.Cyan;
+                    break;
+                case "DarkBlue":
+                    c = ConsoleColor.DarkBlue;
+                    break;
+                case "DarkCyan":
+                    c = ConsoleColor.DarkCyan;
+                    break;
+                case "DarkGray":
+                    c = ConsoleColor.DarkGray;
+                    break;
+                case "DarkGreen":
+                    c = ConsoleColor.DarkGreen;
+                    break;
+                case "DarkMagenta":
+                    c = ConsoleColor.DarkMagenta;
+                    break;
+                case "DarkRed":
+                    c = ConsoleColor.DarkRed;
+                    break;
+                case "DarkYellow":
+                    c = ConsoleColor.DarkYellow;
+                    break;
+                case "Gray":
+                    c = ConsoleColor.Gray;
+                    break;
+                case "Green":
+                    c = ConsoleColor.Green;
+                    break;
+                case "Magenta":
+                    c = ConsoleColor.Magenta;
+                    break;
+                case "Red":
+                    c = ConsoleColor.Red;
+                    break;
+                case "White":
+                    c = ConsoleColor.White;
+                    break;
+                case "Yellow":
+                    c = ConsoleColor.Yellow;
+                    break;
+                default:
+                    println($"unknown color: {color}", ConsoleColor.Yellow);
+                    c = ConsoleColor.White;
+                    break;
+            }
+            return c;
+        }
 
         #region main print functions
         static List<string> outputLog = new List<string>();
