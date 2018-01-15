@@ -346,11 +346,11 @@ namespace logRunner
                     {
                         n.ext = true;
                         for (int i = 0; i < r.ndbLines.Length; i++)
-                            if (r.ndbLines[i] == f.ndbno && r.nutLines[i] == n.field)
+                            if (Convert.ToInt32(r.ndbLines[i]) == Convert.ToInt32(f.ndbno) && r.nutLines[i] == n.field)
                                 try
                                 {
-                                    if (n.field == "Naringenin")
-                                    	Console.WriteLine($"{n.field}, {f.ndbno}, {r.valLines[i]}, {i}"); //TODO: debug here
+                                    //if (n.field == "Naringenin")
+                                    	//Console.WriteLine($"{n.field}, {f.ndbno}, {f.name}, {r.valLines[i]}, {i}\n{Convert.ToInt32("09112")}, {Convert.ToInt32("9112")}"); //TODO: debug here; DONE!!
                                     n.consumed += Convert.ToDouble(r.valLines[i]) * f.grams * 0.01;
                                     //if (printDetail)
                                     //    println($"{f.name}//{n.field}//{Convert.ToDouble(r.valLines[i]) * f.grams * 0.01}");
