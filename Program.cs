@@ -302,6 +302,7 @@ namespace logRunner
             println($"{ date}\n", ConsoleColor.Green);
             //performs piecemeal addition
             //usda specific.. :(
+            println("...computing USDA totals...", ConsoleColor.DarkRed);
             string[] unitLines = File.ReadAllLines($"{usdaroot}_unitKeyPairs.TXT");
             foreach (_nutrient n in nuts)
             {
@@ -327,6 +328,7 @@ namespace logRunner
             }
 
             //rel - multi
+            println("...computing extended database totals...", ConsoleColor.DarkRed);
             foreach (string s in Directory.GetDirectories($"{rootSpare}{sl}usr{sl}share{sl}_rel_USDAstock"))
                 if (!s.Split(Path.DirectorySeparatorChar)[s.Split(Path.DirectorySeparatorChar).Length - 1].StartsWith("_"))
                 {
