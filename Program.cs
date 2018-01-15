@@ -160,7 +160,8 @@ namespace logRunner
                             if (st.StartsWith("[Field]"))
                                 fields.Add(st.Replace("[Field]", ""));   
                 //paired fields (user-specific)
-                foreach (string s in Directory.GetDi)             
+                //TODO: add work here
+                //foreach (string s in Directory.GetDi)             
             }
             //grabs only active fields
             List<_nutrient> newNutrients = new List<_nutrient>();
@@ -348,7 +349,8 @@ namespace logRunner
                             if (r.ndbLines[i] == f.ndbno && r.nutLines[i] == n.field)
                                 try
                                 {
-
+                                    if (n.field == "Naringenin")
+                                    	Console.WriteLine($"{n.field}, {f.ndbno}, {r.valLines[i]}, {i}"); //TODO: debug here
                                     n.consumed += Convert.ToDouble(r.valLines[i]) * f.grams * 0.01;
                                     //if (printDetail)
                                     //    println($"{f.name}//{n.field}//{Convert.ToDouble(r.valLines[i]) * f.grams * 0.01}");
