@@ -37,18 +37,19 @@ namespace logRunner
             public string rda;
             public double consumed = 0;
             public string unit;
-			public string contrib;
+            public string contrib;
             public bool ext;
         }
 
-        public class _foodObj{
+        public class _foodObj
+        {
             public string ndbno;
             public string name;
             public int index;
             //public List<int> indices;
             public double grams;
-        }   
-        
+        }
+
         public class _relDB
         {
             public string path;
@@ -106,10 +107,10 @@ namespace logRunner
                 else if (s.StartsWith("[Args]") && args.Length < 3)
                     args = s.Replace("[Args]", "").Replace("\t", "").Split(new string[] { ", " }, StringSplitOptions.RemoveEmptyEntries);
 
-            println("Settings:", ConsoleColor.Green);            
-			println(string.Join("\n", sets));
-			println("\n\n...fetching global keys...", ConsoleColor.DarkRed);
-   
+            println("Settings:", ConsoleColor.Green);
+            println(string.Join("\n", sets));
+            println("\n\n...fetching global keys...", ConsoleColor.DarkRed);
+
             //parses the arguments
             profile.index = Convert.ToInt32(args[0]);
             outputLogFile = args[1];
@@ -119,7 +120,7 @@ namespace logRunner
 
             profData = File.ReadAllLines($"{root}profile.TXT");
             activeFieldsLines = File.ReadAllLines($"{root}activeFields.TXT");
-            foreach(string s in profData)
+            foreach (string s in profData)
                 if (s.StartsWith("[Name]"))
                     profile.name = s.Replace("[Name]", "");
 
@@ -131,7 +132,7 @@ namespace logRunner
                     n.field = s.Split('#')[0].Trim().Split('|')[0];
                     n.rda = s.Split('#')[0].Trim().Split('|')[1];
                     nutrients.Add(n);
-                }            
+                }
 
             foreach (string s in usdaNutKeyLines)
             {
@@ -158,7 +159,7 @@ namespace logRunner
                     if (!s.Split(Path.DirectorySeparatorChar)[s.Split(Path.DirectorySeparatorChar).Length - 1].StartsWith("_"))
                         foreach (string st in File.ReadAllLines($"{s}{sl}_dbInfo.TXT"))
                             if (st.StartsWith("[Field]"))
-                                fields.Add(st.Replace("[Field]", ""));   
+                                fields.Add(st.Replace("[Field]", ""));
                 //paired fields (user-specific)
                 //TODO: add work here
                 //foreach (string s in Directory.GetDi)             
@@ -191,9 +192,10 @@ namespace logRunner
                 foreach (_nutrient n in nutrients)
                     n.consumed = 0;
             }
-            if (saveLog){
+            if (saveLog)
+            {
                 Directory.CreateDirectory(Path.GetDirectoryName(outputLogFile));
-				File.WriteAllLines(outputLogFile, outputLog);
+                File.WriteAllLines(outputLogFile, outputLog);
                 Console.Write("Log saved to ");
                 println(outputLogFile, ConsoleColor.Cyan);
             }
@@ -202,8 +204,9 @@ namespace logRunner
             Console.WriteLine();
         }
 
-        private static ConsoleColor _color(string color){
-            ConsoleColor c;
+        static ConsoleColor c;
+        private static ConsoleColor _color(string color)
+        {
             switch (color)
             {
                 case "Black":
@@ -352,7 +355,7 @@ namespace logRunner
                                 try
                                 {
                                     //if (n.field == "Naringenin")
-                                    	//Console.WriteLine($"{n.field}, {f.ndbno}, {f.name}, {r.valLines[i]}, {i}\n{Convert.ToInt32("09112")}, {Convert.ToInt32("9112")}"); //TODO: debug here; DONE!!
+                                    //Console.WriteLine($"{n.field}, {f.ndbno}, {f.name}, {r.valLines[i]}, {i}\n{Convert.ToInt32("09112")}, {Convert.ToInt32("9112")}"); //TODO: debug here; DONE!!
                                     n.consumed += Convert.ToDouble(r.valLines[i]) * f.grams * 0.01;
                                     //if (printDetail)
                                     //    println($"{f.name}//{n.field}//{Convert.ToDouble(r.valLines[i]) * f.grams * 0.01}");
@@ -374,7 +377,7 @@ namespace logRunner
                     if (nuts[i].consumed / Convert.ToDouble(nuts[i].rda.Split(' ')[0]) > 0.01 || !nuts[i].ext)
                         nuts2.Add(nuts[i]);
                 }
-                catch(Exception e) {println(e.ToString()); }
+                catch (Exception e) { println(e.ToString()); }
 
             //prints results
             foreach (_nutrient n in nuts2)// nutrients)
@@ -404,11 +407,11 @@ namespace logRunner
             }
             double x = c / r;
             ConsoleColor color = defaultColor;
-			if (x > over)            
-				color = overColor;
+            if (x > over)
+                color = overColor;
             if (x > 1.0)
                 x = 1.0;
-            
+
             else if (x < warn && x > crit)
                 color = warnColor;
             else if (x <= crit)
@@ -428,7 +431,7 @@ namespace logRunner
                 pad += " ";
             prog += $"> {100 * Math.Round(c / r, 3)}% \t[{Math.Round(c, 1)}/{nut.rda.Split(' ')[0]} {nut.unit}{pad} -- {nut.field}]";
             if (printDetail)
-                prog+=$" {{{nut.contrib}}}"; 
+                prog += $" {{{nut.contrib}}}";
             println(prog, color);
             return x;
         }
@@ -457,9 +460,9 @@ namespace logRunner
         private static void printE(Exception ex)
         {
             println($" ===============\n  --Exception--\n ===============", ConsoleColor.DarkRed);
-            println($"{DateTime.Now.ToString()}\n{ ex.Source}, { ex.HResult}\n{ ex.Data}");
-            println($"{ ex.Message}", ConsoleColor.DarkRed);
-            println($"\n\n{ ex.TargetSite}\n{ ex.StackTrace}");
+            println($"{DateTime.Now.ToString()}\n{ex.Source}, {ex.HResult}\n{ex.Data}");
+            println($"{ex.Message}", ConsoleColor.DarkRed);
+            println($"\n\n{ex.TargetSite}\n{ex.StackTrace}");
             println(" ===================\n  --End exception--\n ===================", ConsoleColor.DarkRed);
         }
         #endregion
