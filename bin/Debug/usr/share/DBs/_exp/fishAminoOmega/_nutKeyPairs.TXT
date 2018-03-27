@@ -1,7 +1,0 @@
-FOO3.TXT|FoodName
-ENE10.TXT|Cals
-PRO.TXT|Protein
-FAP67.TXT|EpaDha
-GLU.TXT|GlutamicAcid
-GLY.TXT|Glycine
-PRO54.TXT|Proline

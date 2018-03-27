@@ -1,7 +1,0 @@
-[File]VEG.TXT
-[Field]Name of Food
-
-[File]OXA.TXT
-[Field]Value1
-[MetricName]Oxalates
-

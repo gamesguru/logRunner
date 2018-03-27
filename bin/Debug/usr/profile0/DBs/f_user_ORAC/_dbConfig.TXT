@@ -1,7 +1,0 @@
-[File]FOO.TXT
-[Field]Name of Food
-
-[File]ORA.TXT
-[Field]Value1
-[MetricName]ORAC
-

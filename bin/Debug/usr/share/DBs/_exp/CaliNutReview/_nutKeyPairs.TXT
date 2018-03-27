@@ -1,4 +1,0 @@
-FOO.TXT|FoodName
-ENE.TXT|Cals
-SER.TXT|Serving
-WEI.TXT|Weight
